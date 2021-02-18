@@ -1,5 +1,5 @@
 <!--?php require "_ct/post.php"; ?-->
-<?php include ("_ct/{$post["type"]}.php"); ?>
+<?php include ("$themedir/_ct/{$post["type"]}.php"); ?>
 
 <!--$url = strtolower($_GET['args']);
 if($url === ""){
