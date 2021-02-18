@@ -58,7 +58,7 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js"></script>
-<script src="<?php echo $themedir ?>/js/makeids.js"></script>
+<script src="<?php echo $themerelpath ?>/js/makeids.js"></script>
 <script>tocbot.init({
   // Where to render the table of contents.
   tocSelector: '.js-toc',
