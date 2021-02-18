@@ -14,5 +14,5 @@ if (!array_key_exists($url, $posts)) {
 
 $post = $posts[$url];
 
-include ("_ct/{$post["type"]}.php");
+include ("$themedir/_ct/{$post["type"]}.php");
 ?>
