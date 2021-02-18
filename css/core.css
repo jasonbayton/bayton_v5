@@ -246,7 +246,7 @@ section#latest_posts {
   margin: 0 auto;
 }
 
-section#latest_posts h2, section#archive_posts h2, article h2 {
+section#latest_posts h2, section#archive_posts h2, h2#article_title {
   font-size: 60px;
 }
 
