@@ -5,15 +5,13 @@
   <article>
     <?php include "$themedir/_tc/breadcrumb.php"; ?>
     <h2 id="article_title">
-      Android Enterprise vs Device Admin:
-      Why DA is no longer suitable
+      <?php echo $post['title'];?>
     </h2>
     <!--div id="article_meta">
       Published Dec 13, 2020 | Updated Feb 22, 2021 | Read time: 9 minutes
     </div-->
     <div id="article_subtitle">
-      Fun lil subtitle right here, summarising the article in a few words to avoid some-
-      one reading for hours something they don't care about.
+      <?php echo $post['subtitle'];?>
     </div>
     <div id="featured_image">
     </div>
@@ -27,9 +25,7 @@
       $Parsedown = new Parsedown();
 
       // Output post
-      ?><h2><?php echo $post['title'];?></h2>
-      <strong><i><?php echo $post['subtitle'];?></i></strong>
-      <?php echo $Parsedown->text($content);
+      echo $Parsedown->text($content);
       ?>
     </div>
     <?php include "$themedir/_tc/share.php"; ?>
