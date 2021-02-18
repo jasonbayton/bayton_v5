@@ -1,7 +1,7 @@
 <!--?php require "_ct/post.php"; ?-->
-<?php include ("$themedir/_ct/{$post["type"]}.php"); ?>
 
-<!--$url = strtolower($_GET['args']);
+<?php
+$url = strtolower($_GET['args']);
 if($url === ""){
     $url = "document_root";
 }
@@ -12,4 +12,6 @@ if (!array_key_exists($url, $posts)) {
     die('Page not found: ' . $_GET['args']);
 }
 
-$post = $posts[$url];-->
+$post = $posts[$url];
+
+include ("_ct/{$post["type"]}.php"); ?>
