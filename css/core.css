@@ -561,3 +561,99 @@ footer {
 	right: 50%;
 	width: 100vw;
 }
+
+/* Content and imported styles */
+
+/* Side notes for calling out things
+-------------------------------------------------- */
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.bs-callout {
+  background: #f6f6f6;
+  border-radius: 0;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 400;
+    padding-top: 0;
+    font-size: 18px;
+}
+
+.bs-callout h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-top: 0;
+}
+
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4, .bs-callout-default h3 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4, .bs-callout-primary h3 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5db65c;
+}
+.bs-callout-success h4, .bs-callout-success h3 {
+    color: #5db65c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4, .bs-callout-danger h3 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f39b1f;
+}
+.bs-callout-warning h4, .bs-callout-warning h3 {
+    color: #f39b1f; /* #f0ad4e */
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4, .bs-callout-info h3 {
+    color: #5bc0de;
+}
+
+.bs-callout-sponsor {
+    border-left-color: #068390;
+    border: 1px solid #eeeeee;
+}
+
+.bs-callout-sponsor h1 {
+    padding-bottom: 40px;
+}
+
+cite {
+    display: block;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #929292;
+}
