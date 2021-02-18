@@ -53,12 +53,12 @@
 </div>
 <div id="made_with_container">
   <div id="made_with">
-    Made with <span style="color:red;"><i class="fas fa-heart"></i></span> by <a href="https://twitter.com/jasonbayton">@jasonbayton</a>. Material is &#169; 2009-<?php echo date("Y"); ?>. 
+    Made with <span style="color:red;"><i class="fas fa-heart"></i></span> by <a href="https://twitter.com/jasonbayton">@jasonbayton</a>. Material is &#169; 2009-<?php echo date("Y"); ?>.
   </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js"></script>
-<script src="js/makeids.js"></script>
+<script src="<?php echo $themedir ?>/js/makeids.js"></script>
 <script>tocbot.init({
   // Where to render the table of contents.
   tocSelector: '.js-toc',

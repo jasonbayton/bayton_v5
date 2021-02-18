@@ -1,9 +1,9 @@
 <section id="content_container">
   <aside>
-    <?php include "_tc/aside.php"; ?>
+    <?php include "$themedir/_tc/aside.php"; ?>
   </aside>
   <article>
-    <?php include "_tc/breadcrumb.php"; ?>
+    <?php include "$themedir/_tc/breadcrumb.php"; ?>
     <h2 id="article_title">
       Android Enterprise vs Device Admin:
       Why DA is no longer suitable
@@ -43,7 +43,7 @@
       communities such as XDA flashing ROMs and learning what tweaks to various rooted devices do what – to give me a solid rolling
       start on the parts I knew less about – GMS, certifications, hardware requirements, testing, building from AOSP, etc.</p>
     </div>
-    <?php include "_tc/share.php"; ?>
+    <?php include "$themedir/_tc/share.php"; ?>
   </article>
 </section>
-<?php include "_tc/older_posts.php"; ?>
+<?php include "$themedir/_tc/older_posts.php"; ?>

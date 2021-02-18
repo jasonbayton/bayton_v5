@@ -5,7 +5,7 @@
     </div>
   </div>
   <nav>
-    <?php include "nav.php"; ?>
+    <?php include "$themedir/_tc/nav.php"; ?>
   </nav>
   <div id="intro">
     <img id="face" src="https://pbs.twimg.com/profile_images/1325869533874294784/AGv0ZYYn_400x400.jpg"/>
