@@ -8,7 +8,7 @@
     <?php include "$themedir/_tc/nav.php"; ?>
   </nav>
   <div id="intro">
-    <img id="face" src="https://pbs.twimg.com/profile_images/1325869533874294784/AGv0ZYYn_400x400.jpg"/>
+    <img id="face" src="<?php echo $themerelpath ?>/img/jb.webp"/>
     <h2 id="name">
       Jason Bayton
     </h2>
