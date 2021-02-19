@@ -26,7 +26,6 @@ blockquote {
 }
 
 blockquote::before{
-  font-family:Arial;
   content: "\201C";
   color:#FF8500;
   font-size:4em;
