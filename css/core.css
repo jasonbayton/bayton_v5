@@ -625,10 +625,10 @@ footer {
   font-weight: 300;
 }
 
-.callout-primary { background-color: #428bca; color: white; }
-.callout-success { background-color: #5db65c; color: white; }
-.callout-danger { background-color: #d9534f; color: white; }
-.callout-warning { background-color: #f39b1f; color: white; }
+.callout-primary { background-color: #16A1D6; color: white; }
+.callout-success { background-color: #48c732; color: white; }
+.callout-danger { background-color: #a33e0f; color: white; }
+.callout-warning { background-color: #FF8500; color: white; }
 .callout-info { background-color: #5bc0de; color: white; }
 
 /*Tocbot*/
