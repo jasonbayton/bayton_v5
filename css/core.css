@@ -180,6 +180,10 @@ button.arrow-only {
 @media (max-width: 900px) {
   .criss-cross::before, .criss-cross::after, .orange-cross::before {
     background: none;
+    margin: 0;
+    box-shadow: 0;
+    top: 0;
+    height: 0;
   }
 
   #header_container, #feautured_container {
