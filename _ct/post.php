@@ -38,8 +38,6 @@
           endif;
           return $matches[0];
         }, $content );
-    return $content;
-
     echo $content;
 }
 
