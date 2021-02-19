@@ -41,7 +41,7 @@ a:hover {
 }
 
 a:visited {
-  color: #f3f3f3;
+  background-color: #FF8500;
 }
 
 cite {
@@ -467,20 +467,6 @@ section#content_container {
   padding-top: 80px;
 }
 
-ul.toc-list {
-  list-style-type: none;
-  padding-bottom: 5px;
-}
-
-ul.toc-list li {
-  list-style-type: none;
-  padding: 5px 0
-}
-
-ul.toc-list li a {
-  text-decoration: none;
-}
-
 footer {
   background-color: #333333;
   height: 500px;
@@ -637,3 +623,5 @@ footer {
 .toc-list{margin:0;padding-left:10px}
 .is-position-fixed{position:fixed !important;top:0}
 .toc-link::before{background-color:#EEE;content:' ';display:inline-block;height:inherit;left:0;margin-top:-1px;position:absolute;width:2px}
+ul.toc-list {list-style-type: none;padding-bottom: 5px;}
+ul.toc-list li {list-style-type: none;padding: 5px 0}
