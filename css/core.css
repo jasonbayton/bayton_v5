@@ -629,7 +629,8 @@ footer {
 .callout-success { background-color: #48c732; color: white; }
 .callout-danger { background-color: #a33e0f; color: white; }
 .callout-warning { background-color: #FF8500; color: white; }
-.callout-info { background-color: #5bc0de; color: white; }
+.callout-info { background-color: #16A1D6; color: white; }
+.callout-dark { background-color: #333333; color: white; }
 
 /*Tocbot*/
 
