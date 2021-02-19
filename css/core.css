@@ -179,11 +179,13 @@ button.arrow-only {
 
 @media (max-width: 900px) {
   .criss-cross::before, .criss-cross::after, .orange-cross::before {
-    background-color: #09A8E400;
+    background: none;
   }
 
   #header_container, #feautured_container {
     background-color: #09A8E4;
+    transition: all 0.5s ease;
+    padding-bottom: 30px;
   }
 
 }
