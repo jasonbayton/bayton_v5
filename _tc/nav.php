@@ -3,5 +3,5 @@
 </div>
 <div id="search">
   <span class="fa fa-search" id="search_icon"></span>
-  <input type="text" placeholder="What would you like to learn today?">
+  <input type="text" label="search" placeholder="What would you like to learn today?">
 </div>
