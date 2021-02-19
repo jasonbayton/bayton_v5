@@ -177,7 +177,7 @@ button.arrow-only {
   background-color: #FF8500;
 }
 
-@@media (max-width: 900px) {
+@media (max-width: 900px) {
   .criss-cross::before, .criss-cross::after, .orange-cross::before {
     background-color: #09A8E400;
   }
