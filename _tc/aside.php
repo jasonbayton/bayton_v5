@@ -3,10 +3,10 @@
     <h2>Meta</h2>
   </div>
   <div class="aside-meta">
-    Published: Dec 22, 2020
+    Published: <?php echo $post['shortmonth'];?> <?php echo $post['day'];?>, <?php echo $post['year'];?>
   </div>
   <div class="aside-meta">
-    Updated: Dec 22, 2020
+    Updated: <?php echo $post['updated'];?>
   </div>
   <div class="aside-meta">
     Read time: 9 minutes
@@ -15,5 +15,6 @@
     <h2>Contents</h2>
   </div>
   <div id="article_contents_list" class="js-toc">
+    <!-- Taken care of by Tocbot -->
   </div>
 </div>
