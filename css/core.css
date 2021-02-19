@@ -134,7 +134,7 @@ button.arrow-only {
   top: -180px;
   margin-right: -50px;
   margin-left: -50px;
-  transition-duration: 1s;
+  transition: all 0.5s ease
 }
 
 .criss-cross::after {
@@ -152,7 +152,7 @@ button.arrow-only {
   box-shadow: #00000016 0px 3px 8px;
   margin-right: -50px;
   margin-left: -50px;
-  transition-duration: 1s;
+  transition: all 0.5s ease
 }
 
 .criss-cross-mid::before {
@@ -161,6 +161,7 @@ button.arrow-only {
   top: -0;
   margin-right: -50px;
   margin-left: -50px;
+  transition: all 0.5s ease
 }
 
 .criss-cross-mid::after {
@@ -169,10 +170,17 @@ button.arrow-only {
   top: -320px;
   margin-right: -50px;
   margin-left: -50px;
+  transition: all 0.5s ease
 }
 
 .orange-cross::before {
   background-color: #FF8500;
+}
+
+@@media (max-width: 900px) {
+  .criss-cross::before, .criss-cross::after {
+    background-color: #09A8E400;
+  }
 }
 
 #bayton {
