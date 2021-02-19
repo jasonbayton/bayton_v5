@@ -77,7 +77,7 @@ code {
 }
 
 input::-webkit-input-placeholder, input::-moz-placeholder {
-  color: light-grey;
+  color: lightgray;
 }
 
 .regular {
