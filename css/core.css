@@ -76,6 +76,10 @@ code {
   padding: 2px 7px;
 }
 
+::-webkit-input-placeholder, ::-moz-placeholder {
+  color: light-grey;
+}
+
 .regular {
   font-weight: 400;
 }
