@@ -35,6 +35,8 @@ a {
 a:hover {
   transition: all 0.5s ease;
   background-color: #16A1D6;
+  border-radius: 5px;
+  color: white;
 }
 
 a:visited {
