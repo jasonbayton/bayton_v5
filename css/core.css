@@ -178,9 +178,14 @@ button.arrow-only {
 }
 
 @@media (max-width: 900px) {
-  .criss-cross::before, .criss-cross::after {
+  .criss-cross::before, .criss-cross::after, .orange-cross::before {
     background-color: #09A8E400;
   }
+
+  #header_container, #feautured_container {
+    background-color: #09A8E4;
+  }
+
 }
 
 #bayton {
