@@ -590,7 +590,7 @@ footer {
     color: #333333;
 }
 
-.callout :first-child {
+.callout :first-child { /* .callout-heading */
   font-size: 33px;
   padding-bottom: 15px;
   font-weight: 300;
