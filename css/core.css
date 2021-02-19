@@ -19,10 +19,11 @@ padding: 0;
 
 blockquote {
   background: #f6f6f6;
-  padding: 20px;
+  padding: 20px 20px 20px 40px;
   margin: 20px 0;
   border-radius: 5px;
   color: #333333;
+  position: relative;
 }
 
 blockquote::before{
