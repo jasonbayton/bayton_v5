@@ -38,8 +38,9 @@
           endif;
           return $matches[0];
         }, $content );
-    echo $content;
-}
+        return $content;
+      };
+      echo $content;
 
       ?>
     </div>
