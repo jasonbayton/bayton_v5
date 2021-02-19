@@ -17,6 +17,20 @@ font-weight: 300;
 padding: 0;
 }
 
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #16A1D6;
+  color: inherit;
+}
+
+a:hover {
+  font-style: bold;
+}
+
+a:visited {
+  color: #f3f3f3;
+}
+
 cite {
   display: block;
   padding-top: 10px;
