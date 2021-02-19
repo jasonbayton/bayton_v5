@@ -43,6 +43,7 @@ a:hover {
 a:visited {
   background-color: #FF8500;
   color: #333333;
+  border-bottom-color: #09A8E4;
 }
 
 cite {
