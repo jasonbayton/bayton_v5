@@ -17,12 +17,6 @@ font-weight: 300;
 padding: 0;
 }
 
-a {
-  text-decoration: none;
-  border-bottom: 1px solid #16A1D6;
-  color: inherit;
-}
-
 blockquote {
   background: #f6f6f6;
   padding: 20px;
@@ -31,8 +25,14 @@ blockquote {
   color: #333333;
 }
 
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #16A1D6;
+  color: inherit;
+}
+
 a:hover {
-  font-style: bold;
+  font-weight: bold;
 }
 
 a:visited {
