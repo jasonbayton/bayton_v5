@@ -76,8 +76,8 @@ code {
   padding: 2px 7px;
 }
 
-input::-webkit-input-placeholder, input::-moz-placeholder {
-  color: lightgray;
+::-webkit-input-placeholder, ::-moz-placeholder, ::placeholder {
+  color: #f3f3f3;
 }
 
 .regular {
