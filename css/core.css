@@ -25,6 +25,20 @@ blockquote {
   color: #333333;
 }
 
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#FF8500;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
 a {
   text-decoration: none;
   border-bottom: 1px solid #16A1D6;
