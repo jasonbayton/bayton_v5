@@ -23,7 +23,7 @@
       // Parse post from markdown to HTML
       require('libraries/parsedown.php');
       require('libraries/ParsedownExtra.php');
-      $Parsedown = new ParsedownExtra();
+      $Parsedown = new Parsedown();
 
       // Output post
       echo $Parsedown->text($content);
