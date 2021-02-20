@@ -68,6 +68,13 @@ a:visited {
   border-bottom-color: #09A8E4;
 }
 
+a:focus {
+  outline: 0;
+  background-color: #FF850010;
+  padding: 0 5px;
+  transition: all 0.2s ease;
+}
+
 cite {
   display: block;
   padding-top: 10px;
