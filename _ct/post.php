@@ -22,7 +22,7 @@
 
       // Parse post from markdown to HTML
       require('libraries/parsedown.php');
-      require('libraries/parsedownextra.php');
+      require('libraries/ParsedownExtra.php');
       $Parsedown = new ParsedownExtra();
 
       // Output post
