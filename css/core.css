@@ -701,6 +701,7 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
   #footer_container {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 0 30px;
   }
 
   #footer_left {
