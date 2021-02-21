@@ -701,6 +701,7 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
   #older_posts_container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    justify-items: center;
   }
 
   #older_posts_container ul {
