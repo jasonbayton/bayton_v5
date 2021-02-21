@@ -8,6 +8,9 @@ body {
   font-display: fallback;
   color: white;
   margin: 0;
+}
+
+.max-width {
   max-width: 1820px;
   margin: 0 auto;
 }
