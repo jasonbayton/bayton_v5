@@ -1,5 +1,6 @@
 <!--?php require "_ct/post.php"; ?-->
 
+<div class="max-width">
 <?php
 $url = strtolower($_GET['args']);
 if($url === ""){
@@ -16,3 +17,4 @@ $post = $posts[$url];
 
 include ("$themedir/_ct/{$post["type"]}.php");
 ?>
+</div>
