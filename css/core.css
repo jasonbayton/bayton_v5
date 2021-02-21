@@ -309,6 +309,7 @@ section#featured {
 
 .primary-background {
   background-color: #09A8E4;
+  padding: 30px 0;
 }
 
 section#featured #featured_container {
