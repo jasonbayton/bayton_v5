@@ -137,7 +137,7 @@ button.arrow-only {
 }
 
 .criss-cross::before {
-  background-color: #16A1D6;
+/*  background-color: #16A1D6;
   transform: skewY(8deg);
   transform-origin: 100%;
   content: '';
@@ -148,13 +148,11 @@ button.arrow-only {
   right: 0;
   z-index: -1;
   top: -180px;
-  /*margin-right: -50px;
-  margin-left: -50px;*/
-  transition: all 0.5s ease
+  transition: all 0.5s ease */
 }
 
 .criss-cross::after {
-  background-color: #09A8E4;
+/*  background-color: #09A8E4;
   transform: skewY(-10deg);
   transform-origin: 100%;
   content: '';
@@ -165,32 +163,39 @@ button.arrow-only {
   right: 0;
   z-index: -1;
   top: -1375px;
-  box-shadow: #00000016 0px 3px 8px;
-  /*margin-right: -50px;
-  margin-left: -50px;*/
-  transition: all 0.5s ease
+  box-shadow: #00000016 0px 3px 8px; */
+  transition: all 0.5s ease;
 }
 
 .criss-cross-mid::before {
-  height: 550px;
+/*  height: 550px;
   position: absolute;
-  top: -0;
-  /*margin-right: -50px;
-  margin-left: -50px;*/
-  transition: all 0.5s ease
+  top: -0; */
+  transition: all 0.5s ease;
 }
 
 .criss-cross-mid::after {
-  height: 550px;
+/*  height: 550px;
   position: absolute;
-  top: -320px;
-  /*margin-right: -50px;
-  margin-left: -50px;*/
-  transition: all 0.5s ease
+  top: -320px; */
+  transition: all 0.5s ease;
 }
 
-.orange-cross::before {
-  background-color: #FF8500;
+.angled-background-top, .angled-background-bottom {
+  display: block;
+  transition: all 0.5s ease;
+}
+
+.left-triangle {
+  fill: #16A1D6
+}
+
+.right-triangle {
+  fill: #09A8E4
+}
+
+.orange-cross {
+  fill: #FF8500;
 }
 
 #bayton {
@@ -300,6 +305,10 @@ section#featured {
   position: relative;
   margin: 300px 0;
   color: white;
+}
+
+.primary-background {
+  background-color: 09A8E4;
 }
 
 section#featured #featured_container {
