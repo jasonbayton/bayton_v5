@@ -203,6 +203,10 @@ button.arrow-only {
   fill: #16A1D6
 }
 
+.left-triangle {
+  fill: #33333330;
+}
+
 .right-triangle {
   fill: #09A8E4
 }
