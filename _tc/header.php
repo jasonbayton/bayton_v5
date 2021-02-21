@@ -1,5 +1,5 @@
 <div id="header_container" class="criss-cross">
-  <div class="primary-background">
+  <div class="primary-background no-padding">
     <div id="bayton">
       <div id="bayton_text">
         BAYTON
@@ -8,6 +8,8 @@
     <nav>
       <?php include "$themedir/_tc/nav.php"; ?>
     </nav>
+  </div>
+  <div class="primary-background">
     <div id="intro">
       <img id="face" src="<?php echo $themerelpath ?>/img/jb.webp"/>
       <h2 id="name">
