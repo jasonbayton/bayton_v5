@@ -697,19 +697,19 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
 /* Media */
 
 @media (max-width: 900px) {
-/*  .criss-cross::before, .criss-cross::after, .orange-cross::before {
-    background: none;
-    margin: 0;
-    box-shadow: 0;
-    top: 0;
-    height: 0;
-    transition: all 0.5s ease;
+
+  #footer_left {
+    grid-area: 1 / 1 / 2 / 2;
   }
 
-  #header_container, #feautured_container {
-    background-color: #09A8E4;
-    transition: all 0.5s ease;
-    padding-bottom: 30px;
-  } */
+  #footer_centre {
+    grid-area: 2 / 1 / 3 / 2;
+    border-left: 0px;
+    border-right: 0px;
+  }
 
+  #footer_right {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  
 }
