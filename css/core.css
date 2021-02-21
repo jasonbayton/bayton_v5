@@ -727,7 +727,7 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
 
   #footer_left {
     grid-area: 1 / 1 / 2 / 2;
-    padding: 20px 0;
+    padding: 30px 0;
   }
 
   #footer_centre {
@@ -736,7 +736,7 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
     border-top: 1px solid white;
     border-right: 0px;
     border-bottom: 1px solid white;
-    padding: 20px 0;
+    padding: 30px 0;
   }
 
   #footer_right {
