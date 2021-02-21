@@ -22,7 +22,7 @@ body {
 
 img { max-width: 100%; }
 article img { border-radius: 5px; }
-#featured_container { padding-left: 30px; padding-right: 30px; }
+#featured_container, #older_posts_container { padding-left: 30px; padding-right: 30px; }
 
 h1, h2, h3, h4, h5, h6 {
 font-weight: 300;
