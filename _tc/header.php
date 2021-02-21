@@ -1,4 +1,4 @@
-<div id="header_container" class="criss-cross primary-background">
+<div id="header_container" class="primary-background">
     <div id="bayton">
       <div id="bayton_text">
         BAYTON
