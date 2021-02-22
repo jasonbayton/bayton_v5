@@ -357,7 +357,7 @@ section#latest_posts {
 }
 
 section#latest_posts h2, section#archive_posts h2, h2#article_title {
-  font-size: 60px; 
+  font-size: 60px;
 }
 
 #latest_posts_container, #archive_posts_container #content_container {
@@ -767,6 +767,12 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
     text-align: center;
   }
 
+  section#latest_posts h2, section#archive_posts h2, h2#article_title {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 900px and (orientation: portrait) {
   section#latest_posts h2, section#archive_posts h2, h2#article_title {
     font-size: 40px;
   }
