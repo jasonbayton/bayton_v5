@@ -485,7 +485,7 @@ ul.older-posts-list li {
 section#article {}
 
 #article_meta {
-  display: block;
+  display: none;
 }
 
 section#content_container {
