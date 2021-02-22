@@ -383,7 +383,7 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
   width: 50px;
   text-align: center;
   color: white;
-  align-self: center;
+  align-self: start;
 }
 
 .the-date {
