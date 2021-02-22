@@ -149,51 +149,6 @@ button.arrow-only {
   position: relative;
 }
 
-.criss-cross::before {
-/*  background-color: #16A1D6;
-  transform: skewY(8deg);
-  transform-origin: 100%;
-  content: '';
-  display: block;
-  height: 650px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  z-index: -1;
-  top: -180px;
-  transition: all 0.5s ease */
-}
-
-.criss-cross::after {
-/*  background-color: #09A8E4;
-  transform: skewY(-10deg);
-  transform-origin: 100%;
-  content: '';
-  display: block;
-  height: 1550px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  z-index: -1;
-  top: -1375px;
-  box-shadow: #00000016 0px 3px 8px; */
-  transition: all 0.5s ease;
-}
-
-.criss-cross-mid::before {
-/*  height: 550px;
-  position: absolute;
-  top: -0; */
-  transition: all 0.5s ease;
-}
-
-.criss-cross-mid::after {
-/*  height: 550px;
-  position: absolute;
-  top: -320px; */
-  transition: all 0.5s ease;
-}
-
 .angled-background-top, .angled-background-bottom {
   display: block;
   transition: all 0.5s ease;
@@ -490,7 +445,7 @@ section#article {}
 
 section#content_container {
   display: grid;
-  grid-template-columns: 500px auto;
+  grid-template-columns: 23% auto;
   grid-template-rows: auto;
   grid-column-gap: 30px;
   grid-row-gap: 0px;
