@@ -666,6 +666,7 @@ footer {
 ul.toc-list {list-style-type: none;}
 ul.toc-list li {list-style-type: none;padding: 5px 0}
 ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
+#inline_toc { display: none; }
 
 /* Media */
 
@@ -704,6 +705,18 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
 
   #search {
     grid-area: 1 / 1 / 2 / 2;
+  }
+
+  content {
+    padding-top: 50px;
+  }
+
+  aside {
+    display: none;
+  }
+
+  #inline_toc {
+    display: block;
   }
 
   #older_posts_container {

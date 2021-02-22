@@ -15,6 +15,9 @@
     </div>
     <div id="featured_image">
     </div>
+    <div id="inline_toc">
+      <?php include "$themedir/_tc/toc.php"; ?>
+    </div>
     <div id="literal_content" class="js-toc-content">
       <?php
       // Open post data
