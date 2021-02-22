@@ -7,9 +7,9 @@
     <h2 id="article_title">
       <?php echo $post['title'];?>
     </h2>
-    <!--div id="article_meta">
-      Published Dec 13, 2020 | Updated Feb 22, 2021 | Read time: 9 minutes
-    </div-->
+    <div id="article_meta">
+      Published: <?php echo $post['shortmonth'];?> <?php echo $post['day'];?>, <?php echo $post['year'];?> | Updated: <?php echo $post['updated'];?> | Read time: 9 minutes
+    </div>
     <div id="article_subtitle">
       <?php echo $post['subtitle'];?>
     </div>

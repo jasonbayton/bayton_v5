@@ -484,6 +484,10 @@ ul.older-posts-list li {
 
 section#article {}
 
+#article_meta {
+  display: block;
+}
+
 section#content_container {
   display: grid;
   grid-template-columns: 500px auto;
@@ -792,5 +796,9 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
 
   #aside_container {
     padding-bottom: 40px;
+  }
+
+  #article_meta {
+    display: block;
   }
 }
