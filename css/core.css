@@ -507,7 +507,6 @@ section#content_container {
 
 #content_container article {
   grid-area: 1 / 2 / 2 / 3;
-  padding-right: 60px;
 }
 
 #literal_content {
