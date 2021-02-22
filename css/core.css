@@ -678,7 +678,7 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
   #bayton {
     justify-self: center;
     background: none;
-    box-shadow: 0;
+    box-shadow: none;
   }
 
   nav {
