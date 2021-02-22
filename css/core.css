@@ -785,4 +785,12 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
     grid-area: 2 / 1 / 3 / 2;
     padding-right: 0px;
   }
+
+  #aside_meta {
+    display: none;
+  }
+
+  #aside_container {
+    padding-bottom: 40px;
+  }
 }
