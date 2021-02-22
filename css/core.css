@@ -750,6 +750,7 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
 
   #aside_container {
     padding-bottom: 40px;
+    padding-top: 0;
   }
 
   #article_meta {
