@@ -4,7 +4,7 @@
         BAYTON
       </div>
       <div id="mobile_tag">
-        Certified Android Enterprise Expert | Android Advocate
+        Certified Android Enterprise Expert
       </div>
     </div>
     <nav>
