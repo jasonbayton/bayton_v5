@@ -849,3 +849,10 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
     display: block;
   }
 }
+
+@@media (max-width:350px;) {
+
+  #bayton_text {
+    font-size: 40px;
+  }
+}
