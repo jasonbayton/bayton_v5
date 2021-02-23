@@ -3,6 +3,9 @@
       <div id="bayton_text">
         BAYTON
       </div>
+      <div id="mobile_tag">
+        Certified Android Enterprise Expert | Android Advocate
+      </div>
     </div>
     <nav>
       <?php include "$themedir/_tc/nav.php"; ?>

@@ -682,6 +682,10 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
   height: 100%;
 }
 
+#mobile_tag {
+  display: none;
+}
+
 /* Media */
 
 @media (max-width: 900px) {
@@ -694,6 +698,10 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
     justify-self: center;
     background: none;
     box-shadow: none;
+  }
+
+  #mobile_tag {
+    display: block;
   }
 
   nav {
