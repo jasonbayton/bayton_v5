@@ -856,3 +856,10 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
     font-size: 40px;
   }
 }
+
+@media (max-width: 300px) {
+
+  #bayton_text {
+    padding: 30px 0;
+  }
+}
