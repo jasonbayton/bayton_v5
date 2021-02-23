@@ -197,6 +197,7 @@ button.arrow-only {
   font-size: 50px;
   padding-top: 5px;
   color: white;
+  text-indent: 10px;
 }
 
 nav {
