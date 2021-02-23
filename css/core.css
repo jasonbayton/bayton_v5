@@ -209,6 +209,8 @@ nav {
   grid-template-rows: repeat(2, auto);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  justify-items: end;
+  align-items: start;
 }
 
 nav #nav_links {
