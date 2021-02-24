@@ -14,8 +14,13 @@ if (!array_key_exists($url, $posts)) {
 }
 
 $post = $posts[$url];
-$published = DateTime::createFromFormat('Y-m-d', "$post['date']")->format('M-d-Y');
-$updated = DateTime::createFromFormat('Y-m-d', "$post['updated']")->format('M-d-Y');
+
+$importeddate = DateTime::createFromFormat('Y-m-d', $post['date']);
+$exporteddate = $importeddate->format('M-d-Y');
+
+$importedupdated = DateTime::createFromFormat('Y-m-d', $post['updated']);
+$exportedupdated = $importedupdated->format('M-d-Y');
+
 include ("$themedir/_ct/{$post["type"]}.php");
 ?>
 </div>
