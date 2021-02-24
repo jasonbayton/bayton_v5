@@ -1,5 +1,5 @@
 <div id="nav_links">
-  <a href="/about">About</a>  |  <a href="/contact">Contact</a>
+  <a href="<? php echo $installdir ?>/about">About</a>  |  <a href="<? php echo $installdir ?>/contact">Contact</a>
 </div>
 <div id="search">
   <span class="fa fa-search" id="search_icon"></span>
