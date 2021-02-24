@@ -1,6 +1,6 @@
 <div id="header_container" class="primary-background">
     <div id="bayton">
-      <a href="<?php echo $domain . $installdir ?>">
+      <a href="http://<?php echo $domain . $installdir ?>">
         <div id="bayton_text">
           BAYTON
         </div>
