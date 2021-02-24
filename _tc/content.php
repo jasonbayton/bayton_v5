@@ -24,6 +24,7 @@ echo $exporteddate;
 
 $importedupdated = DateTime::createFromFormat('Y-m-d', $dateexport);
 $exportedupdated = $importedupdated->format('M-d-Y');
+echo $exportedupdated;
 
 include ("$themedir/_ct/{$post["type"]}.php");
 ?>
