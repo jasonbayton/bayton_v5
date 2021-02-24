@@ -15,10 +15,13 @@ if (!array_key_exists($url, $posts)) {
 
 $post = $posts[$url];
 
-$importeddate = DateTime::createFromFormat('Y-m-d', $post['date']);
+$dateimport = $post['date'];
+$dateexport = $post['updated'];
+
+$importeddate = DateTime::createFromFormat('Y-m-d', $dateimport);
 $exporteddate = $importeddate->format('M-d-Y');
 
-$importedupdated = DateTime::createFromFormat('Y-m-d', $post['updated']);
+$importedupdated = DateTime::createFromFormat('Y-m-d', $dateexport);
 $exportedupdated = $importedupdated->format('M-d-Y');
 
 include ("$themedir/_ct/{$post["type"]}.php");
