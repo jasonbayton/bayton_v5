@@ -1,8 +1,10 @@
 <div id="header_container" class="primary-background">
     <div id="bayton">
-      <div id="bayton_text">
-        <a href="<?php echo $domain . $installdir ?>">BAYTON</a>
-      </div>
+      <a href="<?php echo $domain . $installdir ?>">
+        <div id="bayton_text">
+          BAYTON
+        </div>
+      </a>
       <div id="mobile_tag">
         Certified Android Enterprise Expert
       </div>
