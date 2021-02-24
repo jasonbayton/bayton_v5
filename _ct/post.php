@@ -8,7 +8,7 @@
       <?php echo $post['title'];?>
     </h2>
     <div id="article_meta">
-      Published: <?php echo $published;?> | Updated: <?php echo $updated;?> | Read time: 9 minutes
+      Published: <?php echo $exporteddate;?> | Updated: <?php echo $exportedupdated;?> | Read time: 9 minutes
     </div>
     <div id="article_subtitle">
       <?php echo $post['subtitle'];?>
