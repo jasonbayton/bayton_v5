@@ -502,6 +502,10 @@ section#content_container {
   padding-bottom: 40px;
 }
 
+#article_title {
+  margin-top: 0;
+}
+
 #article_meta {
   padding-bottom: 40px;
   margin-top: -30px;
@@ -524,7 +528,7 @@ section#content_container {
 }
 
 #aside_container {
-  padding-top: 80px;
+  padding-top: 0px;
 }
 
 footer {
