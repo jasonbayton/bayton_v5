@@ -15,14 +15,11 @@ if (!array_key_exists($url, $posts)) {
 
 $post = $posts[$url];
 
-$dateimport = $post['date'];
-$dateexport = $post['updated'];
-
-$importeddate = DateTime::createFromFormat('Y-m-d', $dateimport);
+$importeddate = DateTime::createFromFormat('Y-m-d', $post['date']);
 $exporteddate = $importeddate->format('M-d-Y');
 echo $exporteddate;
 
-$importedupdated = DateTime::createFromFormat('Y-m-d', $dateexport);
+$importedupdated = DateTime::createFromFormat('Y-m-d', $post['updated']);
 $exportedupdated = $importedupdated->format('M-d-Y');
 echo $exportedupdated;
 
