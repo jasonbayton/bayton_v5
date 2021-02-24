@@ -20,6 +20,7 @@ $dateexport = $post['updated'];
 
 $importeddate = DateTime::createFromFormat('Y-m-d', $dateimport);
 $exporteddate = $importeddate->format('M-d-Y');
+echo $exporteddate;
 
 $importedupdated = DateTime::createFromFormat('Y-m-d', $dateexport);
 $exportedupdated = $importedupdated->format('M-d-Y');
