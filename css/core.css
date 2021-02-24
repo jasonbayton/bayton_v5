@@ -642,7 +642,7 @@ footer {
   color: white;
 }
 
-/* This currently does nothing */
+/* This currently does nothing
 .full-width {
 	left: 50%;
 	margin-left: -50vw;
@@ -651,7 +651,7 @@ footer {
 	position: relative;
 	right: 50%;
 	width: 100vw;
-}
+} */
 
 /* Content and imported styles */
 /* Side notes for calling out things
