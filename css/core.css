@@ -193,6 +193,7 @@ button.arrow-only {
 #bayton a {
   border-bottom: 0;
   text-decoration: none;
+  padding: 0;
 }
 
 #bayton_text {
