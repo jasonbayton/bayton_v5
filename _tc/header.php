@@ -1,7 +1,7 @@
 <div id="header_container" class="primary-background">
     <div id="bayton">
       <div id="bayton_text">
-        BAYTON
+        <a href="<?php ehco $domain.$installdir ?>"BAYTON</a>
       </div>
       <div id="mobile_tag">
         Certified Android Enterprise Expert
