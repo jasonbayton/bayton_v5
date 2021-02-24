@@ -23,7 +23,7 @@ body {
 
 img { max-width: 100%; }
 article img { border-radius: 5px; }
-#featured_container, #older_posts_container { padding-left: 30px; padding-right: 30px; }
+#featured_container, #older_posts_container, #page_container { padding-left: 30px; padding-right: 30px; }
 
 h1, h2, h3, h4, h5, h6 {
 font-weight: 300;
@@ -313,6 +313,11 @@ section#featured {
 .primary-background {
   background-color: #09A8E4;
   padding: 36px 0;
+}
+
+section#page_container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 section#featured #featured_container {
