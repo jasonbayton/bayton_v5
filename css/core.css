@@ -840,7 +840,8 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
   }
 
   #darktoggle {
-    text-align: center;
+    justify-self: center;
+    padding-top: 20px;
   }
 
 /*  #search {
