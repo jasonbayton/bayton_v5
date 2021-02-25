@@ -14,7 +14,7 @@
 }
 
 [data-theme="dark"] {
-  --light: #f6f6f6;
+  --light: #333333;
   --dark: #333333;
   --accent: #08698D;
   --primary: #0C82AE;
