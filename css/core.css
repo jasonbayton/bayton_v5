@@ -7,8 +7,8 @@
   --primary: #09A8E4;
   --secondary: #16A1D6;
   --tertiary: #0F7CA3;
-  --contrast: #FF8500;
   --bright: #ffffff;
+  --contrast: #FF8500;
   --contrast-secondary: #48c732;
   --contrast-tertiary: #a33e0f;
 }
@@ -16,12 +16,12 @@
 [data-theme="dark"] {
   --light: #f6f6f6;
   --dark: #333333;
-  --accent: #0CBCFF;
-  --primary: #09A8E4;
-  --secondary: #16A1D6;
+  --accent: #08698D;
+  --primary: #0C82AE;
+  --secondary: #107095;
   --tertiary: #0F7CA3;
-  --contrast: #FF8500;
   --bright: #ffffff;
+  --contrast: #B36919;
   --contrast-secondary: #48c732;
   --contrast-tertiary: #a33e0f;
 }
