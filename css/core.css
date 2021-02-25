@@ -331,6 +331,7 @@ nav #nav_links {
   text-decoration: none;
   color: var(--bright);
   transition: none;
+  padding-left: 20px;
 }
 
 #search {
@@ -838,6 +839,8 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
 
   nav #nav_links a {
     font-size: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #darktoggle {
