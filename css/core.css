@@ -106,7 +106,7 @@ a:hover {
 
 a:visited {
   background-color: var(--contrast);
-  color: var(--dark);
+  color: var(--text);
   border-bottom-color: var(--primary);
 }
 
