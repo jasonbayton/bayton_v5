@@ -11,6 +11,7 @@
   --contrast: #FF8500;
   --contrast-secondary: #48c732;
   --contrast-tertiary: #a33e0f;
+  --text: #333333;
 }
 
 [data-theme="dark"] {
@@ -24,6 +25,7 @@
   --contrast: #B36919;
   --contrast-secondary: #48c732;
   --contrast-tertiary: #a33e0f;
+  --text: #cfcfcf;
 }
 
 
