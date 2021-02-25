@@ -30,6 +30,3 @@
   <polygon class="shadow-triangle" points="0,10 100,0, 100,0.4"></polygon>
   <polygon class="right-triangle" points="100,0 0,0, 0,10"></polygon>
 </svg>
-<div id="darktoggle">
-  <i class="fas fa-adjust"></i>
-</button>
