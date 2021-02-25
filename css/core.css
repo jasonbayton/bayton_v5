@@ -317,6 +317,7 @@ nav {
   grid-row-gap: 0px;
   justify-items: end;
   align-items: start;
+  grid-template-rows: min-content;
 }
 
 nav #nav_links {
@@ -740,17 +741,6 @@ footer {
   color: var(--bright);
 }
 
-/* This currently does nothing
-.full-width {
-	left: 50%;
-	margin-left: -50vw;
-	margin-right: -50vw;
-	max-width: 100vw;
-	position: relative;
-	right: 50%;
-	width: 100vw;
-} */
-
 /* Content and imported styles */
 /* Side notes for calling out things
 -------------------------------------------------- */
@@ -841,7 +831,7 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
   nav #nav_links {
     padding-bottom: 0px;
     padding-top: 0px;
-    grid-area: 2 / 1 / 3 / 2;
+  /*  grid-area: 2 / 1 / 3 / 2; */
     justify-self: center;
   }
 
@@ -849,9 +839,13 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
     font-size: 22px;
   }
 
-  #search {
-    grid-area: 1 / 1 / 2 / 2;
+  #darktoggle {
+    text-align: center;
   }
+
+/*  #search {
+    grid-area: 1 / 1 / 2 / 2;
+  }*/
 
   content {
     padding-top: 50px;
