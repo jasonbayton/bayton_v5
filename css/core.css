@@ -489,7 +489,7 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
 }
 
 .the-category {
-  background-color: var(--contrast-tertiary);
+  background-color: var(--contrast-secondary);
   border: 1px solid var(--primary);
   padding: 5px;
   margin-right: 10px;
