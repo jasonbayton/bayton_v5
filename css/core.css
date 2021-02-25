@@ -229,6 +229,7 @@ button.arrow-only {
   border-bottom: 0;
   text-decoration: none;
   padding: 0;
+  transition: none;
 }
 
 #bayton_text {
