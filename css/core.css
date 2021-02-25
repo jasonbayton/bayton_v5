@@ -70,7 +70,7 @@ blockquote {
   padding: 20px 20px 20px 40px;
   margin: 20px 0;
   border-radius: 5px;
-  color: var(--dark);
+  color: var(--text);
   position: relative;
 }
 
@@ -315,7 +315,7 @@ nav #nav_links {
 content {
   padding: 100px 0px 0;
   display: block;
-  color: var(--dark);
+  color: var(--text);
   overflow-wrap: break-word;
 }
 
@@ -693,7 +693,7 @@ footer {
     padding: 20px;
     margin: 20px 0;
     border-radius: 5px;
-    color: var(--dark);
+    color: var(--text);
 }
 
 .callout :first-child { /* .callout-heading */
