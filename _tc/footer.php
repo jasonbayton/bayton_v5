@@ -4,7 +4,7 @@
       Connect with me
     </h3>
     <div id="social_icons">
-      <a href="https://linkedin.com/in/jasonbayton"><i class="fab fa-linkedin"></i></a> <a href="https://twitter.com/jasonbayton"><i class="fab fa-twitter-square"></i></a> <a href="tel:+447975537754"><i class="fas fa-phone-square-alt"></i></a> <a href="https://www.reddit.com/user/bytn"><i class="fab fa-reddit-square"></i></a>
+      <a href="https://linkedin.com/in/jasonbayton" alt="Linkedin"><i class="fab fa-linkedin"></i></a> <a href="https://twitter.com/jasonbayton" alt="Twitter"><i class="fab fa-twitter-square"></i></a> <a href="tel:+447975537754" alt="Phone"><i class="fas fa-phone-square-alt"></i></a> <a href="https://www.reddit.com/user/bytn" alt="Reddit"><i class="fab fa-reddit-square"></i></a>
     </div>
     <div id="contact">
       <p>jason@bayton.org</p>
