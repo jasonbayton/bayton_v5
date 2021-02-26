@@ -27,6 +27,5 @@
 
       ?>
     </div>
-    <?php include "$themedir/_tc/share.php"; ?>
   </article>
 </section>
