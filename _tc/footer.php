@@ -60,4 +60,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js"></script>
 <script src="<?php echo $themerelpath ?>/js/tocbot.js"></script>
 <script src="<?php echo $themerelpath ?>/js/fitvids.js"></script>
-<script src="<?php echo $themerelpath ?>/js/darkmode.js"></script>
+<!--script src="<?php echo $themerelpath ?>/js/darkmode.js"></script-->
