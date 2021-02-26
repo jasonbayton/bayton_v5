@@ -12,7 +12,7 @@
     </div>
     <?php if (!empty($post['subtitle'])) {
     echo '<div id="article_subtitle">' . $post['subtitle'] . '</div>'
-    }
+    }; ?>
     <div id="featured_image">
     </div>
     <!-- Inline TOC, perhaps for later -->
