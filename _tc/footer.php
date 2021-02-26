@@ -16,15 +16,15 @@
       Android Enterprise support
     </h3>
     <div id="support_group">
-        <img src="<?php echo $themerelpath ?>/img/an.webp" id="support1">
+        <img src="<?php echo $themerelpath ?>/img/an.webp" alt="Android help community" id="support1">
         <div class="support-title" id="support2">
           <a href="https://support.google.com/work/android/thread/new">Ask the Help community</a>
         </div>
-        <img src="<?php echo $themerelpath ?>/img/mp.webp" id="support3">
+        <img src="<?php echo $themerelpath ?>/img/mp.webp" alt="Mobile Pros" id="support3">
         <div class="support-title" id="support4">
           <a href="https://mobilepros.org">Join MobilePros on Slack</a>
         </div>
-        <img src="<?php echo $themerelpath ?>/img/ba.webp" id="support5">
+        <img src="<?php echo $themerelpath ?>/img/ba.webp" alt="Bayton Discuss" id="support5">
         <div class="support-title" id="support6">
           <a href="https://discuss.bayton.org">Post a new Discuss topic</a>
         </div>
@@ -37,13 +37,13 @@
     </h3>
     <div id="logo_group">
       <div id="logo_top_left">
-        <img id="footer_aer" src="<?php echo $themerelpath ?>/img/aec.webp">
+        <img id="footer_aer" alt="Android Enterprise Expert badge" src="<?php echo $themerelpath ?>/img/aec.webp">
       </div>
       <div id="logo_top_right">
-        <img id="footer_euc" src="<?php echo $themerelpath ?>/img/ve.webp">
+        <img id="footer_euc" alt="vExpert badge" src="<?php echo $themerelpath ?>/img/ve.webp">
       </div>
       <div id="logo_bottom_left">
-        <img id="footer_ss" src="<?php echo $themerelpath ?>/img/kp.webp">
+        <img id="footer_ss" alt="Knox certified badge" src="<?php echo $themerelpath ?>/img/kp.webp">
       </div>
       <div id="logo_bottom_right">
       </div>

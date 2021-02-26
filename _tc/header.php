@@ -13,7 +13,7 @@
       <?php include "$themedir/_tc/nav.php"; ?>
     </nav>
     <div id="intro">
-      <img id="face" src="<?php echo $themerelpath ?>/img/jb.webp"/>
+      <img id="face" alt="profile pic" src="<?php echo $themerelpath ?>/img/jb.webp"/>
       <h2 id="name">
         Jason Bayton
       </h2>
