@@ -10,9 +10,9 @@
     <div id="article_meta">
       Published: <?php echo $published;?> | Updated: <?php echo $updated;?> | Read time: 9 minutes
     </div>
-    <div id="article_subtitle">
-      <?php echo $post['subtitle'];?>
-    </div>
+    <?php if (!empty($post['subtitle'])) {
+    echo '<div id="article_subtitle">' . $post['subtitle'] . '</div>'
+    }
     <div id="featured_image">
     </div>
     <!-- Inline TOC, perhaps for later -->
