@@ -337,7 +337,7 @@ nav #nav_links {
 #nav_links a:hover {
     transition: none;
     background-color: inherit;
-    padding; 0;
+    padding: 0;
     padding-left: 20px;
     margin-left: 0;
     margin-right: 0;
