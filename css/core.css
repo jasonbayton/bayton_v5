@@ -430,6 +430,7 @@ section#featured {
 section#page_container {
   max-width: 1000px;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 section#featured #featured_container {
