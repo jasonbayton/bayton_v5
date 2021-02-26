@@ -646,6 +646,11 @@ section#content_container {
 footer {
   background-color: var(--dark);
   padding: 30px 0 0;
+  color: var(--bright);
+}
+
+.footer-column-heading {
+  color: var(--bright);
 }
 
 #footer_container {
