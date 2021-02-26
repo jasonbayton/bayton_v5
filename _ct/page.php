@@ -3,11 +3,12 @@
     <h2 id="article_title">
       <?php echo $post['title'];?>
     </h2>
-    <div id="article_subtitle">
-      <?php echo $post['subtitle'];?>
-    </div>
-    <div id="featured_image">
-    </div>
+    <?php if (!empty($post['subtitle'])) {
+    echo '<div id="article_subtitle">' . $post['subtitle'] . '</div>';
+    } ?>
+    <?php if (!empty($post['featuredImage'])) {
+    echo '<div id="featured_image"><img src="' . $post['featuredImage'] . '"></div>';
+    } ?>
     <!-- Inline TOC, perhaps for later -->
     <!--div id="inline_toc">
       <!--?php include "$themedir/_tc/toc.php"; ?-->
