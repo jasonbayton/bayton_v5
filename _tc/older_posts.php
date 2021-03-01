@@ -14,10 +14,8 @@
             <?php
               usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
               for($i = 0; $i < 5; $i++){
-                foreach ($posts as $query){
-                  if ($query['categies'] == 'enterprise'){
+                if ($posts[$i]['categies'] == 'enterprise'){
                     echo '<li>' . $query['title'] . 'li';
-                  }
                 }
               } ?>
             <li>
