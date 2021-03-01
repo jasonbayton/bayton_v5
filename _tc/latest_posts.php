@@ -13,10 +13,11 @@
               <?php echo $posts[$i]['date']; ?>
             </div>
           </div>
-          <?php foreach $posts[$i]['categories'] as $category; ?>
+          <?php foreach $posts[$i]['categories'] as $category; { ?>
           <div class="latest-posts-categories">
               <?php echo '<span class="the-category">'.$category;.'</span>'; ?>
           </div>
+        <?php }; ?> 
           <div class="latest-posts-title">
             <h3 class="latest-title">
               <?php echo $posts[$i]['title']; ?>
