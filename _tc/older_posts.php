@@ -33,10 +33,13 @@
           </h3>
           <ul class="older-posts-list">
             <?php
-            $guides = array_filter($posts, fn($obj) => in_array($obj->categories, 'guides'));
+            $list_string = file_get_contents('content/content.json');
+            $lists = json_decode($list_string, true, 255, JSON_THROW_ON_ERROR | JSON_INVALID_UTF8_IGNORE);
             $i=0;
-            foreach($guides as $result){
-              echo '<li>' . $result['title'] . '</li>';
+            foreach ($lists as $query){
+              if (in_array('enterprise', $query['categories'])) {
+                echo '<li>' . $query['title'] . '</li>';
+              };
             $i++;
             if($i==3) break;
             } ?>
@@ -51,10 +54,13 @@
           </h3>
           <ul class="older-posts-list">
             <?php
-            $reviews = array_filter($posts, fn($obj) => in_array($obj->categories, 'reviews'));
+            $list_string = file_get_contents('content/content.json');
+            $lists = json_decode($list_string, true, 255, JSON_THROW_ON_ERROR | JSON_INVALID_UTF8_IGNORE);
             $i=0;
-            foreach($reviews as $result){
-              echo '<li>' . $result['title'] . '</li>';
+            foreach ($lists as $query){
+              if (in_array('enterprise', $query['categories'])) {
+                echo '<li>' . $query['title'] . '</li>';
+              };
             $i++;
             if($i==3) break;
             } ?>
