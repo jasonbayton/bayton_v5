@@ -13,7 +13,7 @@
           <ul class="older-posts-list">
             <?php
             foreach ($posts as $older){
-              if ($older['categories'] === 'enterprise'){
+              if {in_array('enterprise', $older['categories']) { 
                 echo '<li>' . $older['title'] . '</li>';
               }
             } ?>
