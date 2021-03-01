@@ -16,6 +16,7 @@
             print_r($enterprise);
             $i=0;
             foreach($enterprise as $result){
+              print_r($result);
               echo '<li>' . $result['title'] . '</li>';
             $i++;
             if($i==3) break;
