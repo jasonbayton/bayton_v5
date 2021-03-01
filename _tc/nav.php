@@ -1,5 +1,5 @@
 <div id="nav_links">
-  <a href="<?php echo $installdir ?>/about">About</a> <a href="<?php echo $installdir ?>/contact">Contact</a>
+  <a href="/about">About</a> <a href="/contact">Contact</a>
 </div>
 <div id="darktoggle">
   <i class="fas fa-adjust"></i>
