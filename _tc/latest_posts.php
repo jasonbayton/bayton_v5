@@ -7,7 +7,7 @@
     usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
     for($i = 0; $i < 5; $i++){
 
-      $newDate = date("Y-m-d", strtotime($posts[$i][date]));
+      $newDate = date("Y-m-d", strtotime($posts[$i]['date']));
       echo $newDate;
 
       ?>
