@@ -18,7 +18,7 @@
               <?php echo '<span class="the-category">' . $category .'</span>'; ?>
           </div>
         <?php }; ?>
-        <?php echo $posts[$i]['categories']; ?>
+        <?php print_r($posts[$i]['categories']); ?>
           <div class="latest-posts-title">
             <h3 class="latest-title">
               <?php echo $posts[$i]['title']; ?>
