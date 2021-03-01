@@ -12,7 +12,8 @@
           </h3>
           <ul class="older-posts-list">
             <?php
-            $enterprise = array_filter($posts, fn($obj) => in_array($obj['categories'], 'enterprise'));
+            $enterprise = array_filter($posts, fn($obj) => in_array($obj->categories, 'enterprise'));
+            print_r $enterprise;
             $i=0;
             foreach($enterprise as $result){
               echo '<li>' . $result['title'] . '</li>';
@@ -30,7 +31,7 @@
           </h3>
           <ul class="older-posts-list">
             <?php
-            $guides = array_filter($posts, fn($obj) => in_array($obj['categories'], 'guides'));
+            $guides = array_filter($posts, fn($obj) => in_array($obj->categories, 'guides'));
             $i=0;
             foreach($guides as $result){
               echo '<li>' . $result['title'] . '</li>';
@@ -48,7 +49,7 @@
           </h3>
           <ul class="older-posts-list">
             <?php
-            $reviews = array_filter($posts, fn($obj) => in_array($obj['categories'], 'reviews'));
+            $reviews = array_filter($posts, fn($obj) => in_array($obj->categories, 'reviews'));
             $i=0;
             foreach($reviews as $result){
               echo '<li>' . $result['title'] . '</li>';
