@@ -12,6 +12,8 @@
 
       echo $published;
 
+      ?>
+
       <div id="latest_posts_container">
         <div class="a-post">
           <div class="latest-posts-date">
