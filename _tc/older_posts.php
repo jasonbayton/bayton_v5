@@ -14,7 +14,7 @@
             <?php
             foreach ($posts as $query){
               echo $query;
-              if {in_array('enterprise', $query['categories']) {
+              if (in_array('enterprise', $query['categories'])) {
                 echo '<li>' . $query['title'] . '</li>';
               }
             } ?>
