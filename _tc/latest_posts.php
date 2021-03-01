@@ -15,10 +15,8 @@
           </div>
           <div class="latest-posts-categories">
           <?php foreach ($posts[$i]['categories'] as $category) {
-              echo '<span class="the-category">' . $category .'</span>'; ?>
+              echo '<span class="the-category">' . $category .'</span>'; }; ?>
           </div>
-        <?php }; ?>
-        <?php print_r($posts[$i]['categories']); ?>
           <div class="latest-posts-title">
             <h3 class="latest-title">
               <?php echo $posts[$i]['title']; ?>
