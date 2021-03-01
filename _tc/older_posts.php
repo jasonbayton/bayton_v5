@@ -13,6 +13,7 @@
           <ul class="older-posts-list">
             <?php
             foreach ($posts as $query){
+              print_r($query);
               if {in_array('enterprise', $query['categories']) {
                 echo '<li>' . $query['title'] . '</li>';
               }
