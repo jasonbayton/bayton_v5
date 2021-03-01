@@ -10,7 +10,8 @@
         <div class="a-post">
           <div class="latest-posts-date">
             <div class="the-date">
-              <?php echo $posts[$i]['date']; ?>
+              <?php echo $posts[$i]['date']; echo $published;
+              ?>
             </div>
           </div>
           <div class="latest-posts-categories">
