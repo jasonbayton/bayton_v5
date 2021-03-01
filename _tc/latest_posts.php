@@ -3,10 +3,7 @@
 <?php
 usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
 for($i = 0; $i < 5; $i++){
-  print_r( $posts[$i]);
-  $url = strtolower($_GET['args']);
-  $post = $i[$url];
-  echo $post['date'];
+  echo $posts[$i]['title'];
 } ?>
 
   <h2 id="latest_title">
