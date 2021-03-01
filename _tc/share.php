@@ -5,5 +5,5 @@
   </div>
 </div>
 <div id="content_report">
-  Is there a problem with this content?
+  Problem with this content? <a href="https://github.com/jasonbayton/baytonorg_content/blob/master/<?php echo $post['sourcefile']?>">Submit a PR</a>.
 </div>
