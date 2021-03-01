@@ -12,9 +12,6 @@
 
       echo $published;
 
-      $importedupdated = DateTime::createFromFormat('Y-m-d', $post[$i]['updated']);
-      $updated = $importedupdated->format('M d, Y'); ?>
-
       <div id="latest_posts_container">
         <div class="a-post">
           <div class="latest-posts-date">
