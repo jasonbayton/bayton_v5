@@ -14,7 +14,7 @@
         <div class="a-post">
           <div class="latest-posts-date">
             <div class="the-date">
-              <?php echo $$transDate; ?>
+              <?php echo $transDate; ?>
             </div>
           </div>
           <div class="latest-posts-categories">
