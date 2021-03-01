@@ -14,7 +14,10 @@
             <?php
             foreach ($posts as $query){
               if (in_array('enterprise', $query['categories'])) {
+                usort($query, fn($a, $b) => strcmp($b['date'], $a['date']));
+                for($i = 0; $i < 5; $i++){
                 echo '<li>' . $query['title'] . '</li>';
+              }
               }
             } ?>
             <li>
