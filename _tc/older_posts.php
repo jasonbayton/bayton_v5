@@ -13,7 +13,7 @@
           <ul class="older-posts-list">
             <?php
             foreach ($posts as $query){
-              if ($query['categories'] == 'home'){
+              if ($query['categories'] == 'enterprise'){
                 echo '<li>' . $query['title'] . '</li>';
               }
             } ?>
