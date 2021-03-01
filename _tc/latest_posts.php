@@ -3,14 +3,8 @@
 <?php
 usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
 for($i = 0; $i < 5; $i++){
-   //print_r( $posts[$i]);
-   $url = strtolower($_GET['args']);
-}
-
-$latest = $i[$url];
-echo $latest['title'];
-echo $latest
-?>
+  print_r( $posts['title', $i]);
+} ?>
 
   <h2 id="latest_title">
     Read the latest
