@@ -5,7 +5,13 @@
 
   <?php
     usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
-    for($i = 0; $i < 5; $i++){ ?>
+    for($i = 0; $i < 5; $i++){
+      $importeddate = DateTime::createFromFormat('Y-m-d', $post[$i]['date']);
+      $published = $importeddate->format('M d, Y');
+
+      $importedupdated = DateTime::createFromFormat('Y-m-d', $post[$i]['updated']);
+      $updated = $importedupdated->format('M d, Y'); ?>
+      
       <div id="latest_posts_container">
         <div class="a-post">
           <div class="latest-posts-date">
