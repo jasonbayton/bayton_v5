@@ -12,12 +12,11 @@
           </h3>
           <ul class="older-posts-list">
             <?php
-              usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
-              for($i = 0; $i < 5; $i++){
-                if ($posts[$i]['categies'] == 'enterprise'){
-                    echo '<li>' . $query['title'] . 'li';
-                }
-              } ?>
+            foreach ($posts as $query){
+              if ($query['categories'] == 'home'){
+                echo '<li>' . $query['title'] . '</li>';
+              }
+            } ?>
             <li>
               Connecting two synologies via SSH using
               public and private key pairs on Ubuntu
