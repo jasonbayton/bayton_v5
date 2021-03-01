@@ -13,7 +13,7 @@
           <ul class="older-posts-list">
             <?php
             $enterprise = array_filter($posts, fn($obj) => in_array($obj->categories, 'enterprise'));
-            print_r $enterprise;
+            print_r($enterprise);
             $i=0;
             foreach($enterprise as $result){
               echo '<li>' . $result['title'] . '</li>';
