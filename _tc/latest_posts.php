@@ -3,7 +3,7 @@
 <?php
 usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
 for($i = 0; $i < 5; $i++){
-  print_r( $posts['title', $i]);
+  print_r( $posts['title']);
 } ?>
 
   <h2 id="latest_title">
