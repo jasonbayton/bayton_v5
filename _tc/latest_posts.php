@@ -6,7 +6,6 @@
   <?php
     usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
     for($i = 0; $i < 5; $i++){ ?>
-      echo $posts[$i]['title'];
       <div id="latest_posts_container">
         <div class="a-post">
           <div class="latest-posts-date">
@@ -14,10 +13,9 @@
               <?php echo $posts[$i]['date']; ?>
             </div>
           </div>
+          <?php foreach $posts[$i]['categories'] as $category; ?>
           <div class="latest-posts-categories">
-            <span class="the-category">
-              <?php echo $posts[$i]['categories']; ?>
-            </span>
+              <?php echo '<span class="the-category">'.$category;.'</span>'; ?>
           </div>
           <div class="latest-posts-title">
             <h3 class="latest-title">
