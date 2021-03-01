@@ -15,7 +15,7 @@
           </div>
           <?php foreach ($posts[$i]['categories'] as $category) { ?>
           <div class="latest-posts-categories">
-              <?php echo '<span class="the-category">'.$category;.'</span>'; ?>
+              <?php echo '<span class="the-category">' . $category .'</span>'; ?>
           </div>
         <?php }; ?>
           <div class="latest-posts-title">
