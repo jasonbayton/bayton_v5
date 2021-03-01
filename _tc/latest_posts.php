@@ -8,7 +8,7 @@ for($i = 0; $i < 5; $i++){
 }
 
 $latest = $i[$url];
-echo $i['title'];
+echo $latest['title'];
 ?>
 
   <h2 id="latest_title">
