@@ -12,34 +12,13 @@
           </h3>
           <ul class="older-posts-list">
             <?php
-            foreach ($posts as $query){
-              if (in_array('enterprise', $query['categories'])) {
-                usort($query, fn($a, $b) => strcmp($b['date'], $a['date']));
-                for($i = 0; $i < 5; $i++){
-                echo '<li>' . $query['title'] . '</li>';
-              }
-              }
+            $enterprise = array_filter($posts, fn($obj) => in_array($obj->categories, 'enterprise')
+            $i=0;
+            foreach($enterprise as $result){
+              echo '<li>' . $result['title'] . '</li>';
+            $i++;
+            if($i==3) break;
             } ?>
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
           </ul>
           <button class="arrow-only button-white button-rounded">
             <i class="fas fa-arrow-right"></i>
@@ -50,26 +29,14 @@
             Guides
           </h3>
           <ul class="older-posts-list">
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
+            <?php
+            $guides = array_filter($posts, fn($obj) => in_array($obj->categories, 'guides')
+            $i=0;
+            foreach($guides as $result){
+              echo '<li>' . $result['title'] . '</li>';
+            $i++;
+            if($i==3) break;
+            } ?>
           </ul>
           <button class="arrow-only button-white button-rounded">
             <i class="fas fa-arrow-right"></i>
@@ -80,26 +47,14 @@
             Reviews
           </h3>
           <ul class="older-posts-list">
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
-            <li>
-              Connecting two synologies via SSH using
-              public and private key pairs on Ubuntu
-            </li>
+            <?php
+            $reviews = array_filter($posts, fn($obj) => in_array($obj->categories, 'reviews')
+            $i=0;
+            foreach($reviews as $result){
+              echo '<li>' . $result['title'] . '</li>';
+            $i++;
+            if($i==3) break;
+            } ?>
           </ul>
           <button class="arrow-only button-white button-rounded">
             <i class="fas fa-arrow-right"></i>
