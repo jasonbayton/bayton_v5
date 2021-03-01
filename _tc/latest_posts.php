@@ -7,16 +7,14 @@
     usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
     for($i = 0; $i < 5; $i++){
 
-      $newDate = date("M d, Y", strtotime($posts[$i]['date']));
-      echo $newDate;
-
+      $transDate = date("M d, Y", strtotime($posts[$i]['date']));
       ?>
 
       <div id="latest_posts_container">
         <div class="a-post">
           <div class="latest-posts-date">
             <div class="the-date">
-              <?php echo $posts[$i]['date']; ?>
+              <?php echo $$transDate; ?>
             </div>
           </div>
           <div class="latest-posts-categories">
