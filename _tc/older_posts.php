@@ -12,12 +12,11 @@
           </h3>
           <ul class="older-posts-list">
             <?php
-            $enterprise = array_filter($posts, fn($obj) => in_array($obj->categories, 'enterprise'));
-            print_r($enterprise);
             $i=0;
-            foreach($enterprise as $result){
-              print_r($result);
-              echo '<li>' . $result['title'] . '</li>';
+            foreach ($posts as $query){
+              if (in_array('enterprise', $query['categories'])) {
+                echo '<li>' . $query['title'] . '</li>';
+              }
             $i++;
             if($i==3) break;
             } ?>
