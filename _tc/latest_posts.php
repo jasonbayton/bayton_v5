@@ -7,10 +7,8 @@
     usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
     for($i = 0; $i < 5; $i++){
 
-      $importeddate = DateTime::createFromFormat('Y-m-d', $post[$i]['date']);
-      $published = $importeddate->format('M d, Y');
-
-      echo $published;
+      $newDate = date("Y-m-d", strtotime($posts[$i][date]));
+      echo $newDate;
 
       ?>
 
