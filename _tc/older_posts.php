@@ -12,9 +12,9 @@
           </h3>
           <ul class="older-posts-list">
             <?php
-            foreach ($posts as $older){
-              if {in_array('enterprise', $older['categories']) { 
-                echo '<li>' . $older['title'] . '</li>';
+            foreach ($posts as $query){
+              if {in_array('enterprise', $query['categories']) {
+                echo '<li>' . $query['title'] . '</li>';
               }
             } ?>
             <li>
