@@ -1,4 +1,5 @@
 </div> <!-- Killing .max-width-->
+
 <div class="full-width">
   <section id="featured">
     <svg class="angled-background-top" preserveAspectRatio="none" viewBox="0, 0, 100, 10">
@@ -9,6 +10,12 @@
       <div id="featured_container" class="criss-cross orange-cross criss-cross-mid">
         <span id="featured_text">Featured article</span>
         <h2 id="featured_article">
+          <?php
+          foreach ($posts as $query){
+            if ($query['featured'] == 'true'){
+              echo $query['title'];
+            }
+          } ?>
           Android Enterprise vs Device Admin:
           Why DA is no longer suitable
         </h2>
