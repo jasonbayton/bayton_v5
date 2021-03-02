@@ -169,6 +169,10 @@ a:hover {
   color: var(--bright);
 }
 
+button a:hover {
+  all: unset;
+}
+
 a:visited {
   background-color: var(--contrast);
   color: var(--text);
