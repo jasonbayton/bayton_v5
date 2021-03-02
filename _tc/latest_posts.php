@@ -23,7 +23,7 @@
           </div>
           <div class="latest-posts-title">
             <h3 class="latest-title">
-              <?php echo '<a href="' .$url. '">' .$query['title'];. '</a>' ?>
+              <?php echo '<a href="' . $url . '">' . $query['title']; . '</a>' ?>
             </h3>
           </div>
           <div class="latest-posts-subtitle">
