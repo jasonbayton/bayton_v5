@@ -21,7 +21,7 @@
             foreach ($lists as $query){
               if (in_array('enterprise', $query['categories'])) {
                 $i++;
-                if($i==3) break;
+                if($i==4) break;
                 echo '<li>' . $query['title'] . '</li>';
                 echo "<pre>";
                 print_r($query);
