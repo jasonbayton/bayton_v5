@@ -238,7 +238,7 @@ button a:hover {
 
 button:hover {
   background: var(--secondary);
-  transition: background 0.2 ease;
+  transition: background 0.2s ease;
 }
 
 button.button-white {
