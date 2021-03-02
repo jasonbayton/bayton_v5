@@ -16,11 +16,9 @@
               echo $query['title'];
             }
           } ?>
-          Android Enterprise vs Device Admin:
-          Why DA is no longer suitable
         </h2>
         <button id="embedded_readmore" class="button-blue button-rounded">
-          Read more <i class="fas fa-arrow-right"></i>
+          <a href="<?php echo $post ?>">Read more</a> <i class="fas fa-arrow-right"></i>
         </button>
       </div>
     </div>
