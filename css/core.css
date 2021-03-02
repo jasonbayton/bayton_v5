@@ -236,7 +236,7 @@ button a {
   border: none;
 }
 
-button a:hover {
+button a:hover, footer a:hover {
   all: unset;
   cursor: pointer;
 }
