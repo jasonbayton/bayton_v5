@@ -241,6 +241,10 @@ button a:hover, footer a:hover {
   cursor: pointer;
 }
 
+footer a {
+  border-bottom: none;
+}
+
 button:hover {
   background: var(--secondary);
   transition: background 0.2s ease;
