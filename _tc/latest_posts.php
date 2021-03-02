@@ -8,11 +8,11 @@
     usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
     $i=0;
     foreach ($posts as $url => $query){
+      print_r($url);
+      ?>
       $transDate = date("M d, Y", strtotime($query['date']));
       $i++;
       if($i==6) break;
-      print_r($url);
-      ?>
         <div class="a-post">
           <div class="latest-posts-date">
             <div class="the-date">
