@@ -169,10 +169,6 @@ a:hover {
   color: var(--bright);
 }
 
-button a:hover {
-  all: unset;
-}
-
 a:visited {
   background-color: var(--contrast);
   color: var(--text);
@@ -230,6 +226,18 @@ button {
 button.button-blue {
   background: var(--primary);
   color: var(--bright);
+}
+
+button.button-blue a {
+  color: var(--bright);
+}
+
+button a:hover {
+  all: unset;
+}
+
+button:hover {
+  background: var(--secondary);
 }
 
 button.button-white {
