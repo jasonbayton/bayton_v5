@@ -10,7 +10,6 @@
     foreach ($posts as $url => $query){
       $transDate = date("M d, Y", strtotime($query['date']));
       ?>
-
         <div class="a-post">
           <div class="latest-posts-date">
             <div class="the-date">
@@ -23,7 +22,7 @@
           </div>
           <div class="latest-posts-title">
             <h3 class="latest-title">
-              <?php echo '<a href="' . $url . '">' . $query['title']; '</a>' ?>
+              <?php echo '<a href="' . $url . '">' . $query['title']; '</a>'; ?>
             </h3>
           </div>
           <div class="latest-posts-subtitle">
