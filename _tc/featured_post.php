@@ -11,7 +11,7 @@
         <span id="featured_text">Featured article</span>
         <h2 id="featured_article">
           <?php
-          foreach ($posts as $query){
+          foreach ($posts as $url => $query){
             if ($query['featured'] == 'true'){
               echo $query['title'];
             }
