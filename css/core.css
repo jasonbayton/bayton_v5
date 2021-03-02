@@ -232,6 +232,10 @@ button.button-blue a {
   color: var(--bright);
 }
 
+button a {
+  border: none;
+}
+
 button a:hover {
   all: unset;
   cursor: pointer;
