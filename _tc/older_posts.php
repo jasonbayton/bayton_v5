@@ -14,6 +14,9 @@
             <?php
             $list_string = file_get_contents('content/content.json');
             $lists = json_decode($list_string, true, 255, JSON_THROW_ON_ERROR | JSON_INVALID_UTF8_IGNORE);
+            echo "<pre>";
+            print_r($lists);
+            echo "</pre>",
             $i=0;
             foreach ($lists as $query){
               if (in_array('enterprise', $query['categories'])) {
@@ -33,8 +36,6 @@
           </h3>
           <ul class="older-posts-list">
             <?php
-            $list_string = file_get_contents('content/content.json');
-            $lists = json_decode($list_string, true, 255, JSON_THROW_ON_ERROR | JSON_INVALID_UTF8_IGNORE);
             $i=0;
             foreach ($lists as $query){
               if (in_array('enterprise', $query['categories'])) {
@@ -54,8 +55,6 @@
           </h3>
           <ul class="older-posts-list">
             <?php
-            $list_string = file_get_contents('content/content.json');
-            $lists = json_decode($list_string, true, 255, JSON_THROW_ON_ERROR | JSON_INVALID_UTF8_IGNORE);
             $i=0;
             foreach ($lists as $query){
               if (in_array('enterprise', $query['categories'])) {
