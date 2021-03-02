@@ -8,7 +8,6 @@
     usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
     $i=0;
     foreach ($posts as $url => $query){
-            print_r($query => $url);
       $transDate = date("M d, Y", strtotime($query['date']));
       $i++;
       if($i==6) break;
