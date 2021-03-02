@@ -20,10 +20,10 @@
             $i=0;
             foreach ($lists as $query){
               if (in_array('enterprise', $query['categories'])) {
+                $i++;
+                if($i==3) break;
                 echo '<li>' . $query['title'] . '</li>';
               };
-            $i++;
-            if($i==3) break;
             } ?>
           </ul>
           <button class="arrow-only button-white button-rounded">
