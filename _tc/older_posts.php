@@ -23,6 +23,9 @@
                 $i++;
                 if($i==3) break;
                 echo '<li>' . $query['title'] . '</li>';
+                echo "<pre>";
+                print_r($query);
+                echo "</pre>",
               };
             } ?>
           </ul>
