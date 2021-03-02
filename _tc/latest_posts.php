@@ -11,7 +11,7 @@
       $transDate = date("M d, Y", strtotime($query['date']));
       $i++;
       if($i==6) break;
-      print_r(%url);
+      print_r($url);
       ?>
         <div class="a-post">
           <div class="latest-posts-date">
