@@ -234,6 +234,7 @@ button.button-blue a {
 
 button a:hover {
   all: unset;
+  cursor: pointer;
 }
 
 button:hover {
