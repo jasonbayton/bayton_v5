@@ -5,6 +5,6 @@
     understand documentation
   </h2>
   <button id="learn_more" class="button-blue button-rounded">
-    <a href ="/android">Learn</a> <i class="fas fa-arrow-right"></i>
+    <a href ="/android">Let's go</a></i>
   </button>
 </section>
