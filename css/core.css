@@ -557,6 +557,7 @@ section#archive_posts {
 
 #archive_posts_container {
   padding-bottom: 30px;
+  text-align: left;
 }
 
 section#older_posts {
