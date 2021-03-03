@@ -353,6 +353,7 @@ nav #nav_links {
   color: var(--bright);
   transition: none;
   padding-left: 20px;
+  border-bottom: none;
 }
 
 #nav_links a:hover {
