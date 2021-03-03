@@ -895,6 +895,7 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
   #darktoggle {
     justify-self: center;
     padding-top: 20px;
+    cursor: pointer;
   }
 
 /*  #search {
