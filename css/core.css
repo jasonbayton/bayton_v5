@@ -346,7 +346,7 @@ nav #nav_links {
   grid-area: 1 / 1 / 2 / 2;
 }
 
-#nav_links a, #older_posts_container li a {
+#nav_links a {
   text-decoration: none;
   color: var(--bright);
   transition: none;
@@ -605,6 +605,10 @@ ul.older-posts-list li {
   list-style-type: none;
   padding: 20px 0;
   font-size: 18px;
+}
+
+ul.older-posts-list li a {
+  color: var(--bright);
 }
 
 section#article {}
