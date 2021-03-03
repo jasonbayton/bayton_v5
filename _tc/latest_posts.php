@@ -36,6 +36,6 @@
     <?php } ?>
 
   <button id="read_more" class="button-blue button-rounded">
-    Read more <i class="fas fa-arrow-right"></i>
+    Read more
   </button>
 </section>
