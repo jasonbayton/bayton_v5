@@ -18,7 +18,7 @@
           } ?>
         </h2>
         <button id="embedded_readmore" class="button-blue button-rounded">
-          <a href="<?php echo $query['url'] ?>">Read more</a> <i class="fas fa-arrow-right"></i>
+          <a href="<?php echo $query['url'] ?>">Read more</a></i>
         </button>
       </div>
     </div>
