@@ -438,7 +438,7 @@ button#learn_more {
 section#featured {
   text-align: left;
   position: relative;
-  margin: 200px 0 100px;
+  margin: 100px 0;
   color: var(--bright);
 }
 
