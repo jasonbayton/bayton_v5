@@ -578,6 +578,7 @@ section#older_posts #older_container {
   grid-template-rows: 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 0px;
+  text-align: left;
 }
 
 #post_group_left {
