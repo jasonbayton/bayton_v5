@@ -17,7 +17,7 @@
               if (in_array('enterprise', $query['categories'])) {
                 $i++;
                 if($i==6) break;
-                echo '<li>' . $query['title'] . '</li>';
+                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
             } ?>
           </ul>
@@ -33,10 +33,10 @@
             <?php
             $i=0;
             foreach ($posts as $query){
-              if (in_array('enterprise', $query['categories'])) {
+              if (in_array('guides', $query['categories'])) {
                 $i++;
                 if($i==6) break;
-                echo '<li>' . $query['title'] . '</li>';
+                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
             } ?>
           </ul>
@@ -52,10 +52,10 @@
             <?php
             $i=0;
             foreach ($posts as $query){
-              if (in_array('enterprise', $query['categories'])) {
+              if (in_array('reviews', $query['categories'])) {
                 $i++;
                 if($i==6) break;
-                echo '<li>' . $query['title'] . '</li>';
+                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
             } ?>
           </ul>

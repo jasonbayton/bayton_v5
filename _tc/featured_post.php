@@ -11,14 +11,14 @@
         <span id="featured_text">Featured article</span>
         <h2 id="featured_article">
           <?php
-          foreach ($posts as $url => $query){
+          foreach ($posts as $query){
             if ($query['featured'] == 'true'){
               echo $query['title'];
             }
           } ?>
         </h2>
         <button id="embedded_readmore" class="button-blue button-rounded">
-          <a href="<?php echo $url ?>">Read more</a> <i class="fas fa-arrow-right"></i>
+          <a href="<?php echo $query['url'] ?>">Read more</a> <i class="fas fa-arrow-right"></i>
         </button>
       </div>
     </div>
