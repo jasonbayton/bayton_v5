@@ -179,11 +179,6 @@ a:visited {
 
 *:focus {
   outline: 0;
-  background-color: #FF850010;
-  padding: 0 5px;
-  margin-left: -5px;
-  margin-right: -5px;
-  transition: all 0.2s ease;
 }
 
 cite {
