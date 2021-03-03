@@ -1,4 +1,3 @@
 <div id="breadcrumb">
-  <!-- ?php echo $post['topic']; -->
-  Android Enterprise <i class="fas fa-caret-right"></i> Getting Started
+  <?php echo $post['topic'];?> &#9654; <?php echo $post['parent'];?>
 </div>
