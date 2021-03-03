@@ -28,13 +28,6 @@
   --contrast-tertiary: #a33e0f;
   --text: #cfcfcf;
   --background: #333333;
-
-  #share_em { color: var(--bright); }
-  #share_li { color: var(--bright); }
-  #share_wa { color: var(--bright); }
-  #share_tw { color: var(--bright); }
-  #share_fb { color: var(--bright); }
-
 }
 
 @media (prefers-color-scheme: dark) {
@@ -51,13 +44,6 @@
     --contrast-tertiary: #a33e0f;
     --text: #cfcfcf;
     --background: #333333;
-
-    #share_em { color: var(--bright); }
-    #share_li { color: var(--bright); }
-    #share_wa { color: var(--bright); }
-    #share_tw { color: var(--bright); }
-    #share_fb { color: var(--bright); }
-
 }
 
   [data-theme="light"] {
