@@ -21,7 +21,7 @@
         Certified Android Enterprise Expert
       </h3>
       <span id="subtitle">
-        vExpert + Android Advocate + CPO
+        vExpert &#9679; Android Advocate &#9679; CPO
       </span>
     </div>
 </div>
