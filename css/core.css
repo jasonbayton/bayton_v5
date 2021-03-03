@@ -156,7 +156,10 @@ a {
   border-bottom: 1px solid var(--secondary);
   color: inherit;
   transition: all 0.2s ease;
+  -webkit-tap-highlight-color: #33333300;
 }
+
+
 
 a:hover {
   transition: all 0.8s ease;
