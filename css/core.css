@@ -346,7 +346,7 @@ nav #nav_links {
   grid-area: 1 / 1 / 2 / 2;
 }
 
-#nav_links a {
+#nav_links a, #older_posts_container li a {
   text-decoration: none;
   color: var(--bright);
   transition: none;
