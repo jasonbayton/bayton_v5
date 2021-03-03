@@ -578,6 +578,9 @@ section#older_posts #older_container {
   grid-template-rows: 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 0px;
+}
+
+#older_posts_container button {
   text-align: left;
 }
 
