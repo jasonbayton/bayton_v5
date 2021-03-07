@@ -6,6 +6,6 @@
 $published = date("M d, Y", strtotime($post['date']));
 $updated = date("M d, Y", strtotime($post['updated']));
 
-include ("$themedir/_ct/{$post["type"]}.php");
+include ("$themedir/_ct/{$post['type']}.php");
 ?>
 </div>
