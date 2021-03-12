@@ -207,6 +207,7 @@ pre {
   border: 2px solid #ffa22f;
   border-radius: 11px;
   padding: 16px;
+  white-space: pre-wrap;
 }
 
 pre code {
