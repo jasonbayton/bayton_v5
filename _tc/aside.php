@@ -10,7 +10,7 @@
       Updated: <?php echo $updated ?>
     </div>
     <div class="aside-meta">
-      Read time: 9 minutes
+      Read time: <?php echo $readtime ?>
     </div>
   </div>
   <?php include "$themedir/_tc/toc.php"; ?>
