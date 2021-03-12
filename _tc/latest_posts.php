@@ -11,7 +11,7 @@
       $transDate = date("M d, Y", strtotime($query['date']));
       $i++;
       if($i==6) break;
-      ?>
+      if ($query['published'] == "true") { ?>
         <div class="a-post">
           <div class="latest-posts-date">
             <div class="the-date">
@@ -33,7 +33,7 @@
             </span>
           </div>
         </div>
-    <?php } ?>
+    <?php }} ?>
 
   <button id="read_more" class="button-blue button-rounded">
     Read more
