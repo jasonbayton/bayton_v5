@@ -5,9 +5,9 @@
   <div id="archive_posts_container">
 
     <?php
-      usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
       foreach ($posts as $query){
         $transDate = date("M d, Y", strtotime($query['date']));
+        if ($query['published'] == "true") {
         ?>
           <div class="a-post">
             <div class="latest-posts-date">
@@ -30,7 +30,7 @@
               </span>
             </div>
           </div>
-      <?php } ?>
+      <?php }} ?>
 
     </div>
   </section>
