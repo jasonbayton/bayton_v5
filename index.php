@@ -15,4 +15,4 @@
   </footer>
 </body>
 </html>
-<?php foreach ($_SERVER as $parm => $value)  echo '<!--' . $parm = '$value' . '-->';
+<?php foreach ($_SERVER as $parm => $value)  echo '<!--' . $value . '-->';
