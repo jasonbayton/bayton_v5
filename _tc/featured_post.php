@@ -11,8 +11,11 @@
         <span id="featured_text">Featured article</span>
         <h2 id="featured_article">
           <?php
+          $i=0;
           foreach ($posts as $query){
-            if ($query['featured'] == 'true'){
+            $i++;
+            if($i==2) break;
+            if ($query['featured'] == 'true' || $query['published'] == "true"){
               echo $query['title'];
             }
           } ?>
