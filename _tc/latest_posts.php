@@ -8,9 +8,9 @@
     $i=0;
     foreach ($posts as $query){
       $transDate = date("M d, Y", strtotime($query['date']));
+      if ($query['published'] == "true") {
       $i++;
-      if($i==6) break;
-      if ($query['published'] == "true") { ?>
+      if($i==6) break; ?>
         <div class="a-post">
           <div class="latest-posts-date">
             <div class="the-date">
