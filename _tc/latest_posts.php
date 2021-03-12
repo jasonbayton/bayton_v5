@@ -35,6 +35,6 @@
     <?php }} ?>
 
   <button id="read_more" class="button-blue button-rounded">
-    Read more
+    <a href="/archive">Read more</a>
   </button>
 </section>
