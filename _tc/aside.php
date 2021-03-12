@@ -10,7 +10,11 @@
       Updated: <?php echo $updated ?>
     </div>
     <div class="aside-meta">
-      Read time: <?php echo $readtime ?>
+      Read time: <?php if ($readtime == 1);
+      echo $readtime ?> minute
+    <?php else {
+      echo $readtime ?> minutes
+    <?php } ?>
     </div>
   </div>
   <?php include "$themedir/_tc/toc.php"; ?>
