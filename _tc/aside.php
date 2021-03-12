@@ -10,9 +10,9 @@
       Updated: <?php echo $updated ?>
     </div>
     <div class="aside-meta">
-      Read time: <?php if ($readtime == 1);
+      Read time: <?php if ($readtime == 1); {
       echo $readtime ?> minute
-    <?php else {
+    <?php } else {
       echo $readtime ?> minutes
     <?php } ?>
     </div>
