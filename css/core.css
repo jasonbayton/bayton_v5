@@ -197,6 +197,26 @@ code {
   padding: 2px 7px;
 }
 
+pre {
+  background: #333;
+  border: 2px solid #ffa22f;
+  border-radius: 5px;
+  font-family: courier, monospace;
+  color: var(--bright);
+  background-color: var(--dark);
+  border: 2px solid #ffa22f;
+  border-radius: 11px;
+  padding: 16px;
+}
+
+pre code {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+
+
 ::-webkit-input-placeholder { color: #dbdbdb; }
 ::-moz-placeholder, { color: #dbdbdb; }
 ::placeholder { color: #dbdbdb; }
