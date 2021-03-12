@@ -115,7 +115,7 @@ body {
   margin: 0 auto;
 }
 
-img { max-width: 100%; }
+img { max-width: 100%; display: block;}
 article img { border-radius: 5px; }
 #featured_container, #older_posts_container { padding-left: 30px; padding-right: 30px; }
 
