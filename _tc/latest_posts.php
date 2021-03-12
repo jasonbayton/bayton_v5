@@ -5,7 +5,6 @@
 
       <div id="latest_posts_container">
   <?php
-    usort($posts, fn($a, $b) => strcmp($b['date'], $a['date']));
     $i=0;
     foreach ($posts as $query){
       $transDate = date("M d, Y", strtotime($query['date']));
