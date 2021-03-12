@@ -1,5 +1,3 @@
-<!--?php require "_ct/post.php"; ?-->
-
 <div class="max-width">
 <?php
 
