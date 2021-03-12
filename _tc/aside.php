@@ -11,9 +11,9 @@
     </div>
     <div class="aside-meta">
       Read time: <?php if ($readtime == 1) {
-      echo $readtime . 'minute';
+      echo $readtime . ' minute';
       } else {
-      echo $readtime . 'minutes';
+      echo $readtime . ' minutes';
       } ?>
     </div>
   </div>
