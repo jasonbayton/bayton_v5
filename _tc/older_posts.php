@@ -14,7 +14,7 @@
             <?php
             $i=0;
             foreach ($posts as $query){
-              if (in_array('enterprise', $query['categories']) || $query['published'] == "true") {
+              if (in_array('enterprise', $query['categories']) && $query['published'] == "true") {
                 $i++;
                 if($i==6) break;
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
@@ -33,7 +33,7 @@
             <?php
             $i=0;
             foreach ($posts as $query){
-              if (in_array('guides', $query['categories']) || $query['published'] == "true") {
+              if (in_array('guides', $query['categories']) && $query['published'] == "true") {
                 $i++;
                 if($i==6) break;
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
@@ -52,7 +52,7 @@
             <?php
             $i=0;
             foreach ($posts as $query){
-              if (in_array('reviews', $query['categories']) || $query['published'] == "true") {
+              if (in_array('reviews', $query['categories']) && $query['published'] == "true") {
                 $i++;
                 if($i==6) break;
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';

@@ -13,9 +13,9 @@
           <?php
           $i=0;
           foreach ($posts as $query){
-            $i++;
-            if($i==2) break;
-            if ($query['featured'] == 'true' || $query['published'] == "true"){
+            if ($query['featured'] == 'true' && $query['published'] == "true"){
+              $i++;
+              if($i==2) break;
               echo $query['title'];
             }
           } ?>
