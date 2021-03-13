@@ -8,7 +8,11 @@
       <?php echo $post['title'];?>
     </h2>
     <div id="article_meta">
-      Published: <?php echo $published;?> | Updated: <?php echo $updated;?> | Read time: 9 minutes
+      Published: <?php echo $published;?> | Updated: <?php echo $updated;?> | Read time:       Read time: <?php if ($readtime == 1) {
+            echo $readtime . ' minute';
+            } else {
+            echo $readtime . ' minutes';
+            } ?>
     </div>
     <?php if (!empty($post['subtitle'])) {
     echo '<div id="article_subtitle">' . $post['subtitle'] . '</div>';
