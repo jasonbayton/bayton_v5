@@ -1,5 +1,5 @@
 <div id="breadcrumb">
-  <?php echo $post['topic'];?> &#9654; <?php echo $post['parent'];?>
+  <?php echo $post['topic'];?> <i class="fas fa-caret-right"></i> <?php echo $post['parent'];?>
 </div>
 
 <!--
