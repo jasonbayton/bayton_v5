@@ -661,6 +661,9 @@ section#content_container {
 
 #literal_content {
   padding-bottom: 40px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 #article_title {
