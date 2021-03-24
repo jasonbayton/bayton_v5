@@ -14,7 +14,7 @@
             <?php
             $i=0;
             foreach ($posts as $query){
-              if (in_array('$tag', $query['tags']) && $query['published'] == "true") {
+              if (in_array($tag, $query['tags']) && $query['published'] == "true") {
                 $i++;
                 if($i==6) break;
                 echo $tag;
