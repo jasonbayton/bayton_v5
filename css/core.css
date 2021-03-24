@@ -126,8 +126,8 @@ font-weight: 300;
 padding: 0;
 }
 
-h2 { font-size: 32px; }
-h3 { font-size: 28px; }
+h2 { font-size: 36px; }
+h3 { font-size: 30px; }
 h4 { font-size: 24px; }
 h5 { font-size: 20px; }
 
@@ -834,7 +834,7 @@ footer {
 }
 
 .callout :first-child { /* .callout-heading */
-  font-size: 32px;
+  font-size: 30px;
   padding-bottom: 15px;
   font-weight: 300;
 }
