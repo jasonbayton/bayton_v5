@@ -137,11 +137,16 @@ h5 { font-size: 20px; }
 }
 
 :is(article :is(h1, h2, h3, h4, h5, h6)) a::after {
-    content: "\f13d";
-    font-size: 17px;
-    vertical-align: super;
-    padding-left: 10px;
-    font-family: 'Font Awesome 5 Pro';
+  content: "\f13d";
+  font-size: 17px;
+  vertical-align: super;
+  padding-left: 10px;
+  font-family: 'Font Awesome 5 Pro';
+  cursor: pointer;
+}
+
+:is(article :is(h1, h2, h3, h4, h5, h6)) a:hover {
+  all: unset;
 }
 
 blockquote {
