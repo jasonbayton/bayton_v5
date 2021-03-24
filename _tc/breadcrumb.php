@@ -1,5 +1,8 @@
 <div id="breadcrumb">
-  <?php echo $post['topic'];?> <i class="fas fa-caret-right"></i> <?php echo $post['parent'];?>
+  <?php if (!empty($post['topic'] && $post['parent'])){
+    echo $post['topic'];?> <i class="fas fa-caret-right"></i> <?php echo $post['parent'];
+  };
+  ?>
 </div>
 
 <!--
