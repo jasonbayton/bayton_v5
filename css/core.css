@@ -711,6 +711,10 @@ section#content_container {
   max-width: 500px;
 }
 
+#tag_title {
+  display: inline-block;
+}
+
 .tags {
   margin-right: 8px;
   display: inline-block;
