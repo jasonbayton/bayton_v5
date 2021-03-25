@@ -977,6 +977,10 @@ article {max-width: 90%;}
     justify-items: center;
   }
 
+  .tag-title{
+    text-transform: capitalize;
+  }
+
   #older_posts_container ul, #related_posts_container ul {
     padding: 0;
   }
