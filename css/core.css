@@ -604,8 +604,8 @@ section#older_posts {
 }
 
 section#related_posts {
-  background-color: var(--accent);
-  color: var(--text);
+  background-color: var(--secondary);
+  color: var(--bright);
   margin-top: 150px;
 }
 section#older_posts #older_container, section#related_posts #related_container {
@@ -655,7 +655,7 @@ ul.older-posts-list li a {
 }
 
 ul.related-posts-list li a {
-  color: var(--text);
+  color: var(--bright);
 }
 
 section#article {}
@@ -905,6 +905,10 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
   color: var(--bright);
 }
 
+.tag-title {
+  text-transform: uppercase;
+}
+
 /* Media */
 
 @media (min-width: 1300px) {
@@ -984,10 +988,6 @@ article {max-width: 90%;}
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     justify-items: center;
-  }
-
-  .tag-title {
-      text-transform: uppercase;
   }
 
   #older_posts_container ul, #related_posts_container ul {
