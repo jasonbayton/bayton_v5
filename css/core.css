@@ -1092,6 +1092,10 @@ article {max-width: 90%;}
   #article_meta {
     display: block;
   }
+
+  #article_meta i {
+    font-weight: 300;
+  }
 }
 
 @media (max-width: 350px) {
