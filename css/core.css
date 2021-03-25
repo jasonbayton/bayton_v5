@@ -825,7 +825,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  grid-column-gap: 0;
+  grid-column-gap: 10px;
   grid-row-gap: 0;
 }
 
@@ -1062,6 +1062,7 @@ article {max-width: 90%;}
 #logo_group {
   grid-row-gap: 36px;
   grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 16px;
 }
 
 :is(#logo_top_right,#logo_bottom_right) { align-self: center; justify-self: left;}
