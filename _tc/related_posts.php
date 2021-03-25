@@ -15,7 +15,7 @@
         <ul class="related-posts-list">
           <?php $i=0;
             foreach ($posts as $query){
-              if (in_array($tag, $query['tags']) && $query['published'] == "true") {
+              if (in_array($post['tags'], $query['tags']) && $query['published'] == "true") {
                 $i++;
                 if($i==3) break;
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
