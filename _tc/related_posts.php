@@ -11,9 +11,9 @@
         </h3>
         <ul class="related-posts-list">
           <?php
-          $i=0;
           foreach ($post['tags'] as $tag) {
             echo $tag;
+            $i=0;
             foreach ($posts as $query){
               if (in_array($tag, $query['tags']) && $query['published'] == "true") {
                 $i++;
