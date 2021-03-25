@@ -659,12 +659,6 @@ ul.related-posts-list li a {
   color: var(--bright);
 }
 
-section#article {}
-
-#article_meta {
-  display: none;
-}
-
 section#content_container {
   display: grid;
   grid-template-columns: 27% auto;
@@ -697,6 +691,7 @@ section#content_container {
 }
 
 #article_meta {
+  display: none;
   padding-bottom: 40px;
   margin-top: -30px;
 }
@@ -1091,6 +1086,11 @@ article {max-width: 90%;}
 
   #article_meta {
     display: block;
+    text-align: center;
+    padding: 10px 0 40px;
+    margin-top: 0;
+    font-size: 16px;
+}
   }
 
   #article_meta i {
