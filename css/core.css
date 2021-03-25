@@ -597,7 +597,7 @@ section#archive_posts {
   text-align: left;
 }
 
-section#older_posts, section#related_posts {
+section#older_posts {
   background-color: var(--tertiary);
   color: var(--bright);
   margin-top: 0;
@@ -650,8 +650,12 @@ ul.older-posts-list li, ul.related-posts-list li{
   font-size: 18px;
 }
 
-ul.older-posts-list li a, ul.related-posts-list li a {
+ul.older-posts-list li a {
   color: var(--bright);
+}
+
+ul.related-posts-list li a {
+  color: var(--text);
 }
 
 section#article {}
