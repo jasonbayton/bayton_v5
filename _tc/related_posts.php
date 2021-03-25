@@ -13,13 +13,15 @@
           <ul class="older-posts-list">
             <?php
             $i=0;
-            foreach ($posts as $query){
-              if (in_array($tag, $query['tags']) && $query['published'] == "true") {
-                $i++;
-                if($i==6) break;
-                echo $tag;
-                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-              };
+            foreach ($post['tags'] as $tag) {
+              foreach ($posts as $query){
+                if (in_array($tag, $query['tags']) && $query['published'] == "true") {
+                  $i++;
+                  if($i==6) break;
+                  echo $tag;
+                  echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+                };
+              }
             } ?>
           </ul>
         </div>
