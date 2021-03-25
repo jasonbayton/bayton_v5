@@ -513,6 +513,7 @@ section#latest_posts {
   text-align: center;
   max-width: 1000px;
   margin: 0 auto;
+  margin-bottom: 150px;
 }
 
 section#latest_posts h2, section#archive_posts h2, h2#article_title {
