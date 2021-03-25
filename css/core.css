@@ -634,18 +634,18 @@ section#older_posts #older_container, section#related_posts #related_container {
   grid-area: 1 / 3 / 2 / 4;
 }
 
-ul.older-posts-list {
+ul.older-posts-list, ul.related-posts-list {
   text-align: left;
   list-style: none;
 }
 
-ul.older-posts-list li {
+ul.older-posts-list li, ul.related-posts-list li{
   list-style-type: none;
   padding: 20px 0;
   font-size: 18px;
 }
 
-ul.older-posts-list li a {
+ul.older-posts-list li a, ul.related-posts-list li a {
   color: var(--bright);
 }
 
