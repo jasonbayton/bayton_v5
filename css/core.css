@@ -823,24 +823,25 @@ footer {
 
 #logo_group {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  grid-column-gap: 10px;
-  grid-row-gap: 0;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
 #logo_group img {
-  max-width: 90px;
+  max-width: 100px;
 }
 
 #logo_bottom_right img {
-    max-width: 84%;
+  max-width: 84%;
+  margin-left: 16%;
 }
 
-#logo_top_left { align-self: center; justify-self: center;}
-#logo_top_right { align-self: center; justify-self: center;}
-#logo_bottom_left { align-self: center; justify-self: center;}
-#logo_bottom_right { align-self: center; justify-self: center;}
+#logo_top_left { align-self: center; justify-self: right;}
+#logo_top_right { align-self: center; justify-self: left;}
+#logo_bottom_left { align-self: center; justify-self: right;}
+#logo_bottom_right { align-self: center; justify-self: left;}
 
 
 #made_with_container {
