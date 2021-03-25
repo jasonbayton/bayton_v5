@@ -6,14 +6,11 @@
         Everything else
       </h2>
       <div id="related_posts_container">
-        <h3 class="related-posts-title">
-          Enterprise
-        </h3>
+        <?php
+        foreach ($post['tags'] as $tag) {
+          echo $tag; ?>
         <ul class="related-posts-list">
-          <?php
-          foreach ($post['tags'] as $tag) {
-            echo $tag;
-            $i=0;
+          <?php $i=0;
             foreach ($posts as $query){
               if (in_array($tag, $query['tags']) && $query['published'] == "true") {
                 $i++;
@@ -21,8 +18,8 @@
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
             }
+                    </ul>
           } ?>
-        </ul>
       </div>
     </div>
   </section>
