@@ -9,15 +9,15 @@
         <?php $i=0;
         foreach ($post['tags'] as $tag) {
           $i++;
-          if($i==2) break; ?>
+          if($i==7) break; ?>
           <div class="related-post-column">
           <?php echo $tag; ?>
         <ul class="related-posts-list">
-          <?php $i=0;
+          <?php $ii=0;
             foreach ($posts as $query){
               if (in_array($tag, $query['tags']) && $query['published'] == "true") {
-                $i++;
-                if($i==3) break;
+                $ii++;
+                if($ii==3) break;
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
             } ?>
