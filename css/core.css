@@ -723,6 +723,7 @@ section#content_container {
 #content_report {
   float: right;
   font-size: 16px;
+  padding-top: 16px;
 }
 
 #aside_container {
