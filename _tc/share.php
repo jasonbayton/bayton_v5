@@ -1,6 +1,7 @@
 <div id="share_container">
   <hr id="share_hr">
   <div id="tag_list">
+    <div id="tag_title">Tags:</div>
     <?php foreach ($post['tags'] as $tag) {
         echo '<div class="tags"><a class="the-tag" href="/tag/' . $tag . '">' . $tag . '</a></div>'; };
     ?>
