@@ -17,9 +17,9 @@
                 if($i==6) break;
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
-            }
-                    </ul>
-          } ?>
+            } ?>
+            </ul>
+        <?php  } ?>
       </div>
     </div>
   </section>
