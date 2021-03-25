@@ -2,7 +2,7 @@
   <hr id="share_hr">
   <div id="tag_list">
     <?php foreach ($post['tags'] as $tag) {
-        echo '<a class="the-tag" href="/tag/' . $tag . '">' . $tag . '</a>'; };
+        echo '<div class="tags"><a class="the-tag" href="/tag/' . $tag . '">' . $tag . '</a></div>'; };
     ?>
   </div>
   <!--div id="share_icons">

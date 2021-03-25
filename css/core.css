@@ -711,8 +711,8 @@ section#content_container {
   max-width: 500px;
 }
 
-.the-tag {
-  padding-right: 8px;
+.tags {
+  margin-right: 8px;
 }
 
 #content_report {
