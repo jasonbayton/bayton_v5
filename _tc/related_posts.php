@@ -11,7 +11,7 @@
           $i++;
           if($i==7) break; ?>
           <div class="related-post-column">
-          <?php echo $tag; ?>
+          <?php echo '<div class="tag-title">'.$tag.'</div>'; ?>
         <ul class="related-posts-list">
           <?php $ii=0;
             foreach ($posts as $query){
