@@ -4,9 +4,6 @@
   </aside>
   <article>
     <?php include "$themedir/_tc/breadcrumb.php"; ?>
-    <h2 id="article_title">
-      <?php echo $post['title'];?>
-    </h2>
     <div id="article_meta">
       <i class="fas fa-calendar"></i> <?php echo $published;?> | <i class="fas fa-edit"></i> <?php echo $updated;?> | <i class="fas fa-clock"></i> <?php if ($readtime == 1) {
             echo $readtime . ' minute';
@@ -14,6 +11,9 @@
             echo $readtime . ' minutes';
             } ?>
     </div>
+    <h2 id="article_title">
+      <?php echo $post['title'];?>
+    </h2>
     <?php if (!empty($post['subtitle'])) {
     echo '<div id="article_subtitle">' . $post['subtitle'] . '</div>';
     } ?>

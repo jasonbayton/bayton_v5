@@ -692,8 +692,6 @@ section#content_container {
 
 #article_meta {
   display: none;
-  padding-bottom: 40px;
-  margin-top: -30px;
 }
 
 #article_subtitle {
@@ -1086,10 +1084,7 @@ article {max-width: 90%;}
 
   #article_meta {
     display: block;
-    text-align: center;
-    padding: 10px 0 40px;
-    margin-top: 0;
-    font-size: 16px;
+    font-size: 12px;
 }
   }
 
