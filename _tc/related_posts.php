@@ -14,11 +14,12 @@
             <?php
             $i=0;
             foreach ($post['tags'] as $tag) {
+              echo $tag;
               foreach ($posts as $query){
                 if (in_array($tag, $query['tags']) && $query['published'] == "true") {
                   $i++;
                   if($i==6) break;
-                  echo $tag;
+
                   echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
                 };
               }
