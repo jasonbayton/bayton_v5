@@ -718,6 +718,7 @@ section#content_container {
 .tags {
   margin-right: 8px;
   display: inline-block;
+  text-transform: uppercase;
 }
 
 #content_report {
