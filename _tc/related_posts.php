@@ -9,7 +9,7 @@
         <?php $i=0;
         foreach ($post['tags'] as $tag) {
           $i++;
-          if($i==7) break; ?>
+          if($i==6) break; ?>
           <div class="related-post-column">
           <?php echo $tag; ?>
         <ul class="related-posts-list">
