@@ -15,7 +15,7 @@
             foreach ($posts as $query){
               if (in_array($tag, $query['tags']) && $query['published'] == "true") {
                 $i++;
-                if($i==6) break;
+                if($i==3) break;
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
             } ?>
