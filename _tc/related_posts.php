@@ -3,12 +3,13 @@
   <section id="related_posts">
     <div id="related_container">
       <h2 id="related_title">
-        Everything else
+        Related tags
       </h2>
       <div id="related_posts_container">
         <?php
-        foreach ($post['tags'] as $tag) {
-          echo $tag; ?>
+        foreach ($post['tags'] as $tag) {?>
+          <div class="related-post-column">
+          <?php echo $tag; ?>
         <ul class="related-posts-list">
           <?php $i=0;
             foreach ($posts as $query){
@@ -19,6 +20,7 @@
               };
             } ?>
             </ul>
+          </div>
         <?php  } ?>
       </div>
     </div>
