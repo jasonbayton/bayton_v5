@@ -8,7 +8,7 @@
       <?php echo $post['title'];?>
     </h2>
     <div id="article_meta">
-      Published: <?php echo $published;?> | Updated: <?php echo $updated;?> | Read time: <?php if ($readtime == 1) {
+      <i class="fas fa-calendar"></i>: <?php echo $published;?> | <i class="fas fa-edit"></i>: <?php echo $updated;?> | <i class="fas fa-time"></i>: <?php if ($readtime == 1) {
             echo $readtime . ' minute';
             } else {
             echo $readtime . ' minutes';
