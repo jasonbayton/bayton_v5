@@ -597,13 +597,13 @@ section#archive_posts {
   text-align: left;
 }
 
-section#older_posts {
+section#older_posts, section#related_posts {
   background-color: var(--tertiary);
   color: var(--bright);
   margin-top: 150px;
 }
 
-section#older_posts #older_container {
+section#older_posts #older_container, section#related_posts #related_container {
   text-align: center;
   max-width: 1620px;
   margin: 0 auto;
