@@ -833,6 +833,10 @@ footer {
   max-width: 90px;
 }
 
+#logo_bottom_right img {
+    max-width: 84%;
+}
+
 #logo_top_left { align-self: center; justify-self: center;}
 #logo_top_right { align-self: center; justify-self: center;}
 #logo_bottom_left { align-self: center; justify-self: center;}
