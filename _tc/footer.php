@@ -46,9 +46,10 @@
         <img id="footer_ss" alt="Knox certified badge" src="<?php echo $themerelpath ?>/img/kp.webp">
       </div>
       <div id="logo_bottom_right">
+        <img id="footer_pe" alt="Gold Product Expert" src="<?php echo $themerelpath ?>/img/gold.svg">
       </div>
-
     </div>
+    
   </div>
 </div>
 <div id="made_with_container">
