@@ -713,6 +713,7 @@ section#content_container {
 
 .tags {
   margin-right: 8px;
+  display: inline-block;
 }
 
 #content_report {
