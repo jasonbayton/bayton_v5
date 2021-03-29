@@ -13,6 +13,7 @@
   --contrast-tertiary: #a33e0f;
   --text: #333333;
   --background: #ffffff;
+  --dat-purple: #474774;
 }
 
 [data-theme="dark"] {
@@ -597,7 +598,7 @@ section#archive_posts {
 }
 
 section#trusted_logos {
-  background-color: var(--dat-purple)
+  background-color: var(--dat-purple);
   padding: 20px 0;
 }
 
