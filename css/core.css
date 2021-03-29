@@ -182,7 +182,7 @@ a {
 
 
 a:hover {
-  transition: all 0.8s ease;
+  transition: all 0.5s ease;
   background-color: var(--secondary);
   padding: 0 5px;
   margin-left: -5px;
