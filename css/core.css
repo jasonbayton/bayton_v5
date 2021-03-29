@@ -558,8 +558,8 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
 }
 
 .the-category {
-  background-color: var(--light);
   padding: 5px;
+  border-bottom: 1px solid var(--contrast);
   margin-right: 10px;
   border-radius: 7px;
   color: var(--text);
