@@ -232,8 +232,6 @@ pre code {
   padding: 0;
 }
 
-
-
 ::-webkit-input-placeholder { color: #dbdbdb; }
 ::-moz-placeholder, { color: #dbdbdb; }
 ::placeholder { color: #dbdbdb; }
@@ -300,6 +298,7 @@ button.arrow-only {
 
 #header_container {
   padding: 0 20px;
+  font-size: 22px;
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, auto);
