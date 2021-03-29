@@ -3,7 +3,7 @@
     Read the latest
   </h2>
 
-  <div id="latest_posts_container">
+      <div id="latest_posts_container">
   <?php
     $i=0;
     foreach ($posts as $query){
@@ -32,8 +32,8 @@
             </span>
           </div>
         </div>
-      </div>
     <?php }} ?>
+  </div>
   <button id="read_more" class="button-blue button-rounded">
     <a href="/archive">Read more</a>
   </button>
