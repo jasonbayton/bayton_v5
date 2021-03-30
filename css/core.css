@@ -621,6 +621,12 @@ section#older_posts #older_container, section#related_posts #related_container, 
   padding: 40px 0 80px;
 }
 
+.vendor-logo {
+  display: inline-block;
+  max-width: 300px;
+  padding: 30px;
+}
+
 #older_posts_container, #related_posts_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
