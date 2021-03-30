@@ -621,6 +621,12 @@ section#older_posts #older_container, section#related_posts #related_container, 
   padding: 40px 0 80px;
 }
 
+#vendor_logo_container {
+  padding: 10px 20px 0;
+  border-radius: 20px 0 0 20px;
+  background-color: var(--bright);
+}
+
 .vendor-logo {
   display: inline-block;
   max-width: 300px;
