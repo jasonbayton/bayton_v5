@@ -649,6 +649,11 @@ h2#trusted_title {
   width: 100%;
 }
 
+#vendor_disclaimer {
+  font-size: 10px;
+  text-align: center;
+}
+
 #older_posts_container, #related_posts_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

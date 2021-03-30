@@ -30,6 +30,9 @@
         <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/sam.png"/>
       </div>
     </div>
+    <div id="vendor_disclaimer">
+      Data captured from annual analytics stats between 2019-2021
+    </div>
   </div>
 </section>
 <div class="max-width"> <!-- Reviving max-width -->
