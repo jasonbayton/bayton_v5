@@ -651,7 +651,8 @@ h2#trusted_title {
 
 #vendor_disclaimer {
   font-size: 10px;
-  text-align: center;
+  text-align: right;
+  padding-top: 5px;
 }
 
 #older_posts_container, #related_posts_container {
