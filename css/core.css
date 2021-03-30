@@ -621,6 +621,10 @@ section#older_posts #older_container, section#related_posts #related_container, 
   padding: 40px 0 80px;
 }
 
+h2#trusted_title {
+  padding-bottom: 20px;
+}
+
 #vendor_logo_container {
   padding: 10px 20px 0;
   border-radius: 20px;
