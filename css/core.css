@@ -634,6 +634,7 @@ h2#trusted_title {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-auto-flow: row;
+  margin: 0 30px;
 }
 
 .vendor-logo {
