@@ -25,6 +25,9 @@
     <div class="vendor-logo">
       <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/mi.png"/>
     </div>
+    <div class="vendor-logo">
+      <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/sam.png"/>
+    </div>
   </div>
 </section>
 <div class="max-width"> <!-- Reviving max-width -->
