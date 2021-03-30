@@ -1036,6 +1036,10 @@ article {max-width: 90%;}
     padding-bottom: 10px;
   }
 
+  #vendor_logo_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   #older_posts_container, #related_posts_container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
