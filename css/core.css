@@ -629,12 +629,24 @@ h2#trusted_title {
   padding: 10px 20px 0;
   border-radius: 20px;
   background-color: var(--bright);
+  display: grid;
+  grid-column: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-auto-flow: row;
 }
 
 .vendor-logo {
   display: inline-block;
   max-width: 300px;
   padding: 30px;
+  align-self: center;
+  justify-self: center;
+}
+
+.vendor-logo img {
+  max-width: 100%;
+  width: 100%;
 }
 
 #older_posts_container, #related_posts_container {
