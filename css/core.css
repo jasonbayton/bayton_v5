@@ -509,14 +509,14 @@ button#embedded_readmore {
   padding: 10px 30px;
 }
 
-section#latest_posts, section#trusted_logos {
+section#latest_posts {
   text-align: center;
   max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 150px;
 }
 
-section#latest_posts h2, section#archive_posts h2, h2#article_title, section#trusted_logos h2 {
+section#latest_posts h2, section#archive_posts h2, h2#article_title {
   font-size: 60px;
 }
 
@@ -613,7 +613,7 @@ section#related_posts {
   color: var(--bright);
   margin-top: 150px;
 }
-section#older_posts #older_container, section#related_posts #related_container {
+section#older_posts #older_container, section#related_posts #related_container, section#trusted_logos #trusted_container {
   text-align: center;
   max-width: 1620px;
   margin: 0 auto;
