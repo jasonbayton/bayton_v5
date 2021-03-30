@@ -600,6 +600,7 @@ section#archive_posts {
 section#trusted_logos {
   background-color: var(--dat-purple);
   padding: 20px 0;
+  color: var(--bright);
 }
 
 section#older_posts {
