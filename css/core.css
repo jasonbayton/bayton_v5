@@ -623,7 +623,7 @@ section#older_posts #older_container, section#related_posts #related_container, 
 
 #vendor_logo_container {
   padding: 10px 20px 0;
-  border-radius: 20px 0 0 20px;
+  border-radius: 20px;
   background-color: var(--bright);
 }
 
