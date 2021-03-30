@@ -5,22 +5,22 @@
       Trusted content for 200,000 vendors, partners, and organisations a year
     </h2>
     <div class="vendor-logo">
-      <img alt="citrix logo" src="img/cit.png"/>
+      <img alt="citrix logo" src="<?php echo $themerelpath ?>/img/cit.png"/>
     </div>
     <div class="vendor-logo">
-      <img alt="mobco logo" src="img/mob.png"/>
+      <img alt="mobco logo" src="<?php echo $themerelpath ?>/img/mob.png"/>
     </div>
     <div class="vendor-logo">
-      <img alt="microsoft logo" src="img/ms.png"/>
+      <img alt="microsoft logo" src="<?php echo $themerelpath ?>/img/ms.png"/>
     </div>
     <div class="vendor-logo">
-      <img alt="vodafone logo" src="img/vod.webp"/>
+      <img alt="vodafone logo" src="<?php echo $themerelpath ?>/img/vod.webp"/>
     </div>
     <div class="vendor-logo">
-      <img alt="vmware logo" src="img/vm.png"/>
+      <img alt="vmware logo" src="<?php echo $themerelpath ?>/img/vm.png"/>
     </div>
     <div class="vendor-logo">
-      <img alt="hmd logo" src="img/hmd.png"/>
+      <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/hmd.png"/>
     </div>
   </div>
 </section>
