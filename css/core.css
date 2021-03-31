@@ -519,16 +519,20 @@ button#embedded_readmore {
 
 section#latest_posts {
   text-align: center;
-  max-width: 1000px;
+  max-width: 1620px;
   margin: 0 auto;
   margin-bottom: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-auto-flow: row;
 }
 
 section#latest_posts h2, section#archive_posts h2, h2#article_title {
   font-size: 60px;
 }
 
-#latest_posts_container, #archive_posts_container #content_container {
+.latest_posts_container, #archive_posts_container #content_container {
   text-align: left;
 }
 
@@ -654,7 +658,6 @@ h2#trusted_title {
   border-radius: 20px;
   background-color: var(--bright);
   display: grid;
-  grid-column: 1fr;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-auto-flow: row;
@@ -1067,6 +1070,12 @@ article {max-width: 90%;}
   #vendor_logo_container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
+  }
+
+  section#latest_posts {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-auto-flow: row;
   }
 
   #older_posts_container, #related_posts_container {
