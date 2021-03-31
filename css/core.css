@@ -636,12 +636,17 @@ section#trusted_logos #trusted_container {
   padding: 40px 0 120px;
 }
 
-h2#trusted_title {
+#trusted_textgroup {
   padding: 0 20px 40px;
+}
+
+h2#trusted_title {
+  margin-bottom: 0;
 }
 
 #trusted_tag {
   font-size: 18px;
+  padding-top: 10px;
 }
 
 #vendor_logo_container {
