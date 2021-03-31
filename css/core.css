@@ -537,6 +537,7 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   grid-auto-flow: row;
+  grid-column-gap: 20px;
 }
 
 .a-post {
@@ -1080,10 +1081,9 @@ article {max-width: 90%;}
     grid-template-rows: repeat(2, auto);
   }
 
-  section#latest_posts_container {
+  #latest_posts_container {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
-    grid-auto-flow: row;
+    grid-column-gap: 0;
   }
 
   #older_posts_container, #related_posts_container {
