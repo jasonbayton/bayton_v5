@@ -21,7 +21,7 @@
           <img alt="blaud logo" src="<?php echo $themerelpath ?>/img/blaud.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="microsoft logo" src="<?php echo $themerelpath ?>/img/ms.png"/>
+          <img alt="microsoft logo" src="<?php echo $themerelpath ?>/img/wandera.png"/>
         </div>
         <div class="vendor-logo">
           <img alt="telefonica logo" src="<?php echo $themerelpath ?>/img/tele.png"/>
