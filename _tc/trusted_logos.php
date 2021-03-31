@@ -17,16 +17,16 @@
       <div class="vendor-logo">
         <img alt="vodafone logo" src="<?php echo $themerelpath ?>/img/vod.webp"/>
       </div>
-      <div class="vendor-logo mobile-hidden">
+      <div class="vendor-logo">
         <img alt="vmware logo" src="<?php echo $themerelpath ?>/img/vm.png"/>
       </div>
-      <div class="vendor-logo mobile-hidden">
+      <div class="vendor-logo">
         <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/hmd.png"/>
       </div>
-      <div class="vendor-logo mobile-hidden">
+      <div class="vendor-logo">
         <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/mi.png"/>
       </div>
-      <div class="vendor-logo mobile-hidden">
+      <div class="vendor-logo">
         <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/sam.png"/>
       </div>
     </div>
