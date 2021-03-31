@@ -6,7 +6,7 @@
   <div class="purple-background">
     <div id="trusted_container">
       <h2 id="trusted_title">
-        Trusted Android content for 200,000 vendors, and organisations a year
+        Relevant, up to date Android content for 200,000 vendors and organisations visiting a year
       </h2>
       <div id="vendor_logo_container">
         <div class="vendor-logo">
@@ -36,6 +36,7 @@
       </div>
       <div id="vendor_disclaimer">
         Data captured from annual analytics & social stats between 2019-2021
+        showing website referrals, content shares, or similar interactions
       </div>
     </div>
 </div>
