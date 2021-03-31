@@ -19,7 +19,7 @@
           <img alt="microsoft logo" src="<?php echo $themerelpath ?>/img/ms.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="telefonica logo" src="<?php echo $themerelpath ?>/img/tele.webp"/>
+          <img alt="telefonica logo" src="<?php echo $themerelpath ?>/img/tele.png"/>
         </div>
         <div class="vendor-logo">
           <img alt="citrix logo" src="<?php echo $themerelpath ?>/img/cit.png"/>
@@ -31,7 +31,7 @@
           <img alt="mobileiron logo" src="<?php echo $themerelpath ?>/img/mi.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="samsung logo" src="<?php echo $themerelpath ?>/img/cwsi.png"/>
+          <img alt="cwsi logo" src="<?php echo $themerelpath ?>/img/cwsi.png"/>
         </div>
       </div>
       <div id="vendor_disclaimer">
