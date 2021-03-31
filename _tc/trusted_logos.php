@@ -10,7 +10,7 @@
       </h2>
       <div id="vendor_logo_container">
         <div class="vendor-logo">
-          <img alt="citrix logo" src="<?php echo $themerelpath ?>/img/cit.png"/>
+          <img alt="vmware logo" src="<?php echo $themerelpath ?>/img/vm.png"/>
         </div>
         <div class="vendor-logo">
           <img alt="blaud logo" src="<?php echo $themerelpath ?>/img/blaud.png"/>
@@ -22,7 +22,7 @@
           <img alt="vodafone logo" src="<?php echo $themerelpath ?>/img/vod.webp"/>
         </div>
         <div class="vendor-logo">
-          <img alt="vmware logo" src="<?php echo $themerelpath ?>/img/vm.png"/>
+          <img alt="citrix logo" src="<?php echo $themerelpath ?>/img/cit.png"/>
         </div>
         <div class="vendor-logo">
           <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/hmd.png"/>
