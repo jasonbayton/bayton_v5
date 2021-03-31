@@ -637,7 +637,7 @@ section#trusted_logos #trusted_container {
 }
 
 h2#trusted_title {
-  padding-bottom: 40px;
+  padding: 0 20px 40px;
 }
 
 #vendor_logo_container {
@@ -848,19 +848,19 @@ footer {
 #support2 {
   grid-area: 1 / 2 / 2 / 3;
   text-align: left;
-  padding: 20px 0;
+  align-self: center;
 }
 #support3 { grid-area: 2 / 1 / 3 / 2; justify-self: end;}
 #support4 {
   grid-area: 2 / 2 / 3 / 3;
   text-align: left;
-  padding: 20px 0;
+  align-self: center;
 }
 #support5 { grid-area: 3 / 1 / 4 / 2; justify-self: end;}
 #support6 {
   grid-area: 3 / 2 / 4 / 3;
   text-align: left;
-  padding: 20px 0;
+  align-self: center;
 }
 
 #footer_right {
