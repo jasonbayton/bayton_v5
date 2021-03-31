@@ -3,7 +3,7 @@
     Read the latest
   </h2>
   <div id="april_posts_container">
-    <div class="a-post">
+    <div class="a-post" style="display:block;">
       <div class="latest-posts-categories">
         <span class="the-category">
           Enterprise
@@ -23,7 +23,7 @@
         </span>
       </div>
     </div>
-    <div class="a-post">
+    <div class="a-post" style="display:block;">
       <div class="latest-posts-categories">
         <span class="the-category">
           Enterprise
@@ -43,7 +43,7 @@
         </span>
       </div>
     </div>
-    <div class="a-post">
+    <div class="a-post" style="display:block;">
       <div class="latest-posts-categories">
         <span class="the-category">
           Enterprise
@@ -63,7 +63,7 @@
         </span>
       </div>
     </div>
-    <div class="a-post">
+    <div class="a-post" style="display:block;">
       <div class="latest-posts-categories">
         <span class="the-category">
           Enterprise
