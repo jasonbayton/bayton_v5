@@ -4,11 +4,6 @@
   </h2>
   <div id="april_posts_container">
     <div class="a-post">
-      <div class="latest-posts-date">
-        <div class="the-date">
-          13th Dec 2020
-        </div>
-      </div>
       <div class="latest-posts-categories">
         <span class="the-category">
           Enterprise
@@ -29,11 +24,6 @@
       </div>
     </div>
     <div class="a-post">
-      <div class="latest-posts-date">
-        <div class="the-date">
-          23rd Jan 2021
-        </div>
-      </div>
       <div class="latest-posts-categories">
         <span class="the-category">
           Enterprise
@@ -54,11 +44,6 @@
       </div>
     </div>
     <div class="a-post">
-      <div class="latest-posts-date">
-        <div class="the-date">
-          4th Feb 2021
-        </div>
-      </div>
       <div class="latest-posts-categories">
         <span class="the-category">
           Enterprise
@@ -79,11 +64,6 @@
       </div>
     </div>
     <div class="a-post">
-      <div class="latest-posts-date">
-        <div class="the-date">
-          18th March 2021
-        </div>
-      </div>
       <div class="latest-posts-categories">
         <span class="the-category">
           Enterprise
