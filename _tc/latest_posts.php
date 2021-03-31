@@ -74,7 +74,7 @@
             </div>
         <?php }} ?>
       <button id="read_more" class="button-blue button-rounded">
-        <a href="/archive">Read more</a>
+        <a href="/docs">Read more</a>
       </button>
     </div>
   </div>
