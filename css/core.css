@@ -622,11 +622,18 @@ section#related_posts {
   color: var(--bright);
   margin-top: 150px;
 }
-section#older_posts #older_container, section#related_posts #related_container, section#trusted_logos #trusted_container {
+section#older_posts #older_container, section#related_posts #related_container {
   text-align: center;
   max-width: 1620px;
   margin: 0 auto;
   padding: 40px 0 80px;
+}
+
+section#trusted_logos #trusted_container {
+  text-align: center;
+  max-width: 1620px;
+  margin: 0 auto;
+  padding: 40px 0 160px;
 }
 
 h2#trusted_title {

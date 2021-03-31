@@ -1,8 +1,8 @@
 </div> <!-- Killing .max-width-->
 <section id="trusted_logos">
-  <svg class="angled-background-top" preserveAspectRatio="none" viewBox="0, 0, 100, 10">
+  <!--svg class="angled-background-top" preserveAspectRatio="none" viewBox="0, 0, 100, 10">
     <polygon class="purple-triangle" points="100,100 100,0 0,10"></polygon>
-  </svg>
+  </svg-->
   <div class="purple-background">
     <div id="trusted_container">
       <h2 id="trusted_title">
