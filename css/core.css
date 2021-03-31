@@ -522,18 +522,21 @@ section#latest_posts {
   max-width: 1620px;
   margin: 0 auto;
   margin-bottom: 150px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  grid-auto-flow: row;
 }
 
 section#latest_posts h2, section#archive_posts h2, h2#article_title {
   font-size: 60px;
 }
 
-.latest_posts_container, #archive_posts_container #content_container {
+#latest_posts_container, #archive_posts_container #content_container {
   text-align: left;
+}
+
+#latest_posts_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-auto-flow: row;
 }
 
 .a-post {
@@ -1072,7 +1075,7 @@ article {max-width: 90%;}
     grid-template-rows: repeat(2, auto);
   }
 
-  section#latest_posts {
+  section#latest_posts_container {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
     grid-auto-flow: row;
