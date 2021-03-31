@@ -33,7 +33,7 @@
           <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/hmd.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="mobileiron logo" src="<?php echo $themerelpath ?>/img/mi.png"/>
+          <img alt="mobileiron logo" src="<?php echo $themerelpath ?>/img/mii.png"/>
         </div>
         <div class="vendor-logo">
           <img alt="cwsi logo" src="<?php echo $themerelpath ?>/img/cwsi.png"/>
