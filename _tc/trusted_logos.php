@@ -13,7 +13,7 @@
           <img alt="citrix logo" src="<?php echo $themerelpath ?>/img/cit.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="mobco logo" src="<?php echo $themerelpath ?>/img/mob.png"/>
+          <img alt="blaud logo" src="<?php echo $themerelpath ?>/img/blaud.png"/>
         </div>
         <div class="vendor-logo">
           <img alt="microsoft logo" src="<?php echo $themerelpath ?>/img/ms.png"/>
