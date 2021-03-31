@@ -967,6 +967,10 @@ article {max-width: 90%;}
 
 @media (max-width: 900px) {
 
+  .mobile-hidden {
+    display: none;
+  }
+  
   #header_container {
     grid-template-columns: auto;
   }
