@@ -31,7 +31,7 @@
           <img alt="mobileiron logo" src="<?php echo $themerelpath ?>/img/mi.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="samsung logo" src="<?php echo $themerelpath ?>/img/sam.png"/>
+          <img alt="samsung logo" src="<?php echo $themerelpath ?>/img/cwsi.png"/>
         </div>
       </div>
       <div id="vendor_disclaimer">
