@@ -6,7 +6,7 @@
   <div class="purple-background">
     <div id="trusted_container">
       <h2 id="trusted_title">
-        Relevant, up to date Android content for 200,000 vendors and organisations visiting a year
+        Relevant, up to date Android content for 200,000 annual vendors & orgs globally
       </h2>
       <div id="vendor_logo_container">
         <div class="vendor-logo">
