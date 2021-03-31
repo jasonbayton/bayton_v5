@@ -594,10 +594,15 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
   grid-area: 3 / 2 / 4 / 3;
 }
 
-button#read_more, button#back_button, button#next_button {
+button#back_button, button#next_button {
   font-size: 22px;
   padding: 10px 40px;
   margin: 0 40px;
+}
+
+button#read_more {
+  font-size: 22px;
+  padding: 10px 40px;
 }
 
 section#archive_posts {
