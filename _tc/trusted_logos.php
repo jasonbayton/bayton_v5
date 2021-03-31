@@ -6,8 +6,11 @@
   <div class="purple-background">
     <div id="trusted_container">
       <h2 id="trusted_title">
-        Relevant, up to date Android content for 200,000 annual vendors & orgs globally
+        Relevant, up to date Android content for 200,000 visitors annually
       </h2>
+      <div id="trusted_tag">
+        Check out some of the vendors and organisations I've assisted or collaborated with
+      </div>
       <div id="vendor_logo_container">
         <div class="vendor-logo">
           <img alt="vmware logo" src="<?php echo $themerelpath ?>/img/vm.png"/>
