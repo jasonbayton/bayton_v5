@@ -316,8 +316,8 @@ button.arrow-only {
 .angled-background-top, .angled-background-bottom {
   display: block;
   transition: all 0.5s ease;
-  margin-top: -2px;
-  margin-bottom: -2px;
+  margin-top: -3px;
+  margin-bottom: -3px;
 }
 
 .left-triangle {
