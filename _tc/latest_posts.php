@@ -4,6 +4,9 @@
   </h2>
   <div id="latest_posts_container">
     <div id="latest_articles">
+      <h3 class="section-title">
+        Articles
+      </h3>
       <?php
         $i=0;
         foreach ($posts as $query){
@@ -38,6 +41,9 @@
       </button>
     </div>
     <div id="latest_docs">
+      <h3 class="section-title">
+        Docs
+      </h3>
       <?php
         $i=0;
         foreach ($posts as $query){
