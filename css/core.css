@@ -249,6 +249,10 @@ pre code {
   padding: 0!important;
 }
 
+.purple {
+  background-color: var(--dat-purple);
+}
+
 button {
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
@@ -330,6 +334,10 @@ button.arrow-only {
 
 .orange-cross {
   fill: var(--contrast);
+}
+
+.purple-triangle {
+  fill: var(--dat-purple);
 }
 
 #bayton {
@@ -601,6 +609,7 @@ section#trusted_logos {
   background-color: var(--dat-purple);
   padding: 20px 0;
   color: var(--bright);
+  margin-top: 100px;
 }
 
 section#older_posts {
@@ -970,7 +979,7 @@ article {max-width: 90%;}
   .mobile-hidden {
     display: none;
   }
-  
+
   #header_container {
     grid-template-columns: auto;
   }
