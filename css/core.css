@@ -652,7 +652,7 @@ h2#trusted_title {
 
 #vendor_disclaimer {
   font-size: 10px;
-  text-align: right;
+  text-align: center;
   padding-top: 5px;
 }
 
@@ -1038,12 +1038,17 @@ article {max-width: 90%;}
 
   #vendor_logo_container {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
   }
 
   #older_posts_container, #related_posts_container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     justify-items: center;
+  }
+
+  #vendor_disclaimer {
+    font-size: 5px;
   }
 
   #older_posts_container ul, #related_posts_container ul {
