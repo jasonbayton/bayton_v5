@@ -483,7 +483,7 @@ button#learn_more {
 section#featured {
   text-align: left;
   position: relative;
-  margin: 100px 0;
+  margin: 0 0 100px;
   color: var(--bright);
 }
 
@@ -606,7 +606,7 @@ section#archive_posts {
 }
 
 section#trusted_logos {
-  padding: 20px 0;
+  padding: 20px 0 0;
   color: var(--bright);
   margin-top: 100px;
 }

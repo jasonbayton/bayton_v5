@@ -2,7 +2,7 @@
 
 <div class="full-width">
   <section id="featured">
-    <svg class="angled-background-top purple" preserveAspectRatio="none" viewBox="0, 0, 100, 10">
+    <svg class="angled-background-top purple-background" preserveAspectRatio="none" viewBox="0, 0, 100, 10">
       <polygon class="left-triangle orange-cross" points="0,0 0,100 100,10"></polygon>
       <polygon class="right-triangle" points="100,100 100,0 0,10"></polygon>
     </svg>
