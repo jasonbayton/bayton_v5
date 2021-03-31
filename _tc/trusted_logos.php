@@ -19,7 +19,7 @@
           <img alt="microsoft logo" src="<?php echo $themerelpath ?>/img/ms.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="vodafone logo" src="<?php echo $themerelpath ?>/img/vod.webp"/>
+          <img alt="telefonica logo" src="<?php echo $themerelpath ?>/img/tele.webp"/>
         </div>
         <div class="vendor-logo">
           <img alt="citrix logo" src="<?php echo $themerelpath ?>/img/cit.png"/>
@@ -28,10 +28,10 @@
           <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/hmd.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/mi.png"/>
+          <img alt="mobileiron logo" src="<?php echo $themerelpath ?>/img/mi.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/sam.png"/>
+          <img alt="samsung logo" src="<?php echo $themerelpath ?>/img/sam.png"/>
         </div>
       </div>
       <div id="vendor_disclaimer">
