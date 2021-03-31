@@ -6,7 +6,7 @@
   <div class="purple-background">
     <div id="trusted_container">
       <h2 id="trusted_title">
-        Trusted content for 200,000 vendors, partners, and organisations a year
+        Trusted Android content for 200,000 vendors, and organisations a year
       </h2>
       <div id="vendor_logo_container">
         <div class="vendor-logo">
