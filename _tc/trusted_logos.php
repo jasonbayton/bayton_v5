@@ -18,13 +18,13 @@
           <img alt="vmware logo" src="<?php echo $themerelpath ?>/img/vm.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="blaud logo" src="<?php echo $themerelpath ?>/img/blaud.png"/>
+          <img alt="blaud logo" src="<?php echo $themerelpath ?>/img/android.webp"/>
         </div>
         <div class="vendor-logo">
           <img alt="microsoft logo" src="<?php echo $themerelpath ?>/img/wandera.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="telefonica logo" src="<?php echo $themerelpath ?>/img/tele.png"/>
+          <img alt="telefonica logo" src="<?php echo $themerelpath ?>/img/se.png"/>
         </div>
         <div class="vendor-logo">
           <img alt="citrix logo" src="<?php echo $themerelpath ?>/img/cit.png"/>
