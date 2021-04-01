@@ -14,12 +14,12 @@
       </div>
       <div class="latest-posts-title">
         <h3 class="latest-title">
-          15 reasons iOS is more secure than Google itself
+          <a href="/april-fool">15 reasons iOS is more secure than Google itself</a>
         </h3>
       </div>
       <div class="latest-posts-subtitle">
         <span class="the-subtitle">
-          Have you been inside a Google building? It's one guy on the door and a waist-high rolling barrier. You can easily take them both out.
+          Have you been inside a Google building? It's a few folks on the door and a waist-high barrier. You can easily take them out.
         </span>
       </div>
     </div>
@@ -34,12 +34,12 @@
       </div>
       <div class="latest-posts-title">
         <h3 class="latest-title">
-          And-what? There's literally no other mobile OS that matters
+          <a href="/april-fool">And-what? There's literally no other mobile OS that matters</a>
         </h3>
       </div>
       <div class="latest-posts-subtitle">
         <span class="the-subtitle">
-          What iOS lacks in features, speed of development, flexibility, and security, it makes up in ease of use
+          What iOS lacks in featureset, speed of development, flexibility, security updates...
         </span>
       </div>
     </div>
@@ -54,7 +54,7 @@
       </div>
       <div class="latest-posts-title">
         <h3 class="latest-title">
-          Transitioning your organisation to Mac
+          <a href="/april-fool">Transitioning your organisation to Mac</a>
         </h3>
       </div>
       <div class="latest-posts-subtitle">
@@ -74,7 +74,7 @@
       </div>
       <div class="latest-posts-title">
         <h3 class="latest-title">
-          Deprecations in un-supervised devices
+          <a href="/april-fool">Deprecations in un-supervised devices</a>
         </h3>
       </div>
       <div class="latest-posts-subtitle">
