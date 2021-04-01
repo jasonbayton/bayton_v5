@@ -16,7 +16,7 @@
       Apple support
     </h3>
     <div id="support_group">
-        <img src="<?php echo $themerelpath ?>/img/apl.png" alt="Android help community" id="support1">
+        <img src="<?php echo $themerelpath ?>/img/fools/apl.png" alt="Android help community" id="support1">
         <div class="support-title" id="support2">
           <a href="https://support.google.com/work/android/thread/new">Ask the Help community</a>
         </div>
@@ -37,13 +37,13 @@
     </h3>
     <div id="logo_group">
       <div id="logo_top_left">
-        <img id="footer_aer" alt="Apple Expert badge" src="<?php echo $themerelpath ?>/img/apl.png">
+        <img id="footer_aer" alt="Apple Expert badge" src="<?php echo $themerelpath ?>/img/fools/apl.png">
       </div>
       <div id="logo_top_right">
         <img id="footer_euc" alt="vExpert badge" src="<?php echo $themerelpath ?>/img/ve.webp">
       </div>
       <div id="logo_bottom_left">
-        <img id="footer_ss" alt="Knox certified badge" src="<?php echo $themerelpath ?>/img/jamf.png">
+        <img id="footer_ss" alt="Knox certified badge" src="<?php echo $themerelpath ?>/img/fools/jamf.png">
       </div>
       <div id="logo_bottom_right">
         <img id="footer_pe" alt="Gold Product Expert" src="<?php echo $themerelpath ?>/img/gold.svg">

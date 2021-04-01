@@ -15,28 +15,28 @@
       </div>
       <div id="vendor_logo_container">
         <div class="vendor-logo">
-          <img alt="vmware logo" src="<?php echo $themerelpath ?>/img/vm.png"/>
+          <img alt="vmware logo" src="<?php echo $themerelpath ?>/img/logos/vm.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="blaud logo" src="<?php echo $themerelpath ?>/img/android.webp"/>
+          <img alt="blaud logo" src="<?php echo $themerelpath ?>/img/logos/android.webp"/>
         </div>
         <div class="vendor-logo">
-          <img alt="microsoft logo" src="<?php echo $themerelpath ?>/img/wandera.png"/>
+          <img alt="microsoft logo" src="<?php echo $themerelpath ?>/img/logos/wandera.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="telefonica logo" src="<?php echo $themerelpath ?>/img/se.png"/>
+          <img alt="telefonica logo" src="<?php echo $themerelpath ?>/img/logos/se.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="citrix logo" src="<?php echo $themerelpath ?>/img/cit.png"/>
+          <img alt="citrix logo" src="<?php echo $themerelpath ?>/img/logos/cit.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/hmd.png"/>
+          <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/logos/hmd.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="mobileiron logo" src="<?php echo $themerelpath ?>/img/mii.png"/>
+          <img alt="mobileiron logo" src="<?php echo $themerelpath ?>/img/logos/mii.png"/>
         </div>
         <div class="vendor-logo">
-          <img alt="cwsi logo" src="<?php echo $themerelpath ?>/img/cwsi.png"/>
+          <img alt="cwsi logo" src="<?php echo $themerelpath ?>/img/logos/cwsi.png"/>
         </div>
       </div>
       <div id="vendor_disclaimer">
