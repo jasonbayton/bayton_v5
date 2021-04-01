@@ -540,6 +540,10 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
   grid-column-gap: 20px;
 }
 
+#latest_articles:first-child, #latest_articles:last-child, #latest_docs:first-child, #latest_docs:last-child {
+  text-align: center;
+}
+
 .a-post {
   padding-bottom: 60px;
   display: grid;
