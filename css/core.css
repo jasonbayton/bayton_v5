@@ -528,7 +528,7 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
   font-size: 60px;
 }
 
-#latest_posts_container, #archive_posts_container #content_container {
+#archive_posts_container #content_container {
   text-align: left;
 }
 
@@ -551,6 +551,7 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
   grid-template-rows: repeat(3, auto);
   grid-column-gap: 15px;
   grid-row-gap: 0px;
+  text-align: left;
 }
 
 .latest-posts-date {
