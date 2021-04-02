@@ -540,13 +540,13 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
 }
 
 #latest_articles {
-  background-color: #f4f4f4;
+  background-color: #fbfbfb;
   padding: 0 30px 30px;
   border-radius: 5px 0 0 5px;
 }
 
 #latest_docs {
-  border: 2px solid #f4f4f4;
+  border: 2px solid #fbfbfb;
   padding: 0 30px 30px;
   border-radius: 0 5px 5px 0;
 }
