@@ -542,13 +542,13 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
 #latest_articles {
   background-color: #fbfbfb;
   padding: 0 30px 30px;
-  border-radius: 5px 0 0 5px;
+  border-radius: 20px 0 0 20px;
 }
 
 #latest_docs {
   border: 2px solid #fbfbfb;
   padding: 0 30px 30px;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 20px 20px 0;
 }
 
 #latest_articles h2, #latest_articles button, #latest_docs h2, #latest_docs button {
