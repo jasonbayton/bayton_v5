@@ -1117,6 +1117,14 @@ article {max-width: 90%;}
     font-size: 5px;
   }
 
+  #latest_articles {
+    border-radius: 20px 20px 0 0;
+  }
+
+  #latest_docs {
+    border-radius: 0 0 20px 20px;
+  }
+
   #older_posts_container ul, #related_posts_container ul {
     padding: 0;
   }
