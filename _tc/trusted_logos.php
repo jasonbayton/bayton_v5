@@ -10,7 +10,7 @@
           Relevant, up to date Android content for 200,000 visitors annually
         </h2>
         <div id="trusted_tag">
-          Check out some of the vendors and organisations I've assisted or collaborated with
+          Some of the vendors and organisations I've assisted or collaborated with include:
         </div>
       </div>
       <div id="vendor_logo_container">
