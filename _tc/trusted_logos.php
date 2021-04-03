@@ -18,8 +18,10 @@
         $all_images = glob("{$themerelpath}/img/logos/{*.*}", GLOB_BRACE);
         shuffle($all_images);
         $images = array();
+        $i=0;
         foreach ($all_images as $index => $image) {
-          if ($index == 9) break;  // Only print 9 images
+          $i++;
+          if($i==9) break;
           $image_name = basename($image);
           echo $image_name;
           echo
