@@ -28,37 +28,12 @@
             <img alt="' . $image_name . '" src="' . $themerelpath . '/img/logos/' . $image_name . '"/>
           </div>';
         } ?>
-
-        <!--div class="vendor-logo">
-          <img alt="vmware logo" src="<?php echo $themerelpath ?>/img/logos/vm.png"/>
-        </div>
-        <div class="vendor-logo">
-          <img alt="blaud logo" src="<?php echo $themerelpath ?>/img/logos/android.webp"/>
-        </div>
-        <div class="vendor-logo">
-          <img alt="microsoft logo" src="<?php echo $themerelpath ?>/img/logos/wandera.png"/>
-        </div>
-        <div class="vendor-logo">
-          <img alt="telefonica logo" src="<?php echo $themerelpath ?>/img/logos/se.png"/>
-        </div>
-        <div class="vendor-logo">
-          <img alt="citrix logo" src="<?php echo $themerelpath ?>/img/logos/cit.png"/>
-        </div>
-        <div class="vendor-logo">
-          <img alt="hmd logo" src="<?php echo $themerelpath ?>/img/logos/hmd.png"/>
-        </div>
-        <div class="vendor-logo">
-          <img alt="mobileiron logo" src="<?php echo $themerelpath ?>/img/logos/mii.png"/>
-        </div>
-        <div class="vendor-logo">
-          <img alt="cwsi logo" src="<?php echo $themerelpath ?>/img/logos/cwsi.png"/>
-        </div-->
       </div>
       <div id="vendor_disclaimer">
         Data captured from annual analytics & social stats between 2019-2021
         showing website referrals, content shares, or similar interactions
       </div>
     </div>
-</div>
+  </div>
 </section>
 <div class="max-width"> <!-- Reviving max-width -->
