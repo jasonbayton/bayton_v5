@@ -17,7 +17,7 @@
         <?php
         $all_images = glob("{$themerelpath}/img/logos/*.*", GLOB_BRACE);
         echo $all_images;
-        printf $all_images;
+        printf ($all_images);
         shuffle($all_images);
         $images = array();
         $i=0;
