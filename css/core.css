@@ -194,9 +194,14 @@ a:hover {
 
 a:visited {
   background-color: var(--contrast);
-  color: var(--text);
-  border-bottom-color: var(--primary);
+  border-bottom-color: var(--contrast);
 }
+
+a:visited:hover {
+  color: var(--dark);
+}
+
+
 
 *:focus {
   outline: 0;
