@@ -14,7 +14,20 @@
         </div>
       </div>
       <div id="vendor_logo_container">
-        <div class="vendor-logo">
+        <?php
+        $all_images = glob($themerelpath . "/img/logos/{*.*}", GLOB_BRACE);
+        shuffle($all_images);
+        $images = array();
+        foreach ($all_images as $index => $image) {
+          if ($index == 9) break;  // Only print 9 images
+          $image_name = basename($image);
+          echo ?>
+          <div class="vendor-logo">
+            <img alt="<?php echo $image_name?>" src="<?php echo $themerelpath . '/img/logos/' . $image_name?> "/>
+          </div>
+        <?php } ?>
+
+        <!--div class="vendor-logo">
           <img alt="vmware logo" src="<?php echo $themerelpath ?>/img/logos/vm.png"/>
         </div>
         <div class="vendor-logo">
@@ -37,7 +50,7 @@
         </div>
         <div class="vendor-logo">
           <img alt="cwsi logo" src="<?php echo $themerelpath ?>/img/logos/cwsi.png"/>
-        </div>
+        </div-->
       </div>
       <div id="vendor_disclaimer">
         Data captured from annual analytics & social stats between 2019-2021
