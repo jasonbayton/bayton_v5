@@ -15,7 +15,7 @@
       </div>
       <div id="vendor_logo_container">
         <?php
-        $all_images = glob("{$themerelpath}/img/logos/{*.*}", GLOB_BRACE);
+        $all_images = glob("{$themerelpath}/img/logos/*.*", GLOB_BRACE);
         shuffle($all_images);
         $images = array();
         $i=0;
