@@ -21,6 +21,7 @@
         foreach ($all_images as $index => $image) {
           if ($index == 9) break;  // Only print 9 images
           $image_name = basename($image);
+          echo $image_name;
           echo
           '<div class="vendor-logo">
             <img alt="' . $image_name . '" src="' . $themerelpath . '/img/logos/' . $image_name . '"/>
