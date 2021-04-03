@@ -16,16 +16,13 @@
       <div id="vendor_logo_container">
         <?php
         $all_images = glob("theme/bayton_v5/img/logos/*.{jpg,gif,png}", GLOB_BRACE);
-        echo $all_images;
-        printf ($all_images);
         shuffle($all_images);
         $images = array();
         $i=0;
-        foreach ($all_images as $index => $image) {
+        foreach ($all_images as $image) {
           $i++;
           if($i==9) break;
           $image_name = basename($image);
-          echo $image_name;
           echo
           '<div class="vendor-logo">
             <img alt="' . $image_name . '" src="' . $themerelpath . '/img/logos/' . $image_name . '"/>
