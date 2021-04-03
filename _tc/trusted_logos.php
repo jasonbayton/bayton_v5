@@ -21,11 +21,11 @@
         foreach ($all_images as $index => $image) {
           if ($index == 9) break;  // Only print 9 images
           $image_name = basename($image);
-          echo; ?>
-          <div class="vendor-logo">
-            <img alt="<?php echo $image_name?>" src="<?php echo $themerelpath . '/img/logos/' . $image_name?> "/>
-          </div>
-        <?php } ?>
+          echo
+          '<div class="vendor-logo">
+            <img alt="' . $image_name . '" src="' . $themerelpath . '/img/logos/' . $image_name . '"/>
+          </div>';
+        } ?>
 
         <!--div class="vendor-logo">
           <img alt="vmware logo" src="<?php echo $themerelpath ?>/img/logos/vm.png"/>
