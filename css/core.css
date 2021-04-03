@@ -551,6 +551,10 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
   color: var(--bright);
 }
 
+#latest_articles .the-category {
+  color: var(--bright);
+}
+
 #latest_docs {
   border: 2px solid var(--dark);
   padding: 0 30px 30px;
