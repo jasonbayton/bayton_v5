@@ -546,7 +546,7 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
 
 #latest_articles {
   background-color: var(--dark);
-  padding: 0 30px 30px;
+  padding: 0 30px 50px;
   border-radius: 20px 0 0 20px;
   color: var(--bright);
 }
@@ -557,7 +557,7 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
 
 #latest_docs {
   border: 2px solid var(--dark);
-  padding: 0 30px 30px;
+  padding: 0 30px 50px;
   border-radius: 0 20px 20px 0;
 }
 
