@@ -153,7 +153,7 @@ h5 { font-size: 20px; }
 }
 
 :is(article :is(h1, h2, h3, h4, h5, h6)) a:hover::after {
-  display: unset;
+  display: inherit;
   color: var(--dat-purple);
   transition: all 0.2s ease;
 }
