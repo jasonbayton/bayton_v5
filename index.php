@@ -12,6 +12,7 @@
   </content>
   <footer>
     <?php require "_tc/footer.php"; ?>
+    <?php include "_tc/analytics.php"; ?>
   </footer>
 </body>
 </html>
