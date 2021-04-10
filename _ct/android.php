@@ -1,15 +1,19 @@
 <section id="archive_posts">
   <h2 id="archive_title">
-    Archive
+    Android Enterprise
   </h2>
   <div id="archive_posts_container">
 
     <?php
       foreach ($posts as $query){
         $transDate = date("M d, Y", strtotime($query['date']));
-        if ($query['published'] == "true") {
+        if ($query['parent'] == "Android") {
+          foreach ($query['topic'] {
+            echo $query['topic'];
+            echo $query['title'];
+          }
         ?>
-          <div class="a-post">
+          <!--div class="a-post">
             <div class="latest-posts-date">
               <div class="the-date">
                 <?php echo $transDate; ?>
@@ -29,7 +33,7 @@
                 <?php echo $query['subtitle']; ?>
               </span>
             </div>
-          </div>
+          </div-->
       <?php }} ?>
 
     </div>
