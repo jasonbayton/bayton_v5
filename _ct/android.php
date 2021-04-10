@@ -9,7 +9,8 @@
         $transDate = date("M d, Y", strtotime($query['date']));
         if ($query['parent'] == "Android") {
           foreach ($query['categories'] as $category) {
-            echo '<a href="' . $query['url'] . '">' . $query['title'] . '</a>';
+            echo '<h2>' . $category . '</h2>';
+            echo '<h2>' . $query['title'] . '</h2>';
           };
         ?>
           <div class="a-post">
