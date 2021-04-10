@@ -9,8 +9,8 @@
         $transDate = date("M d, Y", strtotime($query['date']));
         if ($query['parent'] == "Android") {
           foreach ($query['categories'] as $category) {
-            echo '<a href="' . $query['url'] . '">' . $query['title'] . '</a>'
-          }
+            echo '<a href="' . $query['url'] . '">' . $query['title'] . '</a>';
+          };
         ?>
           <div class="a-post">
             <div class="latest-posts-date">
