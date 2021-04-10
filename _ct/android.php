@@ -8,12 +8,13 @@
       foreach ($posts as $query){
         $transDate = date("M d, Y", strtotime($query['date']));
         if ($query['parent'] == "Android") {
-          foreach ($query['categories'] as $category) {
-            echo '<h2>' . $category . '</h2>';
+          foreach ($query['topic'] as $topic) {
+            echo '<h2>' . $topic . '</h2>';
+              if ($query['topic'] == $topic) {
             echo '<h2>' . $query['title'] . '</h2>';
-          };
+          }};
         ?>
-          <div class="a-post">
+          <!--div class="a-post">
             <div class="latest-posts-date">
               <div class="the-date">
                 <?php echo $transDate; ?>
@@ -33,7 +34,7 @@
                 <?php echo $query['subtitle']; ?>
               </span>
             </div>
-          </div>
+          </div-->
       <?php }} ?>
 
     </div>
