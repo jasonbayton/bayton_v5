@@ -8,8 +8,8 @@
       foreach ($posts as $query){
         $transDate = date("M d, Y", strtotime($query['date']));
         if ($query['parent'] == "Android") {
-          foreach $query['topic'] {
-            echo $query['topic'];
+          foreach ()$query['topic'] as $vtopic) {
+            echo $vtopic['topic'];
             echo $query['title'];
           };
         ?>
