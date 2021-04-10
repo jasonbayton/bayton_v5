@@ -8,10 +8,6 @@
       foreach ($posts as $query){
         $transDate = date("M d, Y", strtotime($query['date']));
         if ($query['parent'] == "Android") {
-          foreach ($query['topic'] as $topic) {
-            echo $query['topic'];
-            echo $query['title'];
-          };
         ?>
           <!--div class="a-post">
             <div class="latest-posts-date">
