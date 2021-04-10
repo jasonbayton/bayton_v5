@@ -9,7 +9,7 @@
         $transDate = date("M d, Y", strtotime($query['date']));
         if ($query['parent'] == "Android") {
         ?>
-          <!--div class="a-post">
+          <div class="a-post">
             <div class="latest-posts-date">
               <div class="the-date">
                 <?php echo $transDate; ?>
@@ -29,7 +29,7 @@
                 <?php echo $query['subtitle']; ?>
               </span>
             </div>
-          </div-->
+          </div>
       <?php }} ?>
 
     </div>
