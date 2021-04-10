@@ -1,6 +1,6 @@
   <?php if (!empty($post['topic'] && $post['parent'])){ ?>
     <div id="breadcrumb">
-      <?php echo $post['topic'];?> <i class="fas fa-caret-right"></i> <?php echo $post['parent']; ?>
+      <?php echo $post['parent'];?> <i class="fas fa-caret-right"></i> <?php echo $post['topic']; ?>
     </div>
   <?php }; ?>
 
