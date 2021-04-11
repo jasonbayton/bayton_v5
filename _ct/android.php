@@ -12,11 +12,10 @@
     <ul class="related-posts-list">
       <?php if (in_array($topic, $query['topic']) && $query['published'] == "true") {
             echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-          };
-        } } ?>
+          }; ?>
         </ul>
       </div>
-    <?php  } ?>
+    <?php } } ?>
 
     </div>
   </section>
