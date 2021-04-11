@@ -9,10 +9,11 @@
       foreach ($query['topic'] as $topic) { ?>
       <div class="related-post-column">
       <?php echo '<div class="tag-title">'.$topic.'</div>'; ?>
-    <ul class="related-posts-list">
-      <?php if (in_array($topic, $query['topic']) && $query['published'] == "true") {
+      <ul class="related-posts-list">
+      <?php foreach ($posts as $query){
+       if (in_array($topic, $query['topic']) && $query['published'] == "true") {
             echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-          }; ?>
+          }}; ?>
         </ul>
       </div>
     <?php } } ?>
