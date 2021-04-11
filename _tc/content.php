@@ -11,6 +11,5 @@ $readtime = ceil($readtime);
 
 include ("$themedir/_ct/{$post['type']}.php");
 echo '<!-- Content type:' . $post['type'] . '-->';
-echo '<!-- URL:' . $post[$url] . '-->';
 ?>
 </div>
