@@ -642,8 +642,14 @@ h3.section-title{
   grid-gap: 40px;
 }
 
-.android-topic-title {
-
+.android-topic-title li a::before {
+  content: "\f17b";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  color: #78c657;
+  }
 }
 
 button#back_button, button#next_button {
