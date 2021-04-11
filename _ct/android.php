@@ -9,7 +9,7 @@
       <?php echo '<div class="tag-title">'.$topic.'</div>'; ?>
     <ul class="related-posts-list">
       <?php foreach ($posts as $query){
-          if (in_array($topc, $query['topic']) && $query['published'] == "true") {
+          if (in_array($topic, $query['topic']) && $query['published'] == "true") {
             echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
           };
         } ?>
