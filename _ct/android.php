@@ -4,38 +4,18 @@
   </h2>
   <div id="archive_posts_container">
 
-    <?php
-      foreach ($posts as $query){
-        $transDate = date("M d, Y", strtotime($query['date']));
-        if ($query['parent'] == "Android") {
-          foreach ($query['topic'] as $topic) {
-            echo '<h2>' . $topic . '</h2>';
-              if ($query['topic'] == $topic) {
-            echo '<h2>' . $query['title'] . '</h2>';
-          }};
-        ?>
-          <!--div class="a-post">
-            <div class="latest-posts-date">
-              <div class="the-date">
-                <?php echo $transDate; ?>
-              </div>
-            </div>
-            <div class="latest-posts-categories">
-            <?php foreach ($query['categories'] as $category) {
-                echo '<span class="the-category">' . $category .'</span>'; }; ?>
-            </div>
-            <div class="latest-posts-title">
-              <h3 class="latest-title">
-                <?php echo '<a href="' . $query['url'] . '">' . $query['title'] . '</a>' ?>
-              </h3>
-            </div>
-            <div class="latest-posts-subtitle">
-              <span class="the-subtitle">
-                <?php echo $query['subtitle']; ?>
-              </span>
-            </div>
-          </div-->
-      <?php }} ?>
+    <?php foreach ($post['topic'] as $topic) { ?>
+      <div class="related-post-column">
+      <?php echo '<div class="tag-title">'.$topic.'</div>'; ?>
+    <ul class="related-posts-list">
+      <?php foreach ($posts as $query){
+          if (in_array($topc, $query['topic']) && $query['published'] == "true") {
+            echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+          };
+        } ?>
+        </ul>
+      </div>
+    <?php  } ?>
 
     </div>
   </section>
