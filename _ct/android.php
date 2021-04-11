@@ -6,10 +6,10 @@
 
     <?php
       foreach ($posts as $query){
-      $query['topic'] = array_unique($query['topic']);
-      foreach ($query['topic'] as $topic) { ?>
+      foreach ($query['topic'] as $topic) {
+      $unique = array_unique($topic);
       <div class="related-post-column">
-      <?php echo '<div class="tag-title">'.$topic.'</div>'; ?>
+      <?php echo '<div class="tag-title">'.$unique.'</div>'; ?>
       <ul class="related-posts-list">
       <?php foreach ($posts as $query){
        if (in_array($topic, $query['topic']) && $query['published'] == "true") {
