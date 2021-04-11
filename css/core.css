@@ -545,7 +545,7 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
   text-align: left;
 }
 
-#latest_posts_container {
+#latest_posts_container, #android_post_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
