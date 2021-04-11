@@ -26,7 +26,7 @@
       <div id="android_post_container">
         <div class="android-topic">
           <div class="android-topic-title">
-            Getting started
+            <h2>Getting started</h2>
           </div>
           <?php
           foreach ($posts as $query){
@@ -38,7 +38,7 @@
 
         <div class="android-topic">
           <div class="android-topic-title">
-            Diving deeper
+            <h2>Diving deeper</h2>
           </div>
           <?php
           foreach ($posts as $query){
@@ -50,7 +50,7 @@
 
         <div class="android-topic">
           <div class="android-topic-title">
-            Zero-touch
+            <h2>Zero-touch</h2>
           </div>
           <?php
           foreach ($posts as $query){
@@ -62,7 +62,7 @@
 
         <div class="android-topic">
           <div class="android-topic-title">
-            App management
+            <h2>App management</h2>
           </div>
           <?php
           foreach ($posts as $query){
@@ -74,7 +74,7 @@
 
         <div class="android-topic">
           <div class="android-topic-title">
-            Vendor specific
+            <h2>Vendor specific</h2>
           </div>
           <?php
           foreach ($posts as $query){
@@ -86,7 +86,7 @@
 
         <div class="android-topic">
           <div class="android-topic-title">
-            Resources
+            <h2>Resources</h2>
           </div>
           <?php
           foreach ($posts as $query){
@@ -98,7 +98,7 @@
 
         <div class="android-topic">
           <div class="android-topic-title">
-            Articles
+            <h2>Articles</h2>
           </div>
           <?php
           foreach ($posts as $query){

@@ -545,7 +545,7 @@ section#latest_posts h2, section#archive_posts h2, h2#article_title {
   text-align: left;
 }
 
-#latest_posts_container, #android_post_container {
+#latest_posts_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
@@ -632,6 +632,17 @@ h3.section-title{
 
 .latest-posts-subtitle {
   grid-area: 3 / 2 / 4 / 3;
+}
+
+#android_post_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  grid-gap: 40px;
+
+.android-topic-title {
+  
 }
 
 button#back_button, button#next_button {
