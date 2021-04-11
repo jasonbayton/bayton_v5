@@ -642,7 +642,7 @@ h3.section-title{
   grid-gap: 40px;
 }
 
-.android-topic-title li a::before {
+.android-topic-title ul li a::before {
   content: "\f17b";
   font-family: FontAwesome;
   display: inline-block;
