@@ -4,7 +4,9 @@
   </h2>
   <div id="archive_posts_container">
 
-    <?php foreach ($post['topic'] as $topic) { ?>
+    <?php foreach ($post['topic'] as $topic) {
+      echo $topic;?>
+
       <div class="related-post-column">
       <?php echo '<div class="tag-title">'.$topic.'</div>'; ?>
     <ul class="related-posts-list">
