@@ -6,8 +6,8 @@
 
     <?php
       foreach ($posts as $query){
-      foreach ($query['topic'] as $topic) {
-      $topic = array_unique($topic); ?>
+      $query['topic'] = array_unique($query['topic']);
+      foreach ($query['topic'] as $topic) { ?>
       <div class="related-post-column">
       <?php echo '<div class="tag-title">'.$topic.'</div>'; ?>
       <ul class="related-posts-list">
