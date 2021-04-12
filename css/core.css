@@ -642,14 +642,14 @@ h3.section-title{
   grid-gap: 40px;
 }
 
-.android-topic-title ul li::marker {
+.android-topic ul li::marker {
   content: "\f17b";
   font-family: "Font Awesome 5 Brands";
   color: #78c657;
   padding-right: 5px;
 }
 
-.android-topic-title ul {
+.android-topic ul {
   padding-inline-start: 15px;
 }
 
