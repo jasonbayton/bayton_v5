@@ -116,7 +116,7 @@
             <ul>
             <?php
             foreach ($posts as $query){
-              if (in_array('enterprise', $query['categories']) && $query['published'] == "true") {
+              if (in_array('enterprise', $query['categories']) && in_array('android', $query['tags']) && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
             } ?>
