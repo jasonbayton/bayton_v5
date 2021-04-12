@@ -31,7 +31,7 @@
           <ul>
           <?php
           foreach ($posts as $query){
-            if ($query['topic']) == "Getting started" && $query['published'] == "true") {
+            if ($query['topic'] == "Getting started" && $query['published'] == "true") {
               echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
             };
           } ?>
@@ -45,7 +45,7 @@
           <ul>
           <?php
           foreach ($posts as $query){
-            if ($query['topic']) == "Diving deeper" && $query['published'] == "true") {
+            if ($query['topic'] == "Diving deeper" && $query['published'] == "true") {
               echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
             };
           } ?>
@@ -59,7 +59,7 @@
           <ul>
           <?php
           foreach ($posts as $query){
-            if ($query['topic']) == "Zero-touch" && $query['published'] == "true") {
+            if ($query['topic'] == "Zero-touch" && $query['published'] == "true") {
               echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
             };
           } ?>
@@ -73,7 +73,7 @@
           <ul>
           <?php
           foreach ($posts as $query){
-            if ($query['topic']) == "App management" && $query['published'] == "true") {
+            if ($query['topic'] == "App management" && $query['published'] == "true") {
               echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
             };
           } ?>
@@ -87,7 +87,7 @@
           <ul>
           <?php
           foreach ($posts as $query){
-            if ($query['topic']) == "Vendor specific" && $query['published'] == "true") {
+            if ($query['topic'] == "Vendor specific" && $query['published'] == "true") {
               echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
             };
           } ?>
@@ -101,7 +101,7 @@
           <ul>
           <?php
           foreach ($posts as $query){
-            if ($query['topic']) == "Resources" && $query['published'] == "true") {
+            if ($query['topic'] == "Resources" && $query['published'] == "true") {
               echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
             };
           } ?>
