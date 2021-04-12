@@ -1167,6 +1167,11 @@ article {max-width: 90%;}
     border-radius: 0 0 20px 20px;
   }
 
+  #android_post_container {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
   #older_posts_container ul, #related_posts_container ul {
     padding: 0;
   }
