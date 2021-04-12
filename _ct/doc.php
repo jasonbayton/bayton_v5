@@ -30,7 +30,7 @@
       echo $Parsedown->text($content);
       ?>
     </div>
-    <?php include "$themedir/_tc/share.php"; ?>
+    <?php include "$themedir/_tc/report.php"; ?>
   </article>
 </section>
 <?php include "$themedir/_tc/related_posts.php"; ?>

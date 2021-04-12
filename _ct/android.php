@@ -126,6 +126,6 @@
       </div>
 
     </div>
-    <?php include "$themedir/_tc/share.php"; ?>
+    <?php include "$themedir/_tc/report.php"; ?>
   </article>
 </section>

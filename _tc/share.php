@@ -14,6 +14,4 @@
     <span id="share_em"><i class="fas fa-envelope-square"></i></span>
   </div-->
 </div>
-<div id="content_report">
-  Problem with this content? <a href="https://github.com/jasonbayton/baytonorg_content/blob/master/<?php echo $post['url'];?>">Submit a PR</a>.
-</div>
+<?php include "$themedir/_tc/report.php"; ?>
