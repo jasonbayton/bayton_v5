@@ -24,102 +24,104 @@
     <div id="literal_content" class="js-toc-content">
 
       <div id="android_post_container">
-        <div class="android-topic">
-          <div class="android-topic-title">
-            <h2>Getting started</h2>
+        <div id="android_grid_left">
+          <div class="android-topic">
+            <div class="android-topic-title">
+              <h2>Getting started</h2>
+            </div>
+            <ul>
+            <?php
+            foreach ($posts as $query){
+              if ($query['topic'] == "Getting started" && $query['published'] == "true") {
+                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+              };
+            } ?>
+            </ul>
           </div>
-          <ul>
-          <?php
-          foreach ($posts as $query){
-            if ($query['topic'] == "Getting started" && $query['published'] == "true") {
-              echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-            };
-          } ?>
-          </ul>
-        </div>
 
-        <div class="android-topic">
-          <div class="android-topic-title">
-            <h2>Diving deeper</h2>
+          <div class="android-topic">
+            <div class="android-topic-title">
+              <h2>Diving deeper</h2>
+            </div>
+            <ul>
+            <?php
+            foreach ($posts as $query){
+              if ($query['topic'] == "Diving deeper" && $query['published'] == "true") {
+                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+              };
+            } ?>
+            </ul>
           </div>
-          <ul>
-          <?php
-          foreach ($posts as $query){
-            if ($query['topic'] == "Diving deeper" && $query['published'] == "true") {
-              echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-            };
-          } ?>
-          </ul>
-        </div>
 
-        <div class="android-topic">
-          <div class="android-topic-title">
-            <h2>Zero-touch</h2>
+          <div class="android-topic">
+            <div class="android-topic-title">
+              <h2>Zero-touch</h2>
+            </div>
+            <ul>
+            <?php
+            foreach ($posts as $query){
+              if ($query['topic'] == "Zero-touch" && $query['published'] == "true") {
+                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+              };
+            } ?>
+            </ul>
           </div>
-          <ul>
-          <?php
-          foreach ($posts as $query){
-            if ($query['topic'] == "Zero-touch" && $query['published'] == "true") {
-              echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-            };
-          } ?>
-          </ul>
-        </div>
 
-        <div class="android-topic">
-          <div class="android-topic-title">
-            <h2>App management</h2>
+          <div class="android-topic">
+            <div class="android-topic-title">
+              <h2>App management</h2>
+            </div>
+            <ul>
+            <?php
+            foreach ($posts as $query){
+              if ($query['topic'] == "App management" && $query['published'] == "true") {
+                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+              };
+            } ?>
+            </ul>
           </div>
-          <ul>
-          <?php
-          foreach ($posts as $query){
-            if ($query['topic'] == "App management" && $query['published'] == "true") {
-              echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-            };
-          } ?>
-          </ul>
-        </div>
 
-        <div class="android-topic">
-          <div class="android-topic-title">
-            <h2>Vendor specific</h2>
+          <div class="android-topic">
+            <div class="android-topic-title">
+              <h2>Vendor specific</h2>
+            </div>
+            <ul>
+            <?php
+            foreach ($posts as $query){
+              if ($query['topic'] == "Vendor specific" && $query['published'] == "true") {
+                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+              };
+            } ?>
+            </ul>
           </div>
-          <ul>
-          <?php
-          foreach ($posts as $query){
-            if ($query['topic'] == "Vendor specific" && $query['published'] == "true") {
-              echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-            };
-          } ?>
-          </ul>
+          <div class="android-topic">
+            <div class="android-topic-title">
+              <h2>Resources</h2>
+            </div>
+            <ul>
+            <?php
+            foreach ($posts as $query){
+              if ($query['topic'] == "Resources" && $query['published'] == "true") {
+                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+              };
+            } ?>
+            </ul>
+          </div>
         </div>
-
-        <div class="android-topic">
-          <div class="android-topic-title">
-            <h2>Resources</h2>
+        <div id="androi_grid_right">
+          <div class="android-topic">
+            <div class="android-topic-title">
+              <h2>Articles</h2>
+            </div>
+            <ul>
+            <?php
+            foreach ($posts as $query){
+              if (in_array('enterprise', $query['categories']) && $query['published'] == "true") {
+                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+              };
+            } ?>
+            </ul>
           </div>
-          <ul>
-          <?php
-          foreach ($posts as $query){
-            if ($query['topic'] == "Resources" && $query['published'] == "true") {
-              echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-            };
-          } ?>
-          </ul>
-        </div>
-
-        <div class="android-topic">
-          <div class="android-topic-title">
-            <h2>Articles</h2>
-          </div>
-          <ul>
-          <?php
-          foreach ($posts as $query){
-            if (in_array('enterprise', $query['categories']) && $query['published'] == "true") {
-              echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-            };
-          } ?>
-          </ul>
         </div>
       </div>
 
