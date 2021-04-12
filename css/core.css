@@ -642,14 +642,15 @@ h3.section-title{
   grid-gap: 40px;
 }
 
-.android-topic-title ul li a::before {
+.android-topic-title ul li::marker {
   content: "\f17b";
-  font-family: FontAwesome;
-  display: inline-block;
-  margin-left: -1.3em;
-  width: 1.3em;
+  font-family: "Font Awesome 5 Brands";
   color: #78c657;
-  }
+  padding-right: 5px;
+}
+
+.android-topic-title ul {
+  padding-inline-start: 15px;
 }
 
 button#back_button, button#next_button {
