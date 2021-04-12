@@ -13,4 +13,4 @@
 <script src="<?php echo $themerelpath ?>/js/darkmode.js"></script>
 <link rel = "stylesheet" href = "<?php echo $themerelpath ?>/css/core.css?v=<?php echo $randomnumber;?>">
 <link rel = "stylesheet" href = "<?php echo $themerelpath ?>/css/webfonts.css">
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" crossorigin="anonymous"/>
