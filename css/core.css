@@ -653,6 +653,10 @@ h3.section-title{
   padding-inline-start: 15px;
 }
 
+.android-topic ul li {
+  padding-left: 5px;
+}
+
 button#back_button, button#next_button {
   font-size: 22px;
   padding: 10px 40px;
