@@ -112,9 +112,9 @@
               <h2>External resources</h2>
             </div>
             <?php
-            $external = file_get_contents("android/topics/external.md")
+            $external = file_get_contents("android/topics/external.md");
             echo $Parsedown->text($external);
-            } ?>
+            ?>
           </div>
         </div>
         <div id="android_grid_right">
