@@ -133,7 +133,7 @@
               Useful documentation from other sources.
             </div>
             <?php
-            $external = file_get_contents("content/docs/android/topics/external.md");
+            $external = file_get_contents("content/docs/android/topics/external-resources.md");
             echo $Parsedown->text($external);
             ?>
           </div>
