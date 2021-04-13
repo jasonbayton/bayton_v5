@@ -113,7 +113,6 @@
             </div>
             <?php
             $external = file_get_contents("content/docs/android/topics/external.md");
-            echo $external;
             echo $Parsedown->text($external);
             ?>
           </div>
