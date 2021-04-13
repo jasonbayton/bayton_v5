@@ -24,8 +24,8 @@
     <div id="literal_content" class="js-toc-content">
 
       <?php
-      $external = file_get_contents("content/docs/android/topics/intro.md");
-      echo $Parsedown->text($external);
+      $intro = file_get_contents("content/docs/android/topics/intro.md");
+      echo $Parsedown->text($intro);
       ?>
 
       <?php include "$themedir/_tc/featured_doc.php"; ?>
