@@ -198,6 +198,7 @@ a:hover {
   margin-right: -5px;
   border-radius: 5px;
   color: var(--bright);
+  box-decoration-break: clone;
 }
 
 a:visited {
