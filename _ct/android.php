@@ -155,6 +155,18 @@
             } ?>
             </ul>
           </div>
+          <div class="android-topic">
+            <div class="android-topic-title">
+              <h2>External articles</h2>
+            </div>
+            <div class="android-topic-subtitle">
+              Articles I've written for external publishers.
+            </div>
+            <?php
+            $external = file_get_contents("content/docs/android/topics/external-blogs.md");
+            echo $Parsedown->text($external);
+            ?>
+          </div>
         </div>
       </div>
 
