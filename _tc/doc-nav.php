@@ -4,7 +4,7 @@
   </div>
   <div class="android-topic">
     <div class="android-topic-title">
-      <h3>Getting started</h3>
+      Getting started
     </div>
     <ul>
     <?php
@@ -18,7 +18,7 @@
 
   <div class="android-topic">
     <div class="android-topic-title">
-      <h3>Diving deeper</h3>
+      Diving deeper
     </div>
     <ul>
     <?php
@@ -32,7 +32,7 @@
 
   <div class="android-topic">
     <div class="android-topic-title">
-      <h3>Zero-touch</h3>
+      Zero-touch
     </div>
     <ul>
     <?php
@@ -46,7 +46,7 @@
 
   <div class="android-topic">
     <div class="android-topic-title">
-      <h3>App management</h3>
+      App management
     </div>
     <ul>
     <?php
@@ -60,7 +60,7 @@
 
   <div class="android-topic">
     <div class="android-topic-title">
-      <h3>Vendor specific</h3>
+      Vendor specific
     </div>
     <ul>
     <?php
@@ -73,7 +73,7 @@
   </div>
   <div class="android-topic">
     <div class="android-topic-title">
-      <h3>Resources</h3>
+      Resources
     </div>
     <ul>
     <?php
