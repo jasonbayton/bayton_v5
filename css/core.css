@@ -199,6 +199,8 @@ a:hover {
   border-radius: 5px;
   color: var(--bright);
   box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
 }
 
 a:visited {
