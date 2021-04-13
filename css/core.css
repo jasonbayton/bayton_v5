@@ -1169,7 +1169,7 @@ article {max-width: 90%;}
 
   #android_post_container {
     grid-template-columns: 1fr;
-    grid-gap: 20px;
+    grid-gap: 0;
   }
 
   #older_posts_container ul, #related_posts_container ul {
