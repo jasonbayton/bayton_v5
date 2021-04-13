@@ -196,8 +196,11 @@ a:hover {
   padding: 0 5px;
   margin-left: -5px;
   margin-right: -5px;
-  border-radius: 5px;
+  border-radius: 0px;
   color: var(--bright);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
 }
 
 a:visited {
@@ -654,7 +657,7 @@ h3.section-title{
 }
 
 .android-topic ul li {
-  padding: 0 5px 15px;
+  padding: 0 8px 15px;
 }
 
 button#back_button, button#next_button {
