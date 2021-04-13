@@ -18,4 +18,5 @@
     </div>
   </div>
   <?php include "$themedir/_tc/toc.php"; ?>
+  <?php include "$themedir/_tc/doc-nav.php"; ?>
 </div>
