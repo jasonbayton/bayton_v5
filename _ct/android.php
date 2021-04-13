@@ -29,6 +29,9 @@
             <div class="android-topic-title">
               <h2>Getting started</h2>
             </div>
+            <div class="android-topic-subtitle">
+              Just getting familiar with Android or Android Enterprise? Start here. The following documents offer an introduction to Android Enterprise and the various moving parts in order to offer a broad overview of the ecosystem.
+            </div>
             <ul>
             <?php
             foreach ($posts as $query){
@@ -42,6 +45,9 @@
           <div class="android-topic">
             <div class="android-topic-title">
               <h2>Diving deeper</h2>
+            </div>
+            <div class="android-topic-subtitle">
+              Ready to learn more? Read on.
             </div>
             <ul>
             <?php
@@ -57,6 +63,9 @@
             <div class="android-topic-title">
               <h2>Zero-touch</h2>
             </div>
+            <div class="android-topic-subtitle">
+              Disclaimer: touches required when learning about zero-touch
+            </div>
             <ul>
             <?php
             foreach ($posts as $query){
@@ -70,6 +79,9 @@
           <div class="android-topic">
             <div class="android-topic-title">
               <h2>App management</h2>
+            </div>
+            <div class="android-topic-subtitle">
+              Managed config, managed Google Play, whitelists, blacklists, permissions management.. learn more about app management.
             </div>
             <ul>
             <?php
@@ -85,6 +97,9 @@
             <div class="android-topic-title">
               <h2>Vendor specific</h2>
             </div>
+            <div class="android-topic-subtitle">
+              The occasional docs targeted at specific vendors. Learn how to do something with [solution here].
+            </div>
             <ul>
             <?php
             foreach ($posts as $query){
@@ -97,6 +112,9 @@
           <div class="android-topic">
             <div class="android-topic-title">
               <h2>Resources</h2>
+            </div>
+            <div class="android-topic-subtitle">
+              Free guides, infographics and other information.
             </div>
             <ul>
             <?php
@@ -111,6 +129,9 @@
             <div class="android-topic-title">
               <h2>External resources</h2>
             </div>
+            <div class="android-topic-subtitle">
+              Useful documentation from other sources.
+            </div>
             <?php
             $external = file_get_contents("content/docs/android/topics/external.md");
             echo $Parsedown->text($external);
@@ -121,6 +142,9 @@
           <div class="android-topic">
             <div class="android-topic-title">
               <h2>Articles</h2>
+            </div>
+            <div class="android-topic-subtitle">
+              For topical content around news and events.
             </div>
             <ul>
             <?php
