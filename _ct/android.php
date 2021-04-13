@@ -23,6 +23,13 @@
 
     <div id="literal_content" class="js-toc-content">
 
+      <?php
+      $external = file_get_contents("content/docs/android/topics/intro.md");
+      echo $Parsedown->text($external);
+      ?>
+
+      <?php include "$themedir/_tc/featured_doc.php"; ?>
+
       <div id="android_post_container">
         <div id="android_grid_left">
           <div class="android-topic">
