@@ -14,12 +14,12 @@
       };
     } ?>
     </ul>
-  </div>
+  </details>
 
   <details class="android-topic">
     <summary class="android-topic-title">
       Diving deeper
-    </div>
+    </summary>
     <ul>
     <?php
     foreach ($posts as $query){
@@ -28,12 +28,12 @@
       };
     } ?>
     </ul>
-  </div>
+  </details>
 
   <details class="android-topic">
     <summary class="android-topic-title">
       Zero-touch
-    </div>
+    </summary>
     <ul>
     <?php
     foreach ($posts as $query){
@@ -42,12 +42,12 @@
       };
     } ?>
     </ul>
-  </div>
+  </details>
 
   <details class="android-topic">
     <summary class="android-topic-title">
       App management
-    </div>
+    </summary>
     <ul>
     <?php
     foreach ($posts as $query){
@@ -56,12 +56,12 @@
       };
     } ?>
     </ul>
-  </div>
+  </details>
 
   <details class="android-topic">
     <summary class="android-topic-title">
       Vendor specific
-    </div>
+    </summary>
     <ul>
     <?php
     foreach ($posts as $query){
@@ -70,11 +70,11 @@
       };
     } ?>
     </ul>
-  </div>
+  </details>
   <details class="android-topic">
     <summary class="android-topic-title">
       Resources
-    </div>
+    </summary>
     <ul>
     <?php
     foreach ($posts as $query){
@@ -83,5 +83,5 @@
       };
     } ?>
     </ul>
-  </div>
+  </details>
 </div>
