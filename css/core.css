@@ -864,7 +864,6 @@ section#content_container {
 
 #aside_container {
   padding-top: 0px;
-  overflow-y: scroll;
 }
 
 #share_em { color: red; }
@@ -1256,10 +1255,6 @@ article {max-width: 90%;}
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-column-gap: 0px;
-  }
-
-  aside {
-    height:100vh;
   }
 
   #content_container aside {
