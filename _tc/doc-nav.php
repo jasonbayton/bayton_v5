@@ -2,8 +2,8 @@
   <div class="aside-title">
     <h2>Documents</h2>
   </div>
-  <div class="android-topic">
-    <div class="android-topic-title">
+  <details class="android-topic">
+    <summary class="android-topic-title">
       Getting started
     </div>
     <ul>
@@ -16,8 +16,8 @@
     </ul>
   </div>
 
-  <div class="android-topic">
-    <div class="android-topic-title">
+  <details class="android-topic">
+    <summary class="android-topic-title">
       Diving deeper
     </div>
     <ul>
@@ -30,8 +30,8 @@
     </ul>
   </div>
 
-  <div class="android-topic">
-    <div class="android-topic-title">
+  <details class="android-topic">
+    <summary class="android-topic-title">
       Zero-touch
     </div>
     <ul>
@@ -44,8 +44,8 @@
     </ul>
   </div>
 
-  <div class="android-topic">
-    <div class="android-topic-title">
+  <details class="android-topic">
+    <summary class="android-topic-title">
       App management
     </div>
     <ul>
@@ -58,8 +58,8 @@
     </ul>
   </div>
 
-  <div class="android-topic">
-    <div class="android-topic-title">
+  <details class="android-topic">
+    <summary class="android-topic-title">
       Vendor specific
     </div>
     <ul>
@@ -71,8 +71,8 @@
     } ?>
     </ul>
   </div>
-  <div class="android-topic">
-    <div class="android-topic-title">
+  <details class="android-topic">
+    <summary class="android-topic-title">
       Resources
     </div>
     <ul>
