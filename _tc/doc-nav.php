@@ -5,7 +5,7 @@
   <?php if ($post['topic'] == $query['topic']) { ?>
   <details open class="android-topic">
   <?php } else { ?>
-  <details open class="android-topic">
+  <details class="android-topic">
     <?php } ?>
     <summary class="android-topic-title">
       Getting started
@@ -20,7 +20,11 @@
     </ul>
   </details>
 
+  <?php if ($post['topic'] == $query['topic']) { ?>
+  <details open class="android-topic">
+  <?php } else { ?>
   <details class="android-topic">
+    <?php } ?>
     <summary class="android-topic-title">
       Diving deeper
     </summary>
@@ -34,7 +38,11 @@
     </ul>
   </details>
 
+  <?php if ($post['topic'] == $query['topic']) { ?>
+  <details open class="android-topic">
+  <?php } else { ?>
   <details class="android-topic">
+    <?php } ?>
     <summary class="android-topic-title">
       Zero-touch
     </summary>
@@ -48,7 +56,11 @@
     </ul>
   </details>
 
+  <?php if ($post['topic'] == $query['topic']) { ?>
+  <details open class="android-topic">
+  <?php } else { ?>
   <details class="android-topic">
+    <?php } ?>
     <summary class="android-topic-title">
       App management
     </summary>
@@ -62,7 +74,11 @@
     </ul>
   </details>
 
+  <?php if ($post['topic'] == $query['topic']) { ?>
+  <details open class="android-topic">
+  <?php } else { ?>
   <details class="android-topic">
+    <?php } ?>
     <summary class="android-topic-title">
       Vendor specific
     </summary>
@@ -75,7 +91,11 @@
     } ?>
     </ul>
   </details>
+  <?php if ($post['topic'] == $query['topic']) { ?>
+  <details open class="android-topic">
+  <?php } else { ?>
   <details class="android-topic">
+    <?php } ?>
     <summary class="android-topic-title">
       Resources
     </summary>
