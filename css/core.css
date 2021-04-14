@@ -864,10 +864,7 @@ section#content_container {
 
 #aside_container {
   padding-top: 0px;
-  position: fixed;
   overflow-y: scroll;
-  top: 0;
-  bottom: 0;
 }
 
 #share_em { color: red; }
@@ -1262,7 +1259,7 @@ article {max-width: 90%;}
   }
 
   aside {
-    display: relative;
+    height:100vh;
   }
 
   #content_container aside {
