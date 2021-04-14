@@ -2,7 +2,11 @@
   <div class="aside-title">
     <h2>Documents</h2>
   </div>
-  <details class="android-topic">
+  <?php if ($post['topic'] == $query['topic']) { ?>
+  <details open class="android-topic">
+  <?php } else { ?>
+  <details open class="android-topic">
+    <?php } ?>
     <summary class="android-topic-title">
       Getting started
     </summary>
