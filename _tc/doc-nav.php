@@ -5,7 +5,7 @@
   <details class="android-topic">
     <summary class="android-topic-title">
       Getting started
-    </div>
+    </summary>
     <ul>
     <?php
     foreach ($posts as $query){
