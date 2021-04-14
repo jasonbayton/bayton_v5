@@ -2,6 +2,7 @@
   <div class="aside-title">
     <h2>Documents</h2>
   </div>
+  <?php foreach ($posts as $query){};?>
   <?php echo '<!--'.$query['topic'].'-->';
   if ($post['topic'] == $query['topic']) { ?>
   <details open class="android-topic">
