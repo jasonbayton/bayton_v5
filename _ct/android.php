@@ -71,7 +71,7 @@
               <h2>Zero-touch</h2>
             </div>
             <div class="android-topic-subtitle">
-              Disclaimer: touches required when learning about zero-touch
+              Disclaimer: touches required when learning about zero-touch.
             </div>
             <ul>
             <?php
