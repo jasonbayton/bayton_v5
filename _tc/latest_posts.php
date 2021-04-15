@@ -25,7 +25,8 @@
                 echo '<span class="the-category">' . $query['topic'] .'</span>';
               } else {
                 foreach ($query['categories'] as $category) {
-                  echo '<span class="the-category">' . $category .'</span>'; }; ?>
+                  echo '<span class="the-category">' . $category .'</span>'; };
+              } ?>
               </div>
               <div class="latest-posts-title">
                 <h3 class="latest-title">
