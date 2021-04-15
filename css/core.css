@@ -295,6 +295,10 @@ button a:hover, footer a:hover {
   cursor: pointer;
 }
 
+button a:visited:hover, footer a:visited:hover {
+  color: var(--bright);
+}
+
 footer a {
   border-bottom: none;
 }
