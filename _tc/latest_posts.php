@@ -22,7 +22,7 @@
               </div>
               <div class="latest-posts-categories">
               <?php if ($query['type'] == "doc") {
-                echo '<span class="the-category">' . $query['topic'] .'</span>'; };
+                echo '<span class="the-category">' . $query['topic'] .'</span>';
               } else {
                 foreach ($query['categories'] as $category) {
                   echo '<span class="the-category">' . $category .'</span>'; }; ?>
