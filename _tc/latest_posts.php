@@ -21,7 +21,10 @@
                 </div>
               </div>
               <div class="latest-posts-categories">
-              <?php foreach ($query['categories'] as $category) {
+              <?php if ($query['type'] == "doc") {
+                echo '<span class="the-category">' . $query['topic'] .'</span>'; };
+              } else {
+                foreach ($query['categories'] as $category) {
                   echo '<span class="the-category">' . $category .'</span>'; }; ?>
               </div>
               <div class="latest-posts-title">
