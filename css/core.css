@@ -319,9 +319,11 @@ button.arrow-only {
 }
 
 #beta {
-  padding: 5px;
+  padding: 10px;
   background-color: var(--contrast-tertiary);
   color: var(--bright);
+  font-size: 16px;
+  text-align: center;
 }
 
 #header_container {
