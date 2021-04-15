@@ -2,9 +2,8 @@
   <div class="aside-title">
     <h2>Documents</h2>
   </div>
-  <?php $query = array();
-  echo '<!--'.$query['topic'].'-->';
-  if ($post['topic'] == $query['topic']) { ?>
+  <?php
+  if ($post['topic'] == "Getting started") { ?>
   <details open class="android-topic">
   <?php } else { ?>
   <details class="android-topic">
@@ -22,7 +21,8 @@
     </ul>
   </details>
 
-  <?php if ($post['topic'] == $query['topic']) { ?>
+  <?php
+  if ($post['topic'] == "Diving deeper") { ?>
   <details open class="android-topic">
   <?php } else { ?>
   <details class="android-topic">
@@ -40,7 +40,8 @@
     </ul>
   </details>
 
-  <?php if ($post['topic'] == $query['topic']) { ?>
+  <?php
+  if ($post['topic'] == "Zero-touch") { ?>
   <details open class="android-topic">
   <?php } else { ?>
   <details class="android-topic">
@@ -58,7 +59,8 @@
     </ul>
   </details>
 
-  <?php if ($post['topic'] == $query['topic']) { ?>
+  <?php
+  if ($post['topic'] == "App management") { ?>
   <details open class="android-topic">
   <?php } else { ?>
   <details class="android-topic">
@@ -76,7 +78,8 @@
     </ul>
   </details>
 
-  <?php if ($post['topic'] == $query['topic']) { ?>
+  <?php
+  if ($post['topic'] == "Vendor specific") { ?>
   <details open class="android-topic">
   <?php } else { ?>
   <details class="android-topic">
@@ -93,7 +96,8 @@
     } ?>
     </ul>
   </details>
-  <?php if ($post['topic'] == $query['topic']) { ?>
+  <?php
+  if ($post['topic'] == "Resources") { ?>
   <details open class="android-topic">
   <?php } else { ?>
   <details class="android-topic">
