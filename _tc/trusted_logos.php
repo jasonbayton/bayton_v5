@@ -27,8 +27,7 @@
         } ?>
       </div>
       <div id="vendor_disclaimer">
-        Data captured from annual analytics & social stats between 2019-2021
-        showing website referrals, content shares, or similar interactions
+        Have we worked together? Support me by <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOn4HrczzhJgdJQwb27Nt2IWIIZvuNlDmAz0DGKhcxO1t9wQ/viewform?usp=sf_link">adding your logo</a>!
       </div>
     </div>
   </div>
