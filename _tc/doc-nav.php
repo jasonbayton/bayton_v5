@@ -2,8 +2,8 @@
   <div class="aside-title">
     <h2>Documents</h2>
   </div>
-  <?php foreach ($posts as $query){?>
-  <?php echo '<!--'.$query['topic'].'-->';
+  <?php $query = array();
+  echo '<!--'.$query['topic'].'-->';
   if ($post['topic'] == $query['topic']) { ?>
   <details open class="android-topic">
   <?php } else { ?>
@@ -14,12 +14,14 @@
     </summary>
     <ul>
     <?php
+    foreach ($posts as $query){
       if ($query['parent'] == "Android" && $query['topic'] == "Getting started" && $query['published'] == "true") {
         echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-      }; ?>
+      };
+    } ?>
     </ul>
   </details>
-<?php } ?>
+
   <?php if ($post['topic'] == $query['topic']) { ?>
   <details open class="android-topic">
   <?php } else { ?>
