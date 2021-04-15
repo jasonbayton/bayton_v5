@@ -318,6 +318,12 @@ button.arrow-only {
   border-radius: 50%;
 }
 
+#beta {
+  padding: 5px;
+  background-color: var(--contrast-tertiary);
+  color: var(--bright);
+}
+
 #header_container {
   padding: 0 20px;
   font-size: 22px;
