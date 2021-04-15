@@ -4,9 +4,6 @@
   <?php require "_tc/head.php"; ?>
 </head>
 <body>
-  <div id="beta">
-    This site is currently in beta. Report issues to <a href="mailto:jason@bayton.org">Jason</a>.
-  </div>
   <header>
     <?php include "_tc/header.php"; ?>
   </header>

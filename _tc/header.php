@@ -1,3 +1,6 @@
+<div id="beta">
+  This site is currently in beta. Report issues to <a href="mailto:jason@bayton.org">Jason</a>.
+</div>
 <div id="header_container" class="primary-background">
     <div id="bayton">
       <a href="/">
