@@ -10,10 +10,16 @@ echo $search;
     </h2>
     <?php
     foreach ($posts as $query){
-      if ($query['parent'] == $search || $query['topic'] == $search || $query['tag'] == $search) {
+      if ($query['parent'] == $search || $query['topic'] == $search ) {
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-      };
-    } ?>
+      } else {
+        if (str_contains($query['title'], $search)) {
+        echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+      }
+      }
+    }
+
+     ?>
     </div>
   </article>
 </section>
