@@ -1,5 +1,5 @@
 <?php
-$search = substr($url, strrpos($url, '=') + 1);
+$search = $_GET['keyword'];
 echo $search;
 ?>
 
