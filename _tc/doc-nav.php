@@ -3,6 +3,7 @@
     <h2>Documents</h2>
   </div>
   <?php
+  usort($posts, fn($a, $b) => strcmp($a['order'], $b['order']));
   if ($post['topic'] == "Getting started") { ?>
   <details open class="android-topic">
   <?php } else { ?>
@@ -89,7 +90,6 @@
     </summary>
     <ul>
     <?php
-    usort($posts, fn($a, $b) => strcmp($a['order'], $b['order']));
     foreach ($posts as $query){
       if ($query['parent'] == "Android" && $query['topic'] == "Vendor specific" && $query['published'] == "true") {
         echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
