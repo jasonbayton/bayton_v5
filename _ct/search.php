@@ -1,7 +1,5 @@
 <?php
-$search = strtolower($_GET['search']);
-$search = $_SERVER['QUERY_STRING'];
-$search = strtolower($_GET['args']);
+$search = substr($url, strrpos($url, '/') + 1);
 echo $search;
 ?>
 
