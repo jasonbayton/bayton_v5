@@ -12,5 +12,6 @@
 <meta property="og:image" content="<?php echo $themerelpath?>/img/bayton.webp"/>
 <script src="<?php echo $themerelpath ?>/js/darkmode.js"></script>
 <link rel = "stylesheet" href = "<?php echo $themerelpath ?>/css/core.css?v=<?php echo $randomnumber;?>">
+<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
 <link rel = "stylesheet" href = "<?php echo $themerelpath ?>/css/webfonts.css">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" crossorigin="anonymous"/>
