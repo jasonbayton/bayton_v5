@@ -9,6 +9,8 @@ $search = strtolower($_GET['keyword']);
 		</h2>
     <h3 class="search-heading">
       <?php echo 'Results for: "' . $search . '"' ?>
+    </h3>
+    <ul>
 		<?php
 		$exactMatch = [];
 		foreach ($posts as $post) {
@@ -20,11 +22,11 @@ $search = strtolower($_GET['keyword']);
 		}
 
 		?>
-
+    </ul>
 		<h3 class="search-heading">
 			Similar Results based on: "<?php echo $search; ?>"
 		</h3>
-
+    <ul>
 		<?php
 
 		$closeMatch = [];
@@ -36,7 +38,9 @@ $search = strtolower($_GET['keyword']);
 			echo '<li><!--' . $result['order'] . '--><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
 		}
 
-
+    ?>
+    </ul>
+    <?php
 		function searchArray(array $haystack, array $needles, bool $direct = true) {
 			$needleCount = count($needles);
 			$matches = [];
