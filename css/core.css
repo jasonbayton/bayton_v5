@@ -669,6 +669,11 @@ h3.section-title{
   content: "\f13a";
 }
 
+summary.android-topic-title {
+  font-size: 26px;
+  font-weight: 300;
+}
+
 .android-topic ul {
   padding-inline-start: 25px;
 }
