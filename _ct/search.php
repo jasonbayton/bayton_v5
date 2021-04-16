@@ -45,8 +45,10 @@ $search = strtolower($_GET['keyword']);
 				return $haystack;
 			}
 		}
-
 		?>
+    <h2 id="article_title">
+			<?php echo 'Similar results based on the search: "' . $search . '"' ?>
+		</h2>
 		</div>
 	</article>
 </section>
