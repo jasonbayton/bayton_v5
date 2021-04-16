@@ -13,7 +13,7 @@ $search = strtolower($_GET['keyword']);
 			$results[] = searchArray($post, explode(' ', $_GET['keyword']));
 		}
 
-		foreach ($results as $result) {
+		foreach (array_filter($results) as $result) {
 			echo '<li><!--' . $result['order'] . '--><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
 		}
 
