@@ -12,9 +12,17 @@ echo $search;
     foreach ($posts as $query){
       if (strtolower($query['parent']) == $search || strtolower($query['topic']) == $search ) {
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-    } else {
-      echo 'No matches have been found for your search';
-    }
+      }
+      foreach ($query['categories'] as $category){
+        if (strtolower($category) == $search {
+          echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+        }
+      }
+      foreach ($query['tags'] as $tag){
+        if (strtolower($tag) == $search {
+          echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+        }
+      }
     }
 
      ?>
