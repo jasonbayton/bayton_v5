@@ -15,6 +15,7 @@ echo $search;
     } else {
       echo 'No matches have been found for your search';
     }
+    }
 
      ?>
     </div>
