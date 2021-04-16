@@ -1,9 +1,10 @@
+<?php $posts = $nav_entries ?>
 <div id="aside_docs">
   <div class="aside-title">
     <h2>Documents</h2>
   </div>
   <?php
-  usort($posts, fn($a, $b) => strcmp($a['order'], $b['order']));
+  usort($nav_entries, fn($a, $b) => strcmp($a['order'], $b['order']));
   if ($post['topic'] == "Getting started") { ?>
   <details open class="android-topic">
   <?php } else { ?>
@@ -14,7 +15,7 @@
     </summary>
     <ul>
     <?php
-    foreach ($posts as $query){
+    foreach ($nav_entries as $query){
       if ($query['parent'] == "Android" && $query['topic'] == "Getting started" && $query['published'] == "true") {
         echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       };
@@ -33,7 +34,7 @@
     </summary>
     <ul>
     <?php
-    foreach ($posts as $query){
+    foreach ($nav_entries as $query){
       if ($query['parent'] == "Android" && $query['topic'] == "Diving deeper" && $query['published'] == "true") {
         echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       };
@@ -52,7 +53,7 @@
     </summary>
     <ul>
     <?php
-    foreach ($posts as $query){
+    foreach ($nav_entries as $query){
       if ($query['parent'] == "Android" && $query['topic'] == "Zero-touch" && $query['published'] == "true") {
         echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       };
@@ -71,7 +72,7 @@
     </summary>
     <ul>
     <?php
-    foreach ($posts as $query){
+    foreach ($nav_entries as $query){
       if ($query['parent'] == "Android" && $query['topic'] == "App management" && $query['published'] == "true") {
         echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       };
@@ -90,7 +91,7 @@
     </summary>
     <ul>
     <?php
-    foreach ($posts as $query){
+    foreach ($nav_entries as $query){
       if ($query['parent'] == "Android" && $query['topic'] == "Vendor specific" && $query['published'] == "true") {
         echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       };
@@ -108,7 +109,7 @@
     </summary>
     <ul>
     <?php
-    foreach ($posts as $query){
+    foreach ($nav_entries as $query){
       if ($query['parent'] == "Android" && $query['topic'] == "Resources" && $query['published'] == "true") {
         echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       };
