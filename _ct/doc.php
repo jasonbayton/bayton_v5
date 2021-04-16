@@ -33,5 +33,4 @@
     <?php include "$themedir/_tc/report.php"; ?>
   </article>
 </section>
-<?php include "$themedir/_tc/related_posts.php"; ?>
 <?php include "$themedir/_tc/older_posts.php"; ?>
