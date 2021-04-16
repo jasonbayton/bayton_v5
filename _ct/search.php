@@ -6,7 +6,7 @@ echo $search;
 <section id="page_container">
   <article>
     <h2 id="article_title">
-      <?php echo 'Results for' . $search;?>
+      <?php echo 'Results for "' . $search . '"'?>
     </h2>
     <?php
     foreach ($posts as $query){
