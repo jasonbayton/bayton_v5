@@ -9,20 +9,20 @@ $search = strtolower($_GET['keyword']);
     </h2>
     <?php
     foreach ($posts as $query){
-      if (strtolower($query['parent']) == $search || strtolower($query['topic']) == $search) {
+      if (strpos(strtolower($query['parent']), $search) || (strpos(strtolower($query['topic']), $search) {
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       }
       foreach ($query['categories'] as $category){
-        if (strtolower($category) == $search) {
+        if (strpos(strtolower($category), $search)) {
           echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
         }
       }
       foreach ($query['tags'] as $tag){
-        if (strtolower($tag) == $search) {
+        if (strpos(strtolower($tag), $search)) {
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
         }
       }
-      if (strpos($query['title'], $search)){
+      if (strpos(strtolower($query['title']), $search)){
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       }
     };
