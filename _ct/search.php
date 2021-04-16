@@ -12,6 +12,8 @@ echo $search;
     foreach ($posts as $query){
       if ($query['parent'] == $search || $query['topic'] == $search ) {
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+    } else {
+      echo 'No matches have been found for your search';
     }
 
      ?>
