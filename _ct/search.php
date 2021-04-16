@@ -22,7 +22,7 @@ $search = strtolower($_GET['keyword']);
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
         }
       }
-      if (!str_contains($query['title'], $search)){
+      if (!strpos($query['title'], $search)){
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       }
     };
