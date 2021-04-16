@@ -1,5 +1,5 @@
 <?php
-$search = substr($url, strrpos($url, '/') + 1);
+$search = substr($url, strrpos($url, '=') + 1);
 echo $search;
 ?>
 
