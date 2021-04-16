@@ -89,7 +89,9 @@
     </summary>
     <ul>
     <?php
-    usort($posts, fn($a, $b) => strcmp($a['order'], $b['order']));
+    if (isset($posts['order'])) {
+      usort($posts, fn($a, $b) => strcmp($a['order'], $b['order']));
+    };
     foreach ($posts as $query){
       if ($query['parent'] == "Android" && $query['topic'] == "Vendor specific" && $query['published'] == "true") {
         echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
