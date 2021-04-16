@@ -664,6 +664,11 @@ h3.section-title{
   padding-right: 5px;
 }
 
+.android-topic-title::marker {
+  font-family: "Font Awesome 5 Pro";
+  content: "\f13a";
+}
+
 .android-topic ul {
   padding-inline-start: 25px;
 }
