@@ -9,7 +9,9 @@ echo $search;
       <?php echo 'Results for "' . $search . '"'?>
     </h2>
     <?php
+    $i=0;
     foreach ($posts as $query){
+      $i++;
       if (strtolower($query['parent']) == $search || strtolower($query['topic']) == $search) {
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       }
@@ -23,8 +25,8 @@ echo $search;
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
         }
       }
-    }
-
+    };
+echo $i;
      ?>
     </div>
   </article>
