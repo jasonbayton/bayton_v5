@@ -10,7 +10,7 @@ echo $search;
     </h2>
     <?php
     foreach ($posts as $query){
-      if ($query['parent'] == $search || $query['topic'] == $search || $query['published'] == "true") {
+      if ($query['parent'] == $search || $query['topic'] == $search || $query['tag'] == $search || $query['category'] == $search || str_contains($query['title'], $search)) {
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       };
     } ?>
