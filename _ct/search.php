@@ -9,7 +9,7 @@ $search = strtolower($_GET['keyword']);
     </h2>
     <?php
     foreach ($posts as $query){
-      if (strpos(strtolower($query['parent']), $search) || (strpos(strtolower($query['topic']), $search)) {
+      if (strpos(strtolower($query['parent']), $search) || strpos(strtolower($query['topic']), $search)) {
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       }
       foreach ($query['categories'] as $category){
