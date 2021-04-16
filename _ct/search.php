@@ -1,6 +1,5 @@
 <?php
 $search = strtolower($_GET['keyword']);
-echo $search;
 ?>
 
 <section id="page_container">
@@ -9,9 +8,7 @@ echo $search;
       <?php echo 'Results for "' . $search . '"'?>
     </h2>
     <?php
-    $i=0;
     foreach ($posts as $query){
-      $i++;
       if (strtolower($query['parent']) == $search || strtolower($query['topic']) == $search) {
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       }
@@ -25,8 +22,10 @@ echo $search;
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
         }
       }
+      if (!str_contains($query['title'], $search)){
+        echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+      }
     };
-echo $i;
      ?>
     </div>
   </article>
