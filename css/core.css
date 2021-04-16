@@ -674,6 +674,14 @@ summary.android-topic-title {
   font-weight: 300;
 }
 
+details.android-topic ul {
+  margin-bottom: 0;
+}
+
+details.android-topic {
+  padding-bottom: 20px;
+}
+
 .android-topic ul {
   padding-inline-start: 25px;
 }
