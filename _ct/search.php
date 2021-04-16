@@ -8,21 +8,40 @@ $search = strtolower($_GET['keyword']);
 			<?php echo 'Results for "' . $search . '"' ?>
 		</h2>
 		<?php
-		$results = [];
+		$exactMatch = [];
 		foreach ($posts as $post) {
-			$results[] = searchArray($post, explode(' ', $_GET['keyword']));
+			$exactMatch[] = searchArray($post, explode(' ', $_GET['keyword']), true);
 		}
 
-		foreach (array_filter($results) as $result) {
+		foreach (array_filter($exactMatch) as $result) {
 			echo '<li><!--' . $result['order'] . '--><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
 		}
 
-		function searchArray(array $haystack, array $needles) {
+		?>
+
+		<h2 id="article_title">
+			Similar Results
+		</h2>
+
+		<?
+
+		$closeMatch = [];
+		foreach ($posts as $post) {
+			$closeMatch[] = searchArray($post, explode(' ', $_GET['keyword']), false);
+		}
+
+		foreach (array_filter($closeMatch) as $result) {
+			echo '<li><!--' . $result['order'] . '--><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
+		}
+
+
+		function searchArray(array $haystack, array $needles, bool $direct = true) {
 			$needleCount = count($needles);
 			$matches = [];
 			foreach ($needles as $needle) {
 				$matches[$needle] = 0;
 			}
+
 
 			foreach ($needles as $needle) {
 				foreach ($haystack as $row) {
@@ -41,12 +60,17 @@ $search = strtolower($_GET['keyword']);
 			$filteredArray = array_filter($matches);
 			$matchCount = count($filteredArray);
 
-			if ($matchCount !== 0 && $needleCount === $matchCount) {
+			if ($direct === false && $matchCount !== 0 && $matchCount !== $needleCount) {
+				return $haystack;
+			}
+
+			if ($direct === true && $matchCount !== 0 && $needleCount === $matchCount) {
 				return $haystack;
 			}
 		}
+
 		?>
-    <h2 id="article_title">
+		<h2 id="article_title">
 			<?php echo 'Similar results based on the search: "' . $search . '"' ?>
 		</h2>
 		</div>
