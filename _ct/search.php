@@ -12,11 +12,6 @@ echo $search;
     foreach ($posts as $query){
       if ($query['parent'] == $search || $query['topic'] == $search ) {
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-      } else {
-        if (str_contains($query['title'], $search)) {
-        echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-      }
-      }
     }
 
      ?>
