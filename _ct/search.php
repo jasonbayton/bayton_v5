@@ -5,8 +5,10 @@ $search = strtolower($_GET['keyword']);
 <section id="page_container">
 	<article>
 		<h2 id="article_title">
-			<?php echo 'Results for "' . $search . '"' ?>
+			Site search
 		</h2>
+    <h3 class="search-heading">
+      <?php echo 'Results for: "' . $search . '"' ?>
 		<?php
 		$exactMatch = [];
 		foreach ($posts as $post) {
@@ -19,9 +21,9 @@ $search = strtolower($_GET['keyword']);
 
 		?>
 
-		<h2 id="article_title">
-			Similar Results
-		</h2>
+		<h3 class="search-heading">
+			Similar Results based on: "<?php echo $search; ?>"
+		</h3>
 
 		<?php
 
@@ -70,9 +72,6 @@ $search = strtolower($_GET['keyword']);
 		}
 
 		?>
-		<h2 id="article_title">
-			<?php echo 'Similar results based on the search: "' . $search . '"' ?>
-		</h2>
 		</div>
 	</article>
 </section>
