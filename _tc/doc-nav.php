@@ -89,11 +89,9 @@
     </summary>
     <ul>
     <?php
+    usort($posts, fn($a, $b) => strcmp($a['order'], $b['order']));
     foreach ($posts as $query){
       if ($query['parent'] == "Android" && $query['topic'] == "Vendor specific" && $query['published'] == "true") {
-        usort($query, function ($item1, $item2) {
-          return $item1['order'] <=> $item2['order'];
-          });
         echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       };
     } ?>
