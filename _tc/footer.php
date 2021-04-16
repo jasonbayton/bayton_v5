@@ -37,16 +37,16 @@
     </h3>
     <div id="logo_group">
       <div id="logo_top_left">
-        <img id="footer_aer" alt="Android Enterprise Expert badge" src="<?php echo $themerelpath ?>/img/aec.webp" width="100px">
+        <img id="footer_aer" alt="Android Enterprise Expert badge" src="<?php echo $themerelpath ?>/img/aec.webp" width="100px" height="82.63px">
       </div>
       <div id="logo_top_right">
-        <img id="footer_euc" alt="vExpert badge" src="<?php echo $themerelpath ?>/img/ve.webp" width="100px">
+        <img id="footer_euc" alt="vExpert badge" src="<?php echo $themerelpath ?>/img/ve.webp" width="100px" height="67.57px">
       </div>
       <div id="logo_bottom_left">
-        <img id="footer_ss" alt="Knox certified badge" src="<?php echo $themerelpath ?>/img/kp.webp" width="100px">
+        <img id="footer_ss" alt="Knox certified badge" src="<?php echo $themerelpath ?>/img/kp.webp" width="100px" height="96.35px">
       </div>
       <div id="logo_bottom_right">
-        <img id="footer_pe" alt="Gold Product Expert" src="<?php echo $themerelpath ?>/img/gold.svg" width="100px">
+        <img id="footer_pe" alt="Gold Product Expert" src="<?php echo $themerelpath ?>/img/gold.svg" width="100px" height="86.52px">
       </div>
     </div>
 
