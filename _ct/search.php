@@ -1,6 +1,7 @@
 <?php
 $search = strtolower($_GET['search']);
 $search = $_SERVER['QUERY_STRING'];
+$search = strtolower($_GET['args']);
 echo $search;
 ?>
 
