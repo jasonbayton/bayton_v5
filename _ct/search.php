@@ -64,6 +64,5 @@ $search = strtolower($_GET['keyword']);
 			}
 		}
 		?>
-		</div>
 	</article>
 </section>
