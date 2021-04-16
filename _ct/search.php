@@ -23,7 +23,7 @@ $search = strtolower($_GET['keyword']);
 			Similar Results
 		</h2>
 
-		<?
+		<?php
 
 		$closeMatch = [];
 		foreach ($posts as $post) {
