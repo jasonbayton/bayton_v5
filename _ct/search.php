@@ -13,10 +13,10 @@ $search = strtolower($_GET['keyword']);
   		<?php
   		$exactMatch = [];
   		foreach ($posts as $post) {
-  			$exactMatch[] = searchArray($post, explode(' ', $_GET['keyword']), true);
+  			$exactMatch[] = searchArray($post, explode(' ', $search), true);
   		}
   		foreach (array_filter($exactMatch) as $result) {
-  			echo '<li><!--' . $result['order'] . '--><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
+  			echo '<li><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
   		}
       ?>
     </ul>
@@ -27,10 +27,10 @@ $search = strtolower($_GET['keyword']);
   		<?php
   		$closeMatch = [];
   		foreach ($posts as $post) {
-  			$closeMatch[] = searchArray($post, explode(' ', $_GET['keyword']), false);
+  			$closeMatch[] = searchArray($post, explode(' ', $search), false);
   		}
   		foreach (array_filter($closeMatch) as $result) {
-  			echo '<li><!--' . $result['order'] . '--><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
+  			echo '<li><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
   		}
       ?>
     </ul>
