@@ -10,7 +10,7 @@ echo $search;
     </h2>
     <?php
     foreach ($posts as $query){
-      if ($query['parent'] == $search || $query['topic'] == $search || $query['tag'] == $search || $query['category'] == $search ) {
+      if ($query['parent'] == $search || $query['topic'] == $search || $query['tag'] == $search || strpos($query['title'], $search) !== false) ) {
         echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
       };
     } ?>
