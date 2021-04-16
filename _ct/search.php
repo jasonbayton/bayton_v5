@@ -34,7 +34,6 @@ $search = strtolower($_GET['keyword']);
 								$matches[$needle] += 1;
 							}
 						}
-						$matches[$needle] += 1;
 					}
 				}
 			}
