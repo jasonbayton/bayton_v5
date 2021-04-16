@@ -1,7 +1,8 @@
 <?php $randomnumber = mt_rand(100000,999999); ?>
 <meta charset = "utf-8">
 <title> Jason Bayton | <?php echo $post['title'];?></title>
-<meta name = "description" content = "<?php echo $post['subtitle'];?>">
+<meta name = "description" content = "<?php if (!empty($post['subtitle'])) {
+echo $post['subtitle']; } else { echo "The website of Jason Bayton"; }?>">
 <meta name = "author" content = "Jason Bayton ">
 <meta name="twitter:site" content="@jasonbayton" />
 <meta name = "viewport" content="width=device-width, initial-scale=1.0">
