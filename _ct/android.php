@@ -16,8 +16,9 @@
     </h2>
     <?php if (!empty($post['subtitle'])) {
     echo '<div id="article_subtitle">' . $post['subtitle'] . '</div>';
-    } ?>
-    <?php if (!empty($post['featuredImage'])) {
+    };
+
+    if (!empty($post['featuredImage'])) {
     echo '<div id="featured_image"><img src="' . $post['featuredImage'] . '"></div>';
     } ?>
 
@@ -41,8 +42,7 @@
             </div>
             <ul>
             <?php
-            foreach ($posts as $query){
-              if ($query['parent'] == "Android" && $query['topic'] == "Getting started" && $query['published'] == "true") {
+            foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Getting started" && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
             } ?>
@@ -58,8 +58,7 @@
             </div>
             <ul>
             <?php
-            foreach ($posts as $query){
-              if ($query['parent'] == "Android" && $query['topic'] == "Diving deeper" && $query['published'] == "true") {
+            foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Diving deeper" && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
             } ?>
@@ -75,8 +74,7 @@
             </div>
             <ul>
             <?php
-            foreach ($posts as $query){
-              if ($query['parent'] == "Android" && $query['topic'] == "Zero-touch" && $query['published'] == "true") {
+            foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Zero-touch" && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
             } ?>
@@ -92,8 +90,7 @@
             </div>
             <ul>
             <?php
-            foreach ($posts as $query){
-              if ($query['parent'] == "Android" && $query['topic'] == "App management" && $query['published'] == "true") {
+            foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "App management" && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
             } ?>
@@ -109,8 +106,7 @@
             </div>
             <ul>
             <?php
-            foreach ($posts as $query){
-              if ($query['parent'] == "Android" && $query['topic'] == "Vendor specific" && $query['published'] == "true") {
+            foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Vendor specific" && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
             } ?>
@@ -125,8 +121,7 @@
             </div>
             <ul>
             <?php
-            foreach ($posts as $query){
-              if ($query['parent'] == "Android" && $query['topic'] == "Resources" && $query['published'] == "true") {
+            foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Resources" && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
             } ?>
@@ -155,8 +150,7 @@
             </div>
             <ul>
             <?php
-            foreach ($posts as $query){
-              if (in_array('enterprise', $query['categories']) && in_array('android', $query['tags']) && $query['published'] == "true") {
+            foreach ($posts as $query) if (in_array('enterprise', $query['categories']) && in_array('android', $query['tags']) && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
               };
             } ?>
