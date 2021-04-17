@@ -44,8 +44,7 @@
             <?php
             foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Getting started" && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-              };
-            } ?>
+              } ?>
             </ul>
           </div>
 
@@ -60,8 +59,7 @@
             <?php
             foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Diving deeper" && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-              };
-            } ?>
+              } ?>
             </ul>
           </div>
 
@@ -76,8 +74,7 @@
             <?php
             foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Zero-touch" && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-              };
-            } ?>
+              } ?>
             </ul>
           </div>
 
@@ -92,8 +89,7 @@
             <?php
             foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "App management" && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-              };
-            } ?>
+              } ?>
             </ul>
           </div>
 
@@ -108,8 +104,7 @@
             <?php
             foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Vendor specific" && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-              };
-            } ?>
+              } ?>
             </ul>
           </div>
           <div class="android-topic">
@@ -123,8 +118,7 @@
             <?php
             foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Resources" && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-              };
-            } ?>
+              } ?>
             </ul>
           </div>
           <div class="android-topic">
@@ -152,8 +146,7 @@
             <?php
             foreach ($posts as $query) if (in_array('enterprise', $query['categories']) && in_array('android', $query['tags']) && $query['published'] == "true") {
                 echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-              };
-            } ?>
+              } ?>
             </ul>
           </div>
           <div class="android-topic">

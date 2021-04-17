@@ -29,7 +29,7 @@
               </span>
             </div>
           </div>
-      <?php }} ?>
+      <?php } ?>
 
     </div>
   </section>
