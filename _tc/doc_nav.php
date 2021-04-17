@@ -5,9 +5,11 @@
   </div>
   <?php
   usort($nav_entries, fn($a, $b) => strcmp($a['order'], $b['order']));
-  foreach ($post['childTopics'] as $topic) {
+  foreach ($nav_entries as $query) if ($query['parentID'] == $post['parent']) {
+    echo $query['parentID' }
+  foreach ($query['childTopics'] as $topic) {
     echo $topic;
-    echo $post['childTopics'];
+    echo $query['childTopics'];
     if ($post['topic'] == $topic) { ?>
     <details open class="android-topic">
     <?php } else { ?>
