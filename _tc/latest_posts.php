@@ -82,7 +82,7 @@
             </div>
         <?php }} ?>
       <button id="read_more" class="button-blue button-rounded">
-        <a href="/docs">Read more</a>
+        <a href="/android">Read more</a>
       </button>
     </div>
   </div>
