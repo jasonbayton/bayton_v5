@@ -17,7 +17,7 @@
             <button id="embedded_readmore" class="button-blue button-rounded">
               <a href="<?php echo $query['url'] ?>">Read more</a></i>
             </button>
-            <?php }} ?>
+            <?php } ?>
           </div>
       </div>
     <svg class="angled-background-bottom" preserveAspectRatio="none" viewBox="0, 0, 100, 10">
