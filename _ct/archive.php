@@ -5,9 +5,8 @@
   <div id="archive_posts_container">
 
     <?php
-      foreach ($posts as $query){
+      foreach ($posts as $query) if ($query['published'] == "true") {
         $transDate = date("M d, Y", strtotime($query['date']));
-        if ($query['published'] == "true") {
         ?>
           <div class="a-post">
             <div class="latest-posts-date">
