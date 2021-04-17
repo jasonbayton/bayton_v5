@@ -6,6 +6,7 @@
   <?php
   usort($nav_entries, fn($a, $b) => strcmp($a['order'], $b['order']));
   foreach ($post['childTopics'] as $topic) {
+    echo $topic;
     if ($post['topic'] == $topic) { ?>
     <details open class="android-topic">
     <?php } else { ?>
