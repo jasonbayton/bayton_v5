@@ -6,7 +6,7 @@
   <?php
   usort($nav_entries, fn($a, $b) => strcmp($a['order'], $b['order']));
   foreach ($nav_entries as $query) if ($query['parentID'] == $post['parent']) {
-    echo $query['parentID' }
+    echo $query['parentID'];
   foreach ($query['childTopics'] as $topic) {
     echo $topic;
     echo $query['childTopics'];
