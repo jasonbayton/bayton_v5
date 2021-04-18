@@ -5,29 +5,30 @@
   </div>
   <?php
   usort($nav_entries, fn($a, $b) => strcmp($a['order'], $b['order']));
-  foreach ($nav_entries as $query) if ($query['parentID'] == $post['parent']) {
+  foreach ($nav_entries as $query) if ($post['parent'] == $query['parentID']) {
     echo $query['parentID'];
-  foreach ($query['childTopics'] as $topic) {
-    echo $topic;
-    echo $query['childTopics'];
-    if ($post['topic'] == $topic) { ?>
-    <details open class="android-topic">
-    <?php } else { ?>
-    <details class="android-topic">
-      <?php } ?>
-      <summary class="android-topic-title">
-        <?php echo $topic; ?>
-      </summary>
-      <ul>
-      <?php
-      foreach ($nav_entries as $query){
-        if ($query['parent'] == $post['parent'] && $query['topic'] == $topic && $query['published'] == "true") {
-          echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-        };
-      } ?>
-      </ul>
-    </details>
-  <?php }; ?>
+    echo $post['parent'];
+    foreach ($query['childTopics'] as $topic) {
+      echo $topic;
+      echo $query['childTopics'];
+      if ($post['topic'] == $topic) { ?>
+      <details open class="android-topic">
+      <?php } else { ?>
+      <details class="android-topic">
+        <?php } ?>
+        <summary class="android-topic-title">
+          <?php echo $topic; ?>
+        </summary>
+        <ul>
+        <?php
+        foreach ($nav_entries as $query){
+          if ($query['parent'] == $post['parent'] && $query['topic'] == $topic && $query['published'] == "true") {
+            echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+          };
+        } ?>
+        </ul>
+      </details>
+    <?php }}; ?>
   <hr>
   <?php
 
