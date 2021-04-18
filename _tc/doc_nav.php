@@ -7,7 +7,6 @@
   usort($nav_entries, fn($a, $b) => strcmp($a['order'], $b['order']));
   foreach ($nav_entries as $query) if ($post['parent'] == $query['parentID']) {
     foreach ($query['childTopics'] as $topic) {
-      echo $query['childTopics'];
       if ($post['topic'] == $topic) { ?>
       <details open class="android-topic">
       <?php } else { ?>
