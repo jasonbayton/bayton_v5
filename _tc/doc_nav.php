@@ -29,7 +29,7 @@
         </ul>
       </details>
     <?php }}; ?>
-  <hr>
+  <!--hr>
   <?php
 
   if ($post['topic'] == "Getting started") { ?>
@@ -142,5 +142,5 @@
       };
     } ?>
     </ul>
-  </details>
+  </details-->
 </div>
