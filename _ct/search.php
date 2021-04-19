@@ -79,3 +79,4 @@ $search = str_replace("-", " ", $search);
 		?>
 	</article>
 </section>
+<?php include "$themedir/_tc/latest_posts.php"; ?>
