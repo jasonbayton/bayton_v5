@@ -1,6 +1,6 @@
 <?php
 $search = strtolower($_GET['keyword']);
-$search = str_ireplace($search, '-', ' ');
+$search = str_replace($search, '-', ' ');
 ?>
 <section id="page_container">
 	<article>
