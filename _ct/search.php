@@ -30,11 +30,12 @@ $search = strtolower($_GET['keyword']);
   			$closeMatch[] = searchArray($query, explode(' ', $search), false);
   		}
       if(!empty(array_filter($closeMatch))) {
-  		foreach (array_filter($closeMatch) as $result) {
-  			echo '<li><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
-  		} else {
+    		foreach (array_filter($closeMatch) as $result) {
+    			echo '<li><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
+    		};
+      } else {
         echo '<p>No results found, or search query too vague.</p>';
-      }}
+      };
       ?>
     </ul>
     <?php
