@@ -6,6 +6,7 @@ input.addEventListener("keyup", function(event) {
     // Cancel the default action, if needed
     event.preventDefault();
     // Trigger the button element with a click
-    document.getElementById("searchform").submit();
+    window.location = '/search&keyword=' + input.value;
+
   }
 }); 
