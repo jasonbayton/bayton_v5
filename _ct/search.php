@@ -20,7 +20,7 @@ $search = strtolower($_GET['keyword']);
     			echo '<li><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
     		};
       } else {
-        echo '<p>No results found for this exact match, check related results below.</p>';
+        echo '<p>No results found for this exact match, check similar results below.</p>';
       };
       ?>
     </ul>
