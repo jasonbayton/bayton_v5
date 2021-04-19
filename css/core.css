@@ -438,14 +438,14 @@ nav #nav_links {
     color: inherit;
 }
 
-#search {
+#searchform {
   background: var(--bright);
   border-radius: 17px;
   padding: 5px 10px;
   max-width: 410px;
 }
 
-#search input {
+#searchform input {
   background: none;
   border: none;
   font-size: 21px;
@@ -454,11 +454,11 @@ nav #nav_links {
   color: grey;
 }
 
-#search input:focus, button:focus {
+#searchform input:focus, button:focus {
     outline: none;
 }
 
-#search #search_icon {
+#searchform #search_icon {
   color: grey;
 }
 

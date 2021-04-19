@@ -1,7 +1,7 @@
-<div id="search">
+<form id="searchform" method="GET">
   <span class="fa fa-search" id="search_icon"></span>
   <input type="text" label="search" id="searchinput" placeholder="What would you like to learn today?" method="GET">
-</div>
+</form>
 <div id="nav_links">
   <a href="/about">About</a> <a href="/contact">Contact</a>
 </div>
