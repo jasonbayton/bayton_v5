@@ -51,7 +51,7 @@ $search = strtolower($_GET['keyword']);
 			}
 			foreach ($needles as $needle) {
 				foreach ($haystack as $row) {
-					if (!is_array($row) && stripos($row, $needle) !== 0) {
+					if (!is_array($row) && stripos($row, $needle) !== false ) {
 						$matches[$needle] += 1;
 					} elseif (is_array($row)) {
 						foreach ($row as $item) {
