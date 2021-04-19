@@ -62,3 +62,4 @@
 <script src="<?php echo $themerelpath ?>/js/tocbot.js"></script>
 <script src="<?php echo $themerelpath ?>/js/fitvids.js"></script>
 <script src="<?php echo $themerelpath ?>/js/darkmodetoggle.js"></script>
+<script src="<?php echo $themerelpath ?>/js/search.js"></script>
