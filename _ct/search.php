@@ -12,8 +12,8 @@ $search = strtolower($_GET['keyword']);
     <ul>
   		<?php
   		$exactMatch = [];
-  		foreach ($posts as $post) {
-  			$exactMatch[] = searchArray($post, explode(' ', $search), true);
+  		foreach ($posts as $query) {
+  			$exactMatch[] = searchArray($query, explode(' ', $search), true);
   		}
   		foreach (array_filter($exactMatch) as $result) {
   			echo '<li><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
@@ -21,17 +21,20 @@ $search = strtolower($_GET['keyword']);
       ?>
     </ul>
 		<h3 class="search-heading">
-			Similar Results based on: "<?php echo $search; ?>"
+			Similar Results based on "<?php echo $search; ?>" if not included above:
 		</h3>
     <ul>
   		<?php
   		$closeMatch = [];
-  		foreach ($posts as $post) {
-  			$closeMatch[] = searchArray($post, explode(' ', $search), false);
+  		foreach ($posts as $query) {
+  			$closeMatch[] = searchArray($query, explode(' ', $search), false);
   		}
+      if(!empty(array_filter($closeMatch))) {
   		foreach (array_filter($closeMatch) as $result) {
   			echo '<li><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
-  		}
+  		} else {
+        echo '<p>No results found, or search query too vague.</p>';
+      }}
       ?>
     </ul>
     <?php
