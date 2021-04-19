@@ -15,9 +15,13 @@ $search = strtolower($_GET['keyword']);
   		foreach ($posts as $query) {
   			$exactMatch[] = searchArray($query, explode(' ', $search), true);
   		}
-  		foreach (array_filter($exactMatch) as $result) {
-  			echo '<li><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
-  		}
+      if(!empty(array_filter($exactMatch))) {
+    		foreach (array_filter($exactMatch) as $result) {
+    			echo '<li><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
+    		};
+      } else {
+        echo '<p>No results found for this exact match, check related results below.</p>';
+      };
       ?>
     </ul>
 		<h3 class="search-heading">
