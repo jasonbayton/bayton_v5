@@ -38,7 +38,7 @@ $search = strtolower($_GET['keyword']);
     			echo '<li><a href="' . $result['url'] . '">' . $result['title'] . '</a></li>';
     		};
       } else {
-        echo '<p>No results found, or search query too vague.</p>';
+        echo '<p>No results found, or query is vague enough to not require broader search.</p>';
       };
       ?>
     </ul>
