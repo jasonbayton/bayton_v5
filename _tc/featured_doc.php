@@ -1,6 +1,6 @@
-      <div id="featured_container" class="criss-cross orange-cross criss-cross-mid">
+      <div id="featured_doc">
         <hr>
-        <span id="featured_text">Featured doc</span>
+        <span id="featured_text">Featured</span>
         <?php
         $i=0;
         foreach ($posts as $query) if ($query['featured_doc'] == 'true' && $query['published'] == "true"){
