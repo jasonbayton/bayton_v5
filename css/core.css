@@ -654,6 +654,11 @@ h3.section-title{
   color: var(--bright);
   background-color: var(--contrast-secondary);
   border-radius: 5px;
+  font-size: 16px;
+}
+
+#featured_doc {
+  text-align: center;
 }
 
 #android_post_container {
