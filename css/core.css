@@ -647,6 +647,15 @@ h3.section-title{
   grid-area: 3 / 2 / 4 / 3;
 }
 
+#featured_text {
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+  color: var(--bright);
+  background-color: var(--contrast-secondary);
+  border-radius: 5px;
+}
+
 #android_post_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
