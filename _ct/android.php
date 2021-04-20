@@ -33,6 +33,33 @@
 
       <div id="android_post_container">
         <div id="android_grid_left">
+<!-- testcode goes here -->
+
+          <?php
+          $docitems = $posts;
+          usort($docitems, fn($a, $b) => strcmp($a['order'], $b['order']));
+          foreach ($docitems as $query) if ($query['parentID'] == "Android") {
+            foreach ($query['childTopics'] as $topic) { ?>
+              <details class="android-topic">
+                <?php } ?>
+                <summary class="android-topic-title">
+                  <?php echo $topic; ?>
+                </summary>
+                <ul>
+                <?php
+                foreach ($docitems as $query){
+                  if ($query['parent'] == "Android" && $query['topic'] == $topic && $query['published'] == "true") {
+                    echo '<li><!--' . $query['order'] . '--><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
+                  };
+                } ?>
+                </ul>
+              </details>
+            <?php }}; ?>
+
+<!-- test code ends here -->
+
+          <hr>
+
           <div class="android-topic">
             <div class="android-topic-title">
               <h2>Getting started</h2>
