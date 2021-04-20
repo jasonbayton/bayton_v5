@@ -902,6 +902,7 @@ section#content_container {
 .dpc-vendor img {
   float: left;
   padding-right: 10px;
+  border-radius: 0;
 }
 
 #dpc_extras {
