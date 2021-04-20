@@ -54,7 +54,7 @@
                 } ?>
                 </ul>
               </details>
-            <?php }}; ?>
+            <?php }; ?>
 
 <!-- test code ends here -->
 
