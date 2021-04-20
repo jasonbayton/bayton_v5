@@ -33,8 +33,6 @@
 
       <div id="android_post_container">
         <div id="android_grid_left">
-<!-- testcode goes here -->
-
           <?php
           $docitems = $posts;
           usort($docitems, fn($a, $b) => strcmp($a['order'], $b['order']));
@@ -42,7 +40,7 @@
             foreach ($query['childTopics'] as $topic) { ?>
               <div class="android-topic">
                 <div class="android-topic-title">
-                  <?php echo $topic; ?>
+                  <h2><?php echo $topic; ?></h2>
                 </div>
                 <ul>
                 <?php
@@ -54,99 +52,6 @@
                 </ul>
               </div>
             <?php }}; ?>
-
-<!-- test code ends here -->
-
-          <hr>
-
-          <div class="android-topic">
-            <div class="android-topic-title">
-              <h2>Getting started</h2>
-            </div>
-            <div class="android-topic-subtitle">
-              Just getting familiar with Android or Android Enterprise? Start here. The following documents offer an introduction to Android Enterprise and the various moving parts in order to offer a broad overview of the ecosystem.
-            </div>
-            <ul>
-            <?php
-            foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Getting started" && $query['published'] == "true") {
-                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-              } ?>
-            </ul>
-          </div>
-
-          <div class="android-topic">
-            <div class="android-topic-title">
-              <h2>Diving deeper</h2>
-            </div>
-            <div class="android-topic-subtitle">
-              Ready to learn more? Read on.
-            </div>
-            <ul>
-            <?php
-            foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Diving deeper" && $query['published'] == "true") {
-                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-              } ?>
-            </ul>
-          </div>
-
-          <div class="android-topic">
-            <div class="android-topic-title">
-              <h2>Zero-touch</h2>
-            </div>
-            <div class="android-topic-subtitle">
-              Disclaimer: touches required when learning about zero-touch.
-            </div>
-            <ul>
-            <?php
-            foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Zero-touch" && $query['published'] == "true") {
-                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-              } ?>
-            </ul>
-          </div>
-
-          <div class="android-topic">
-            <div class="android-topic-title">
-              <h2>App management</h2>
-            </div>
-            <div class="android-topic-subtitle">
-              Managed config, managed Google Play, whitelists, blacklists, permissions management.. learn more about app management.
-            </div>
-            <ul>
-            <?php
-            foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "App management" && $query['published'] == "true") {
-                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-              } ?>
-            </ul>
-          </div>
-
-          <div class="android-topic">
-            <div class="android-topic-title">
-              <h2>Vendor specific</h2>
-            </div>
-            <div class="android-topic-subtitle">
-              The occasional docs targeted at specific vendors. Learn how to do something with [solution here].
-            </div>
-            <ul>
-            <?php
-            foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Vendor specific" && $query['published'] == "true") {
-                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-              } ?>
-            </ul>
-          </div>
-          <div class="android-topic">
-            <div class="android-topic-title">
-              <h2>Resources</h2>
-            </div>
-            <div class="android-topic-subtitle">
-              Free guides, infographics and other information.
-            </div>
-            <ul>
-            <?php
-            foreach ($posts as $query) if ($query['parent'] == "Android" && $query['topic'] == "Resources" && $query['published'] == "true") {
-                echo '<li><a href="' . $query['url'] . '">' . $query['title'] . '</a></li>';
-              } ?>
-            </ul>
-          </div>
           <div class="android-topic">
             <div class="android-topic-title">
               <h2>External resources</h2>
