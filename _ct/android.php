@@ -40,11 +40,10 @@
           usort($docitems, fn($a, $b) => strcmp($a['order'], $b['order']));
           foreach ($docitems as $query) if ($query['parentID'] == "Android") {
             foreach ($query['childTopics'] as $topic) { ?>
-              <details class="android-topic">
-                <?php } ?>
-                <summary class="android-topic-title">
+              <div class="android-topic">
+                <div class="android-topic-title">
                   <?php echo $topic; ?>
-                </summary>
+                </div>
                 <ul>
                 <?php
                 foreach ($docitems as $query){
@@ -53,8 +52,8 @@
                   };
                 } ?>
                 </ul>
-              </details>
-            <?php }; ?>
+              </div>
+            <?php }}; ?>
 
 <!-- test code ends here -->
 
