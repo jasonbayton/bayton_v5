@@ -661,6 +661,11 @@ h3.section-title{
   text-align: center;
 }
 
+#featured_article {
+  font-size: 28px;
+}
+
+
 #android_post_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

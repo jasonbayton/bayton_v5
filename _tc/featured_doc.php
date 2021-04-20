@@ -6,9 +6,9 @@
         foreach ($posts as $query) if ($query['featured_doc'] == 'true' && $query['published'] == "true"){
           $i++;
           if($i==2) break; ?>
-          <h2 id="featured_article">
+          <div id="featured_article">
             <?php echo '<a href="' . $query['url'] . '">' . $query['title'] . '</a>'; ?>
-          </h2>
+          </div>
           <hr>
           <?php } ?>
         </div>
