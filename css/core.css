@@ -895,6 +895,21 @@ section#content_container {
   padding-bottom: 40px;
 }
 
+.dpc-vendor b {
+  display: block;
+}
+
+.dpc-vendor img {
+  float: left;
+  padding-right: 10px;
+}
+
+#dpc_extras {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
 #share_container {
   max-width: 500px;
 }
@@ -1194,6 +1209,10 @@ article {max-width: 90%;}
 
   #breadcrumb {
     padding-bottom: 10px;
+  }
+
+  #dpc_extras {
+    grid-template-columns: 1fr;
   }
 
   #vendor_logo_container {
