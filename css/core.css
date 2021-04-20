@@ -662,7 +662,9 @@ h3.section-title{
 }
 
 #featured_article {
-  font-size: 28px;
+  font-size: 36px;
+  margin: 30px 0;
+  font-weight: 300;
 }
 
 
