@@ -188,7 +188,12 @@ a {
   -webkit-tap-highlight-color: #33333300;
 }
 
-
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid var(--light);
+}
 
 a:hover {
   transition: all 0.5s ease;
@@ -662,7 +667,7 @@ h3.section-title{
 }
 
 #featured_article {
-  font-size: 36px;
+  font-size: 30px;
   margin: 30px 0;
   font-weight: 300;
 }
