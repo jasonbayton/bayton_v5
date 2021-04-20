@@ -1130,6 +1130,13 @@ ul.toc-list li ul {margin-bottom: -5px;padding-left:10px;}
 
 /* Media */
 
+@media (max-width: 1550px) {
+
+  #dpc_extras {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
 @media (min-width: 1300px) {
 
 article {max-width: 90%;}
