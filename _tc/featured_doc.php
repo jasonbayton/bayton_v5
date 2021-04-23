@@ -1,6 +1,6 @@
       <div id="featured_doc">
         <hr>
-        <span id="featured_text">Featured</span>
+        <span id="featured_doc_text">Featured</span>
         <?php
         $i=0;
         foreach ($posts as $query) if ($query['featured_doc'] == 'true' && $query['published'] == "true"){

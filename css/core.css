@@ -652,7 +652,7 @@ h3.section-title{
   grid-area: 3 / 2 / 4 / 3;
 }
 
-#featured_text {
+#featured_doc_text {
   display: block;
   padding: 5px 0;
   text-align: center;
