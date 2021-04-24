@@ -1,4 +1,4 @@
-<div id="searchform">
+<div id="searchform" class="mobile-hidden">
   <span class="fa fa-search" id="search_icon"></span>
   <input type="text" name="search" id="searchinput" placeholder="What would you like to learn today?">
 </div>
