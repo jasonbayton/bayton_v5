@@ -1,7 +1,7 @@
 <?php $nav_entries = $posts ?>
 <div id="aside_docs">
   <div class="aside-title">
-    <h2>Documents</h2>
+    <h2><?php echo $post['parent'] ?></h2>
   </div>
   <?php
   usort($nav_entries, fn($a, $b) => strcmp($a['order'], $b['order']));
