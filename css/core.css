@@ -1079,7 +1079,7 @@ footer {
     color: var(--text);
 }
 
-.callout :first-child { /* .callout-heading */
+.callout .callout-heading { /* .callout-heading */
   font-size: 30px;
   padding-bottom: 15px;
   font-weight: 300;
