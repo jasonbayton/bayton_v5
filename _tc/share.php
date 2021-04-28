@@ -3,7 +3,7 @@
   <div id="tag_list">
     <div id="tag_title">Tags:</div>
     <?php foreach ($post['tags'] as $tag) {
-        echo '<div class="tags"><a class="the-tag" href="/tag/' . $tag . '">' . $tag . '</a></div>'; };
+        echo '<div class="tags"><span class="the-tag" href="/tag/' . $tag . '">' . $tag . '</span></div>'; };
     ?>
   </div>
   <!--div id="share_icons">
