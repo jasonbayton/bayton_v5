@@ -63,3 +63,4 @@
 <script src="<?php echo $themerelpath ?>/js/fitvids.js"></script>
 <script src="<?php echo $themerelpath ?>/js/darkmodetoggle.js"></script>
 <script src="<?php echo $themerelpath ?>/js/search.js"></script>
+<script src="<?php echo $themerelpath ?>/js/instantpage-5.1.0.js"></script>
