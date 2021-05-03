@@ -4,7 +4,7 @@
     <div id="trusted_container">
       <div id="trusted_textgroup">
         <h2 id="trusted_title">
-          Relevant, up to date Android content for 200,000 visitors annually
+          Relevant, up to date Android content for 200K visitors annually
         </h2>
         <div id="trusted_tag">
           Some of the vendors and organisations I've assisted or collaborated with include:
