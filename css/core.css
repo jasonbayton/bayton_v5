@@ -325,6 +325,8 @@ button.button-rounded {
 button.arrow-only {
   font-size: 22px;
   border-radius: 50%;
+  height: 32px;
+  width: 32px;
 }
 
 #beta {
