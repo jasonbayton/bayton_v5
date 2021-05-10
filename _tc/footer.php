@@ -59,7 +59,9 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js"></script>
-<script src="<?php echo $themerelpath ?>/js/tocbot.js"></script>
+<?php if($post["type"] == "doc" || $post["type"] == "post"){
+  echo '<script src="' . $themerelpath . '/js/tocbot.js"></script>';
+} ?>
 <script src="<?php echo $themerelpath ?>/js/fitvids.js"></script>
 <script src="<?php echo $themerelpath ?>/js/darkmodetoggle.js"></script>
 <script src="<?php echo $themerelpath ?>/js/search.js"></script>

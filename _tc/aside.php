@@ -17,7 +17,9 @@
       } ?>
     </div>
   </div>
-  <?php include "$themedir/_tc/toc.php"; ?>
+  <?php if($post["type"] == "doc" || $post["type"] == "post"){
+    include "$themedir/_tc/toc.php";
+  } ?>
   <?php if($post["type"] == "doc"){
     include "$themedir/_tc/doc_nav.php";
   } ?>
