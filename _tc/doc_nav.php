@@ -8,11 +8,11 @@
   foreach ($nav_entries as $query) if (array_key_exists('parentID', $query) && $post['parent'] == $query['parentID']) {
     foreach ($query['childTopics'] as $topic) {
       if ($post['topic'] == $topic) { ?>
-      <details open class="android-topic">
+      <details open class="docnav-topic">
       <?php } else { ?>
-      <details class="android-topic">
+      <details class="docnav-topic">
         <?php } ?>
-        <summary class="android-topic-title">
+        <summary class="docnav-topic-title">
           <?php echo $topic; ?>
         </summary>
         <ul>
