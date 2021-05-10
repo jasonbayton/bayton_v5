@@ -674,7 +674,6 @@ h3.section-title{
   font-weight: 300;
 }
 
-
 #android_post_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -690,9 +689,12 @@ h3.section-title{
   padding-right: 5px;
 }
 
-.android-topic-title::marker {
-  font-family: "Font Awesome 5 Pro";
-  content: "\f10b";
+.android-topic ul {
+  padding-inline-start: 25px;
+}
+
+.android-topic ul li {
+  padding: 0 8px 15px;
 }
 
 .docnav-topic ul li::marker {
@@ -719,14 +721,6 @@ details.docnav-topic ul {
 
 details.docnav-topic {
   padding-bottom: 20px;
-}
-
-.android-topic ul {
-  padding-inline-start: 25px;
-}
-
-.android-topic ul li {
-  padding: 0 8px 15px;
 }
 
 .docnav-topic ul {
