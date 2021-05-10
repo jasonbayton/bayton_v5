@@ -695,16 +695,30 @@ h3.section-title{
   content: "\f10b";
 }
 
-summary.android-topic-title {
+.docnav-topic ul li::marker {
+  content: "\f15c";
+  font-weight: 300;
+  font-family: "Font Awesome 5 Pro";
+  color: #78c657;
+  padding-right: 5px;
+}
+
+.docnav-topic-title::marker {
+  font-family: "Font Awesome 5 Pro";
+  content: "\f07b";
+  font-weight: 300;
+}
+
+summary.docnav-topic-title {
   font-size: 26px;
   font-weight: 300;
 }
 
-details.android-topic ul {
+details.docnav-topic ul {
   margin-bottom: 0;
 }
 
-details.android-topic {
+details.docnav-topic {
   padding-bottom: 20px;
 }
 
@@ -713,6 +727,14 @@ details.android-topic {
 }
 
 .android-topic ul li {
+  padding: 0 8px 15px;
+}
+
+.docnav-topic ul {
+  padding-inline-start: 25px;
+}
+
+.docnav-topic ul li {
   padding: 0 8px 15px;
 }
 
