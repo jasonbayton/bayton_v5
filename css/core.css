@@ -616,13 +616,13 @@ h3.section-title{
   height: 50px;
   width: 50px;
   text-align: center;
-  color: var(--bright);
+  color: var(--text);
   align-self: start;
   border-right: 1px solid;
 }
 
-#latest_docs .latest-posts-date {
-  color: var(--text);
+#latest_articles .latest-posts-date {
+  color: var(--bright);
   border-right: 1px solid;
 }
 
